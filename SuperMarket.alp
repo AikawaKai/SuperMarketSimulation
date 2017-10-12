@@ -219,18 +219,18 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[supermarket]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveIn]]></ItemName>
+						<ItemName><![CDATA[selectOutput]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ClassName><![CDATA[SelectOutput]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>50</Y></Point>
-						<Point><X>-330</X><Y>50</Y></Point>
-						<Point><X>-330</X><Y>-150</Y></Point>
+						<Point><X>-240</X><Y>50</Y></Point>
+						<Point><X>-240</X><Y>-150</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -287,18 +287,18 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[supermarket]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveIn]]></ItemName>
+						<ItemName><![CDATA[selectOutput]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ClassName><![CDATA[SelectOutput]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>-160</Y></Point>
-						<Point><X>-330</X><Y>-160</Y></Point>
-						<Point><X>-330</X><Y>-110</Y></Point>
+						<Point><X>-240</X><Y>-160</Y></Point>
+						<Point><X>-240</X><Y>-110</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -365,41 +365,6 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>90</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1507636728420</Id>
-					<Name><![CDATA[connector12]]></Name>
-					<X>740</X><Y>410</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[supermarket]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[chooseMacelleria]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-						<ItemName><![CDATA[outF]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[supermarket]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveTo]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>60</Y></Point>
-						<Point><X>480</X><Y>60</Y></Point>
-						<Point><X>480</X><Y>-160</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -669,6 +634,41 @@
 						<Point><X>1160</X><Y>380</Y></Point>
 					</Points>
 				</Connector>
+				<Connector>
+					<Id>1507805716182</Id>
+					<Name><![CDATA[connector12]]></Name>
+					<X>740</X><Y>410</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[supermarket]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[chooseMacelleria]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[SelectOutput]]></ClassName>
+						<ItemName><![CDATA[outF]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[supermarket]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[selectOutput3]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[SelectOutput]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>60</Y></Point>
+						<Point><X>280</X><Y>60</Y></Point>
+						<Point><X>280</X><Y>-160</Y></Point>
+					</Points>
+				</Connector>
 			</Connectors>
 			<AgentLinks>
 				<AgentLink>
@@ -719,7 +719,7 @@
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[500]]></Code>
+								<Code><![CDATA[10]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -1227,7 +1227,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular( 0.5, 1, 1.5 )]]></Code>
+								<Code><![CDATA[triangular( 1, 1.5, 2 )]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
@@ -1752,7 +1752,7 @@ agent.send("bread", agent);]]></Code>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular( 0.5, 1, 1.5 )]]></Code>
+								<Code><![CDATA[triangular( 2, 3, 4 )]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
@@ -2949,50 +2949,6 @@ agent.Meat == false]]></Code>
 				</Ground>
 
 				<RectangleNode>
-					<Id>1507631267514</Id>
-					<Name><![CDATA[Enter]]></Name>
-					<X>30</X><Y>50</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<FillColor/>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillMaterial>null</FillMaterial>
-					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
-
-					<Width>20</Width>
-					<Height>20</Height>
-					<Rotation>0.0</Rotation>
-				</RectangleNode>
-				<RectangleNode>
-					<Id>1507631307296</Id>
-					<Name><![CDATA[Exit]]></Name>
-					<X>30</X><Y>450</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<FillColor/>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillMaterial>null</FillMaterial>
-					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
-
-					<Width>20</Width>
-					<Height>20</Height>
-					<Rotation>0.0</Rotation>
-				</RectangleNode>
-				<RectangleNode>
 					<Id>1507631857260</Id>
 					<Name><![CDATA[Panetteria]]></Name>
 					<X>480</X><Y>90</Y>
@@ -3196,14 +3152,14 @@ agent.Meat == false]]></Code>
 			</Shapes>
 
 
-					<Width>70</Width>
+					<Width>60</Width>
 					<Height>80</Height>
 					<Rotation>270.0</Rotation>
 				</RectangleNode>
 				<Network>
-					<Id>1507802855780</Id>
+					<Id>1507804290248</Id>
 					<Name><![CDATA[network]]></Name>
-					<X>50</X><Y>50</Y>
+					<X>50</X><Y>58</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3211,32 +3167,10 @@ agent.Meat == false]]></Code>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 
 			<Shapes>
-				<RectangleNode>
-					<Id>1507634183706</Id>
-					<Name><![CDATA[supermarketArea]]></Name>
-					<X>50</X><Y>50</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<FillColor/>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillMaterial>null</FillMaterial>
-					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
-
-					<Width>70</Width>
-					<Height>50</Height>
-					<Rotation>0.0</Rotation>
-				</RectangleNode>
-				<Path SourceId="1507634183706">
-					<Id>1507802845406</Id>
+				<Path SourceId="1507634183706" TargetId="1507804446532">
+					<Id>1507804276114</Id>
 					<Name><![CDATA[path]]></Name>
-					<X>120</X><Y>80</Y>
+					<X>150</X><Y>60</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3256,23 +3190,141 @@ agent.Meat == false]]></Code>
 					</Width>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>-0.119</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>340</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>315</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>340</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>340</X><Y>320</Y><Z>0</Z></Point>
-						<Point><X>340</X><Y>295</Y><Z>0</Z></Point>
-						<Point><X>315</X><Y>320</Y><Z>0</Z></Point>
-						<Point><X>-20</X><Y>320</Y><Z>0</Z></Point>
-						<Point><X>5</X><Y>320</Y><Z>0</Z></Point>
-						<Point><X>-20</X><Y>345</Y><Z>0</Z></Point>
-						<Point><X>-20</X><Y>380</Y><Z>0</Z></Point>
-						<Point><X>-20</X><Y>355</Y><Z>0</Z></Point>
-						<Point><X>-45</X><Y>380</Y><Z>0</Z></Point>
-						<Point><X>-80</X><Y>380</Y><Z>0</Z></Point>
-						<Point><X>-55</X><Y>380</Y><Z>0</Z></Point>
-						<Point><X>-80</X><Y>380</Y><Z>0</Z></Point>
+						<Point><X>320</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>295</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>320</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>320</X><Y>350</Y><Z>0</Z></Point>
+						<Point><X>320</X><Y>325</Y><Z>0</Z></Point>
+						<Point><X>295</X><Y>350</Y><Z>0</Z></Point>
+						<Point><X>-80</X><Y>350</Y><Z>0</Z></Point>
+						<Point><X>-55</X><Y>350</Y><Z>0</Z></Point>
+						<Point><X>-80</X><Y>375</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<RectangleNode>
+					<Id>1507631307296</Id>
+					<Name><![CDATA[Exit]]></Name>
+					<X>30</X><Y>450</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+					<Width>20</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
+				<RectangleNode>
+					<Id>1507634183706</Id>
+					<Name><![CDATA[supermarketArea]]></Name>
+					<X>50</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+					<Width>100</Width>
+					<Height>40</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
+				<PointNode>
+					<Id>1507804446532</Id>
+					<Name><![CDATA[point]]></Name>
+					<X>70</X><Y>410</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<FakeNode>true</FakeNode>	
+					<Lock>false</Lock>
+					<Color>-14774017</Color>
+					<Radius>1</Radius>
+				</PointNode>
+				<Path SourceId="1507804446532" TargetId="1507631307296">
+					<Id>1507804446534</Id>
+					<Name><![CDATA[path2]]></Name>
+					<X>70</X><Y>410</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>50</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>50</Y><Z>0</Z></Point>
+						<Point><X>-20</X><Y>50</Y><Z>0</Z></Point>
+						<Point><X>5</X><Y>50</Y><Z>0</Z></Point>
+						<Point><X>-20</X><Y>50</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<Path SourceId="1507634183706" TargetId="1507804446532">
+					<Id>1507804444053</Id>
+					<Name><![CDATA[path1]]></Name>
+					<X>70</X><Y>90</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0.391</X><Y>-24.997</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>320</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>295</Y><Z>0</Z></Point>
+						<Point><X>-15</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 				</Path>
@@ -3280,6 +3332,28 @@ agent.Meat == false]]></Code>
 
 					<Z>0</Z>
 				</Network>
+				<RectangleNode>
+					<Id>1507631267514</Id>
+					<Name><![CDATA[Enter]]></Name>
+					<X>30</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+					<Width>20</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
 			</Shapes>
 
 		</ActiveObjectClass>
@@ -3476,7 +3550,7 @@ agent.Meat == false]]></Code>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.5]]></Code>
+							<Code><![CDATA[0.9]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1507635527426</Id>
@@ -3649,7 +3723,7 @@ agent.Meat == false]]></Code>
 							<Code><![CDATA[1]]></Code>
 							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 						</Timeout>
-						<Condition><![CDATA[uniform()>wantsToBuyPar && (!Meat || !Bread)]]></Condition>
+						<Condition><![CDATA[uniform()<=wantsToBuyPar && (!Meat || !Bread)]]></Condition>
 						<Rate Class="CodeUnitValue">
 							<Code><![CDATA[wantsToBuyPar]]></Code>
 							<Unit Class="RateUnits"><![CDATA[PER_MINUTE]]></Unit>
