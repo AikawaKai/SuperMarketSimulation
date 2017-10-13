@@ -1,2 +1,0 @@
-# SuperMarketSimulation
-Supermarket Anylogic Simulation
