@@ -584,7 +584,7 @@
 				<Connector>
 					<Id>1508064224902</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>800</X><Y>160</Y>
+					<X>780</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -712,82 +712,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>110</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1508071931048</Id>
-					<Name><![CDATA[connector20]]></Name>
-					<X>900</X><Y>520</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[supermarket]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[goToRacks]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[supermarket]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[needsToBuy]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[SelectOutput]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>100</X><Y>0</Y></Point>
-						<Point><X>100</X><Y>70</Y></Point>
-						<Point><X>-200</X><Y>70</Y></Point>
-						<Point><X>-200</X><Y>-130</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1508073618048</Id>
-					<Name><![CDATA[connector12]]></Name>
-					<X>950</X><Y>160</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[supermarket]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[sink1]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Sink]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[supermarket]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[getFood]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[RackPick]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1508073618049</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>880</X><Y>160</Y>
+					<X>850</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -814,13 +745,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-40</X><Y>0</Y></Point>
+						<Point><X>-30</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1508074086799</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>610</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -846,14 +777,14 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>590</X><Y>160</Y></Point>
-						<Point><X>640</X><Y>160</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>30</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1508074086800</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>680</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -879,8 +810,77 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>680</X><Y>160</Y></Point>
-						<Point><X>730</X><Y>160</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>30</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1508080309668</Id>
+					<Name><![CDATA[connector12]]></Name>
+					<X>890</X><Y>520</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[supermarket]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[goToRacks]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[supermarket]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[needsToBuy]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[SelectOutput]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>110</X><Y>0</Y></Point>
+						<Point><X>110</X><Y>70</Y></Point>
+						<Point><X>-190</X><Y>70</Y></Point>
+						<Point><X>-190</X><Y>-130</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1508080404979</Id>
+					<Name><![CDATA[connector24]]></Name>
+					<X>930</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[supermarket]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[sink1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Sink]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[supermarket]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[getFood]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[RackPick]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-40</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -979,12 +979,12 @@
 								<EntityEmbeddedObject>
 									<ActiveObjectClass>
 										<PackageName><![CDATA[supermarket]]></PackageName>
-										<ClassName><![CDATA[Consumer]]></ClassName>
+										<ClassName><![CDATA[Customer]]></ClassName>
 									</ActiveObjectClass>
 									<GenericParameterSubstitute>
 										<GenericParameterSubstituteReference>
 											<PackageName><![CDATA[supermarket]]></PackageName>
-											<ClassName><![CDATA[Consumer]]></ClassName>
+											<ClassName><![CDATA[Customer]]></ClassName>
 											<ItemName><![CDATA[1507631232234]]></ItemName>
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
@@ -1401,7 +1401,7 @@
 							<ItemName><![CDATA[1412336243141]]></ItemName>
 						</GenericParameterSubstituteReference>
 						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Consumer]]></Code>
+							<Code><![CDATA[Customer]]></Code>
 						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
@@ -1626,6 +1626,9 @@ System.out.println("Ho comprato pane");]]></Code>
 							<ClassName><![CDATA[MoveTo]]></ClassName>
 							<ItemName><![CDATA[1412336243157]]></ItemName>
 						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Customer]]></Code>
+						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -1787,7 +1790,7 @@ System.out.println("Ho comprato pane");]]></Code>
 							<ItemName><![CDATA[1412336243157]]></ItemName>
 						</GenericParameterSubstituteReference>
 						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Consumer]]></Code>
+							<Code><![CDATA[Customer]]></Code>
 						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
@@ -1937,7 +1940,7 @@ System.out.println("Ho comprato pane");]]></Code>
 					<X>970</X><Y>450</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
+					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -1949,6 +1952,9 @@ System.out.println("Ho comprato pane");]]></Code>
 							<ClassName><![CDATA[Service]]></ClassName>
 							<ItemName><![CDATA[1412336243141]]></ItemName>
 						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Customer]]></Code>
+						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -2548,6 +2554,9 @@ System.out.println("Ho comprato carne");]]></Code>
 							<ClassName><![CDATA[MoveTo]]></ClassName>
 							<ItemName><![CDATA[1412336243157]]></ItemName>
 						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Customer]]></Code>
+						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -2705,9 +2714,6 @@ System.out.println("Ho comprato carne");]]></Code>
 							<ClassName><![CDATA[SelectOutput]]></ClassName>
 							<ItemName><![CDATA[1412336242931]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Consumer]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -2800,7 +2806,7 @@ System.out.println("Ho comprato carne");]]></Code>
 							<ItemName><![CDATA[1412336242931]]></ItemName>
 						</GenericParameterSubstituteReference>
 						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Consumer]]></Code>
+							<Code><![CDATA[Customer]]></Code>
 						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
@@ -2897,7 +2903,7 @@ System.out.println("Ho comprato carne");]]></Code>
 							<ItemName><![CDATA[1412336242931]]></ItemName>
 						</GenericParameterSubstituteReference>
 						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Consumer]]></Code>
+							<Code><![CDATA[Customer]]></Code>
 						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
@@ -4227,7 +4233,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508062030869</Id>
 					<Name><![CDATA[goodsSource]]></Name>
-					<X>560</X><Y>150</Y>
+					<X>580</X><Y>150</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4481,7 +4487,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508062316401</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>950</X><Y>150</Y>
+					<X>930</X><Y>150</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4551,7 +4557,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508063472876</Id>
 					<Name><![CDATA[putFood]]></Name>
-					<X>730</X><Y>140</Y>
+					<X>710</X><Y>140</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4750,7 +4756,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508064224058</Id>
 					<Name><![CDATA[delay]]></Name>
-					<X>800</X><Y>140</Y>
+					<X>780</X><Y>140</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4878,9 +4884,6 @@ System.out.println("Ho comprato carne");]]></Code>
 							<ClassName><![CDATA[SelectOutput]]></ClassName>
 							<ItemName><![CDATA[1412336242931]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Consumer]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -4960,7 +4963,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508071922436</Id>
 					<Name><![CDATA[goToRacks]]></Name>
-					<X>860</X><Y>500</Y>
+					<X>850</X><Y>500</Y>
 					<Label><X>-10</X><Y>55</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4975,6 +4978,9 @@ System.out.println("Ho comprato carne");]]></Code>
 							<ClassName><![CDATA[MoveTo]]></ClassName>
 							<ItemName><![CDATA[1412336243157]]></ItemName>
 						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Customer]]></Code>
+						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -5073,7 +5079,9 @@ agent.Bought = true;]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[if(delay.size()>0)
 {
+	System.out.println("Aggiungo agente"+agent);
 	delay.stopDelay(delay.get(0));
+	
 }]]></Code>
 							</Value>
 						</Parameter>
@@ -5127,7 +5135,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508073615923</Id>
 					<Name><![CDATA[getFood]]></Name>
-					<X>880</X><Y>140</Y>
+					<X>850</X><Y>140</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5152,6 +5160,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[destinationType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.DEST_AGENT]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[destinationNode]]></Name>
@@ -5167,6 +5178,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[destinationAgent]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.getOwner()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[destinationX]]></Name>
@@ -5194,15 +5208,29 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[resourceSets]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[{ 
+  { customersPoll }
+}]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[seizePolicy]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SEIZE_UNITS_ONE_BY_ONE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[moveWithSpeedOfResourceUnit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[movingResource]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[customersPoll]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[priority]]></Name>
@@ -5224,6 +5252,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.WRAP_UP_IF_NO_TASKS]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[wrapUpTaskPriority]]></Name>
@@ -5239,6 +5270,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[System.out.println("Owner"+self.getOwner());]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onResourcesArrived]]></Name>
@@ -6841,7 +6875,7 @@ agent.Bought = true;]]></Code>
 		<!--   =========   Active Object Class   ========  -->
 		<ActiveObjectClass>
 			<Id>1507631232235</Id>
-			<Name><![CDATA[Consumer]]></Name>
+			<Name><![CDATA[Customer]]></Name>
 			<AdditionalClassCode><![CDATA[void addBreadObject(){
 	int quantity = uniform_discr(1,2);
 	BreadObject b = new BreadObject();
@@ -7261,7 +7295,7 @@ printObjectsToBuy();]]></Action>
 					<MessageType><![CDATA[Object]]></MessageType>
 					<StatechartReference>
 						<PackageName><![CDATA[supermarket]]></PackageName>
-						<ClassName><![CDATA[Consumer]]></ClassName>
+						<ClassName><![CDATA[Customer]]></ClassName>
 						<ItemName><![CDATA[start]]></ItemName>
 					</StatechartReference>
 					<LineStyle>SOLID</LineStyle>
