@@ -1476,7 +1476,7 @@
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[100]]></Code>
+								<Code><![CDATA[50]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -4802,7 +4802,7 @@ System.out.println("Ho comprato carne");]]></Code>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[150]]></Code>
+								<Code><![CDATA[50]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -6019,7 +6019,7 @@ agent.Bought = true;]]></Code>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[150]]></Code>
+								<Code><![CDATA[50]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -7524,7 +7524,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508151037070</Id>
 					<Name><![CDATA[wharehousemen2]]></Name>
-					<X>1160</X><Y>220</Y>
+					<X>1160</X><Y>230</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7860,7 +7860,7 @@ agent.Bought = true;]]></Code>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[150]]></Code>
+								<Code><![CDATA[50]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 							</Value>
 						</Parameter>
