@@ -8859,7 +8859,7 @@ agent.Bought = true;]]></Code>
 						<Parameter>
 							<Name><![CDATA[entityLocation]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[warehouse1]]></Code>
+								<Code><![CDATA[warehouse2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
