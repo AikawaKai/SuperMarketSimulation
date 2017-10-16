@@ -3329,6 +3329,9 @@ System.out.println("Ho comprato carne");]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[System.out.println("L'utente ha acquistato: "+agent.counterBuy)]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
@@ -3600,7 +3603,7 @@ System.out.println("Ho comprato carne");]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA["bread".equals(agent.itemsToBuy.get(0))]]></Code>
+								<Code><![CDATA["bread".equals(agent.itemsToBuy.firstEntry().getKey())]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3615,7 +3618,8 @@ System.out.println("Ho comprato carne");]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.itemsToBuy.remove(0);]]></Code>
+								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+agent.itemsToBuy.remove("bread");]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5582,7 +5586,7 @@ System.out.println("Ho comprato carne");]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA["meat".equals(agent.itemsToBuy.get(0))]]></Code>
+								<Code><![CDATA["meat".equals(agent.itemsToBuy.firstEntry().getKey())]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5597,7 +5601,8 @@ System.out.println("Ho comprato carne");]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.itemsToBuy.remove(0);]]></Code>
+								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+agent.itemsToBuy.remove("meat");]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7427,7 +7432,7 @@ if(shelves2.getFreeCell(true)!=null || shelves2.getFreeCell(false)!=null)
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA["generic".equals(agent.itemsToBuy.get(0))]]></Code>
+								<Code><![CDATA["generic".equals(agent.itemsToBuy.firstEntry().getKey())]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7442,7 +7447,8 @@ if(shelves2.getFreeCell(true)!=null || shelves2.getFreeCell(false)!=null)
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.itemsToBuy.remove(0);]]></Code>
+								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+agent.itemsToBuy.remove("generic");]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -8955,7 +8961,7 @@ if(shelves3.getFreeCell(true)!=null || shelves3.getFreeCell(false)!=null)
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA["generic1".equals(agent.itemsToBuy.get(0))]]></Code>
+								<Code><![CDATA["generic1".equals(agent.itemsToBuy.firstEntry().getKey())]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -8970,7 +8976,8 @@ if(shelves3.getFreeCell(true)!=null || shelves3.getFreeCell(false)!=null)
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.itemsToBuy.remove(0);]]></Code>
+								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+agent.itemsToBuy.remove("generic1");]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -9528,7 +9535,7 @@ agent.Bought = true;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA["generic2".equals(agent.itemsToBuy.get(0))]]></Code>
+								<Code><![CDATA["generic2".equals(agent.itemsToBuy.firstEntry().getKey())]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -9543,13 +9550,15 @@ agent.Bought = true;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.itemsToBuy.remove(0);]]></Code>
+								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+agent.itemsToBuy.remove("generic2");]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitFalse]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.itemsToBuy.remove(0);]]></Code>
+								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+agent.itemsToBuy.remove("fish");]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -12522,26 +12531,15 @@ System.out.println("Ho comprato pesce");]]></Code>
 		<ActiveObjectClass>
 			<Id>1507631232235</Id>
 			<Name><![CDATA[Customer]]></Name>
-			<AdditionalClassCode><![CDATA[void addObject(String string){
-	itemsToBuy.add(string);
-}
-
-void addBreadObject(){
-	itemsToBuy.add("bread");
-}
-
-void addMeatObject(){
-	itemsToBuy.add("meat");
-}
-
-void addGenericObject(){
-	itemsToBuy.add("generic");
+			<AdditionalClassCode><![CDATA[void addObject(String string, int quantity){
+	itemsToBuy.put(string, quantity);
 }
 
 void printObjectsToBuy(){
 	System.out.println("Agente deve comprare:");
-	for (String obj: itemsToBuy){
-		System.out.println("Obj "+obj);
+	
+	for (Map.Entry<String, Integer> entry : itemsToBuy.entrySet()){
+		System.out.println("Obj "+entry.getKey());
 	}
 }]]></AdditionalClassCode>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
@@ -12627,24 +12625,9 @@ void printObjectsToBuy(){
 			<ConnectionsId>1507631232231</ConnectionsId>
 			<Variables>
 				<Variable Class="PlainVariable">
-					<Id>1507892464097</Id>
-					<Name><![CDATA[currentObject]]></Name>
-					<X>40</X><Y>50</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[String]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[null]]></Code>
-						</InitialValue>
-					</Properties>
-				</Variable>
-				<Variable Class="PlainVariable">
 					<Id>1507894698487</Id>
 					<Name><![CDATA[Bought]]></Name>
-					<X>40</X><Y>80</Y>
+					<X>40</X><Y>50</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12653,6 +12636,21 @@ void printObjectsToBuy(){
 						<Type><![CDATA[boolean]]></Type>        
 						<InitialValue Class="CodeValue">
 							<Code><![CDATA[false]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1508154691746</Id>
+					<Name><![CDATA[counterBuy]]></Name>
+					<X>40</X><Y>80</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -12665,9 +12663,9 @@ void printObjectsToBuy(){
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" AccessType="public" StaticVariable="false">
-						<CollectionClass><![CDATA[ArrayList]]></CollectionClass>
+						<CollectionClass><![CDATA[TreeMap]]></CollectionClass>
 						<ElementClass><![CDATA[String]]></ElementClass>
-						<ValueElementClass><![CDATA[String]]></ValueElementClass>
+						<ValueElementClass><![CDATA[Integer]]></ValueElementClass>
 					</Properties>
 
 				</Variable>
@@ -12688,9 +12686,10 @@ ArrayList<String> possibilities = new ArrayList<String>(Arrays.asList(list));
 java.util.Collections.shuffle(possibilities);
 for(String poss: possibilities){
 	double res = uniform(0,1);
+	int quantity = uniform_discr(1,5);
 	if (res>=0.5)
 	{
-			addObject(poss);
+			addObject(poss, quantity);
 	}
 }]]></EntryAction>
 						<FillColor>-4144960</FillColor>
