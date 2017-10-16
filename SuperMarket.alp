@@ -103,7 +103,7 @@
 				<Connector>
 					<Id>1507631350311</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>1300</X><Y>440</Y>
+					<X>1340</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -136,7 +136,7 @@
 				<Connector>
 					<Id>1507632643554</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>890</X><Y>420</Y>
+					<X>930</X><Y>420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -169,7 +169,7 @@
 				<Connector>
 					<Id>1507632917223</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>970</X><Y>470</Y>
+					<X>1010</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -202,7 +202,7 @@
 				<Connector>
 					<Id>1507632926067</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>1010</X><Y>470</Y>
+					<X>1050</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -240,7 +240,7 @@
 				<Connector>
 					<Id>1507634213785</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>620</X><Y>390</Y>
+					<X>660</X><Y>390</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -273,7 +273,7 @@
 				<Connector>
 					<Id>1507635442597</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>1010</X><Y>420</Y>
+					<X>1050</X><Y>420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -312,7 +312,7 @@
 				<Connector>
 					<Id>1507636493309</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>760</X><Y>440</Y>
+					<X>800</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -346,7 +346,7 @@
 				<Connector>
 					<Id>1507720323408</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>1180</X><Y>440</Y>
+					<X>1220</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -379,7 +379,7 @@
 				<Connector>
 					<Id>1507802682145</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>1100</X><Y>440</Y>
+					<X>1140</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -412,7 +412,7 @@
 				<Connector>
 					<Id>1507892892908</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>1220</X><Y>440</Y>
+					<X>1260</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -447,7 +447,7 @@
 				<Connector>
 					<Id>1507894883558</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>820</X><Y>350</Y>
+					<X>860</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -482,7 +482,7 @@
 				<Connector>
 					<Id>1507975053997</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>700</X><Y>390</Y>
+					<X>740</X><Y>390</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -515,7 +515,7 @@
 				<Connector>
 					<Id>1507975078283</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>810</X><Y>340</Y>
+					<X>850</X><Y>340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -550,7 +550,7 @@
 				<Connector>
 					<Id>1507975222697</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>740</X><Y>440</Y>
+					<X>780</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -584,7 +584,7 @@
 				<Connector>
 					<Id>1508064224902</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>780</X><Y>160</Y>
+					<X>820</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -617,7 +617,7 @@
 				<Connector>
 					<Id>1508065207925</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>740</X><Y>490</Y>
+					<X>780</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -651,7 +651,7 @@
 				<Connector>
 					<Id>1508065239566</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>760</X><Y>490</Y>
+					<X>800</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -685,7 +685,7 @@
 				<Connector>
 					<Id>1508071931047</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>750</X><Y>500</Y>
+					<X>790</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -718,7 +718,7 @@
 				<Connector>
 					<Id>1508073618049</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>850</X><Y>160</Y>
+					<X>890</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -751,7 +751,7 @@
 				<Connector>
 					<Id>1508074086799</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>610</X><Y>160</Y>
+					<X>650</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -784,7 +784,7 @@
 				<Connector>
 					<Id>1508074086800</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>680</X><Y>160</Y>
+					<X>720</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -817,7 +817,7 @@
 				<Connector>
 					<Id>1508080309668</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>890</X><Y>510</Y>
+					<X>930</X><Y>510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -855,7 +855,7 @@
 				<Connector>
 					<Id>1508080404979</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>930</X><Y>160</Y>
+					<X>970</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -888,7 +888,7 @@
 				<Connector>
 					<Id>1508082372981</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>780</X><Y>230</Y>
+					<X>820</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -921,7 +921,7 @@
 				<Connector>
 					<Id>1508082372983</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>850</X><Y>230</Y>
+					<X>890</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -954,7 +954,7 @@
 				<Connector>
 					<Id>1508082372985</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>610</X><Y>230</Y>
+					<X>650</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -987,7 +987,7 @@
 				<Connector>
 					<Id>1508082372987</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>680</X><Y>230</Y>
+					<X>720</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1020,7 +1020,7 @@
 				<Connector>
 					<Id>1508082372989</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>930</X><Y>230</Y>
+					<X>970</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1053,7 +1053,7 @@
 				<Connector>
 					<Id>1508148022503</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>770</X><Y>530</Y>
+					<X>810</X><Y>530</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1086,7 +1086,7 @@
 				<Connector>
 					<Id>1508148111856</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>760</X><Y>540</Y>
+					<X>800</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1120,7 +1120,7 @@
 				<Connector>
 					<Id>1508148130080</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>890</X><Y>560</Y>
+					<X>930</X><Y>560</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1181,7 +1181,7 @@
 				<EmbeddedObject>
 					<Id>1507631241732</Id>
 					<Name><![CDATA[costumerSource]]></Name>
-					<X>560</X><Y>380</Y>
+					<X>600</X><Y>380</Y>
 					<Label><X>-25</X><Y>45</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1348,7 +1348,7 @@
 						<Parameter>
 							<Name><![CDATA[speed]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[0.3]]></Code>
+								<Code><![CDATA[0.1]]></Code>
 								<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
 							</Value>
 						</Parameter>
@@ -1429,7 +1429,7 @@
 				<EmbeddedObject>
 					<Id>1507631329483</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>1300</X><Y>430</Y>
+					<X>1340</X><Y>430</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1499,7 +1499,7 @@
 				<EmbeddedObject>
 					<Id>1507631349233</Id>
 					<Name><![CDATA[moveToExit]]></Name>
-					<X>1220</X><Y>420</Y>
+					<X>1260</X><Y>420</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1656,7 +1656,7 @@
 				<EmbeddedObject>
 					<Id>1507632382493</Id>
 					<Name><![CDATA[PanetteriaService]]></Name>
-					<X>970</X><Y>400</Y>
+					<X>1010</X><Y>400</Y>
 					<Label><X>-25</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1882,7 +1882,7 @@ System.out.println("Ho comprato pane");]]></Code>
 				<EmbeddedObject>
 					<Id>1507632640741</Id>
 					<Name><![CDATA[goToPanetteria]]></Name>
-					<X>850</X><Y>400</Y>
+					<X>890</X><Y>400</Y>
 					<Label><X>-20</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2045,7 +2045,7 @@ System.out.println("Ho comprato pane");]]></Code>
 				<EmbeddedObject>
 					<Id>1507632896769</Id>
 					<Name><![CDATA[goToMacelleria]]></Name>
-					<X>850</X><Y>450</Y>
+					<X>890</X><Y>450</Y>
 					<Label><X>-15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2208,7 +2208,7 @@ System.out.println("Ho comprato pane");]]></Code>
 				<EmbeddedObject>
 					<Id>1507632915816</Id>
 					<Name><![CDATA[service]]></Name>
-					<X>970</X><Y>450</Y>
+					<X>1010</X><Y>450</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2434,7 +2434,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507634212299</Id>
 					<Name><![CDATA[moveIn]]></Name>
-					<X>620</X><Y>370</Y>
+					<X>660</X><Y>370</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2598,7 +2598,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507720085878</Id>
 					<Name><![CDATA[paymentService]]></Name>
-					<X>1140</X><Y>420</Y>
+					<X>1180</X><Y>420</Y>
 					<Label><X>-20</X><Y>55</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2810,7 +2810,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507802681004</Id>
 					<Name><![CDATA[moveToCash]]></Name>
-					<X>1060</X><Y>420</Y>
+					<X>1100</X><Y>420</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2970,7 +2970,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507975052735</Id>
 					<Name><![CDATA[needsToBuy]]></Name>
-					<X>690</X><Y>380</Y>
+					<X>730</X><Y>380</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3061,7 +3061,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507975076708</Id>
 					<Name><![CDATA[needsToPay]]></Name>
-					<X>800</X><Y>330</Y>
+					<X>840</X><Y>330</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3158,7 +3158,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507975220731</Id>
 					<Name><![CDATA[whichOne]]></Name>
-					<X>730</X><Y>430</Y>
+					<X>770</X><Y>430</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4504,7 +4504,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508062030869</Id>
 					<Name><![CDATA[goodsSource]]></Name>
-					<X>580</X><Y>150</Y>
+					<X>620</X><Y>140</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4758,7 +4758,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508062316401</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>930</X><Y>150</Y>
+					<X>970</X><Y>140</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4828,7 +4828,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508063472876</Id>
 					<Name><![CDATA[putFood]]></Name>
-					<X>710</X><Y>140</Y>
+					<X>750</X><Y>130</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5030,7 +5030,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508064224058</Id>
 					<Name><![CDATA[delay]]></Name>
-					<X>780</X><Y>140</Y>
+					<X>820</X><Y>130</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5143,7 +5143,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508065191206</Id>
 					<Name><![CDATA[whichOne2]]></Name>
-					<X>730</X><Y>480</Y>
+					<X>770</X><Y>480</Y>
 					<Label><X>15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5237,7 +5237,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1508071922436</Id>
 					<Name><![CDATA[goToRacks]]></Name>
-					<X>850</X><Y>490</Y>
+					<X>890</X><Y>490</Y>
 					<Label><X>-10</X><Y>44</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5407,7 +5407,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508073615923</Id>
 					<Name><![CDATA[getFood]]></Name>
-					<X>850</X><Y>140</Y>
+					<X>890</X><Y>130</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5608,7 +5608,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508074085268</Id>
 					<Name><![CDATA[waitIfFull]]></Name>
-					<X>640</X><Y>140</Y>
+					<X>680</X><Y>130</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5721,7 +5721,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372921</Id>
 					<Name><![CDATA[goodsSource1]]></Name>
-					<X>580</X><Y>220</Y>
+					<X>620</X><Y>210</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5975,7 +5975,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372936</Id>
 					<Name><![CDATA[sink2]]></Name>
-					<X>930</X><Y>220</Y>
+					<X>970</X><Y>210</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6045,7 +6045,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372952</Id>
 					<Name><![CDATA[putFood1]]></Name>
-					<X>710</X><Y>210</Y>
+					<X>750</X><Y>200</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6247,7 +6247,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372956</Id>
 					<Name><![CDATA[delay1]]></Name>
-					<X>780</X><Y>210</Y>
+					<X>820</X><Y>200</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6360,7 +6360,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372967</Id>
 					<Name><![CDATA[getFood1]]></Name>
-					<X>850</X><Y>210</Y>
+					<X>890</X><Y>200</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6561,7 +6561,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372971</Id>
 					<Name><![CDATA[waitIfFull1]]></Name>
-					<X>640</X><Y>210</Y>
+					<X>680</X><Y>200</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6988,7 +6988,7 @@ if(shelves2.getFreeCell(true)!=null || shelves2.getFreeCell(false)!=null)
 				<EmbeddedObject>
 					<Id>1508147927792</Id>
 					<Name><![CDATA[selectOutput]]></Name>
-					<X>740</X><Y>520</Y>
+					<X>780</X><Y>520</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7085,7 +7085,7 @@ if(shelves2.getFreeCell(true)!=null || shelves2.getFreeCell(false)!=null)
 				<EmbeddedObject>
 					<Id>1508148086154</Id>
 					<Name><![CDATA[goToRack2]]></Name>
-					<X>850</X><Y>540</Y>
+					<X>890</X><Y>540</Y>
 					<Label><X>-10</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7255,7 +7255,7 @@ agent.Bought = true;]]></Code>
 				<Ground>
 					<Id>1507630112172</Id>
 					<Name><![CDATA[ground]]></Name>
-					<X>0</X><Y>80</Y>
+					<X>40</X><Y>80</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7266,7 +7266,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1507631796508</Id>
 					<Name><![CDATA[wall]]></Name>
-					<X>50</X><Y>480</Y>
+					<X>90</X><Y>310</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7283,18 +7283,15 @@ agent.Bought = true;]]></Code>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>15</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-232</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-207</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-257</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-330</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-305</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-330</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-160</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-135</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-160</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
 					<Id>1507631823727</Id>
 					<Name><![CDATA[wall1]]></Name>
-					<X>50</X><Y>130</Y>
+					<X>90</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7319,7 +7316,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1507801426744</Id>
 					<Name><![CDATA[wall2]]></Name>
-					<X>520</X><Y>130</Y>
+					<X>570</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7339,18 +7336,18 @@ agent.Bought = true;]]></Code>
 						<Point><X>0</X><Y>430</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>405</Y><Z>0</Z></Point>
 						<Point><X>-25</X><Y>430</Y><Z>0</Z></Point>
-						<Point><X>-470</X><Y>430</Y><Z>0</Z></Point>
-						<Point><X>-445</X><Y>430</Y><Z>0</Z></Point>
-						<Point><X>-470</X><Y>405</Y><Z>0</Z></Point>
-						<Point><X>-470</X><Y>420</Y><Z>0</Z></Point>
-						<Point><X>-470</X><Y>445</Y><Z>0</Z></Point>
-						<Point><X>-490</X><Y>430</Y><Z>0</Z></Point>
+						<Point><X>-480</X><Y>430</Y><Z>0</Z></Point>
+						<Point><X>-455</X><Y>430</Y><Z>0</Z></Point>
+						<Point><X>-480</X><Y>405</Y><Z>0</Z></Point>
+						<Point><X>-480</X><Y>420</Y><Z>0</Z></Point>
+						<Point><X>-480</X><Y>445</Y><Z>0</Z></Point>
+						<Point><X>-500</X><Y>430</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
 					<Id>1507801467415</Id>
 					<Name><![CDATA[wall3]]></Name>
-					<X>50</X><Y>530</Y>
+					<X>90</X><Y>530</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7375,7 +7372,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508061923758</Id>
 					<Name><![CDATA[wall4]]></Name>
-					<X>420</X><Y>130</Y>
+					<X>460</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7392,15 +7389,15 @@ agent.Bought = true;]]></Code>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>100</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>75</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>75</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>110</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>85</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>85</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
 					<Id>1508061951541</Id>
 					<Name><![CDATA[wall5]]></Name>
-					<X>230</X><Y>110</Y>
+					<X>270</X><Y>110</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7428,7 +7425,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508061971852</Id>
 					<Name><![CDATA[wall6]]></Name>
-					<X>230</X><Y>70</Y>
+					<X>270</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7453,7 +7450,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508061995493</Id>
 					<Name><![CDATA[wall7]]></Name>
-					<X>290</X><Y>70</Y>
+					<X>330</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7478,7 +7475,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508062005212</Id>
 					<Name><![CDATA[wall8]]></Name>
-					<X>230</X><Y>70</Y>
+					<X>270</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7503,7 +7500,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508082392618</Id>
 					<Name><![CDATA[wall9]]></Name>
-					<X>340</X><Y>110</Y>
+					<X>380</X><Y>110</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7531,7 +7528,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508082392620</Id>
 					<Name><![CDATA[wall10]]></Name>
-					<X>340</X><Y>70</Y>
+					<X>380</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7556,7 +7553,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508082392622</Id>
 					<Name><![CDATA[wall11]]></Name>
-					<X>400</X><Y>70</Y>
+					<X>440</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7581,7 +7578,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508082392624</Id>
 					<Name><![CDATA[wall12]]></Name>
-					<X>340</X><Y>70</Y>
+					<X>380</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7606,7 +7603,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508082437227</Id>
 					<Name><![CDATA[wall13]]></Name>
-					<X>310</X><Y>130</Y>
+					<X>350</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7634,7 +7631,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508082445478</Id>
 					<Name><![CDATA[wall14]]></Name>
-					<X>390</X><Y>130</Y>
+					<X>430</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7659,7 +7656,7 @@ agent.Bought = true;]]></Code>
 				<Wall>
 					<Id>1508082454433</Id>
 					<Name><![CDATA[wall15]]></Name>
-					<X>275</X><Y>130</Y>
+					<X>315</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7681,111 +7678,36 @@ agent.Bought = true;]]></Code>
 						<Point><X>70</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
+				<Wall>
+					<Id>1508150624148</Id>
+					<Name><![CDATA[wall16]]></Name>
+					<X>90</X><Y>340</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Closed>false</Closed>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>150</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>125</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>150</Y><Z>0</Z></Point>
+					</Points>
+				</Wall>
 			</Shapes>
 
 					<Z>0</Z>
 				</Ground>
 
-				<RectangleNode>
-					<Id>1507631857260</Id>
-					<Name><![CDATA[Panetteria]]></Name>
-					<X>460</X><Y>170</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<FillColor/>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillMaterial>null</FillMaterial>
-					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
-
-			<Shapes>
-				<Attractor>
-					<Id>1507994080687</Id>
-					<Name><![CDATA[attractor8]]></Name>
-					<X>10</X><Y>20</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1507994085781</Id>
-					<Name><![CDATA[attractor9]]></Name>
-					<X>10</X><Y>40</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-			</Shapes>
-
-
-					<Width>20</Width>
-					<Height>60</Height>
-					<Rotation>0.0</Rotation>
-				</RectangleNode>
-				<RectangleNode>
-					<Id>1507632870176</Id>
-					<Name><![CDATA[Macelleria]]></Name>
-					<X>460</X><Y>280</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<FillColor/>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillMaterial>null</FillMaterial>
-					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
-
-			<Shapes>
-				<Attractor>
-					<Id>1507994088732</Id>
-					<Name><![CDATA[attractor10]]></Name>
-					<X>10</X><Y>20</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1507994091982</Id>
-					<Name><![CDATA[attractor11]]></Name>
-					<X>10</X><Y>40</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-			</Shapes>
-
-
-					<Width>20</Width>
-					<Height>60</Height>
-					<Rotation>0.0</Rotation>
-				</RectangleNode>
 				<Ground>
 					<Id>1507719656298</Id>
 					<Name><![CDATA[ground1]]></Name>
@@ -7803,13 +7725,13 @@ agent.Bought = true;]]></Code>
 				<Figure3D>
 					<Id>1507719855064</Id>
 					<Name><![CDATA[cashDesk]]></Name>
-					<X>110</X><Y>520</Y>
+					<X>150</X><Y>520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>110</X><Y>520</Y><Z>0</Z>
+					<X>150</X><Y>520</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/cash_desk.x3d]]></FileName>
 					<ColorTable>
@@ -7843,13 +7765,13 @@ agent.Bought = true;]]></Code>
 				<Figure3D>
 					<Id>1507719879000</Id>
 					<Name><![CDATA[cashDesk1]]></Name>
-					<X>110</X><Y>490</Y>
+					<X>150</X><Y>490</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>110</X><Y>490</Y><Z>0</Z>
+					<X>150</X><Y>490</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/cash_desk.x3d]]></FileName>
 					<ColorTable>
@@ -7883,7 +7805,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1507631267514</Id>
 					<Name><![CDATA[Enter]]></Name>
-					<X>30</X><Y>130</Y>
+					<X>70</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7905,7 +7827,7 @@ agent.Bought = true;]]></Code>
 				<Network>
 					<Id>1507807931066</Id>
 					<Name><![CDATA[network]]></Name>
-					<X>50</X><Y>140</Y>
+					<X>90</X><Y>140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7916,7 +7838,7 @@ agent.Bought = true;]]></Code>
 				<Path SourceId="1507807874889" TargetId="1508064181798">
 					<Id>1507808636493</Id>
 					<Name><![CDATA[path]]></Name>
-					<X>90</X><Y>150</Y>
+					<X>130</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7947,7 +7869,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1507807874889</Id>
 					<Name><![CDATA[supermarketArea]]></Name>
-					<X>50</X><Y>130</Y>
+					<X>90</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7969,7 +7891,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1507631307296</Id>
 					<Name><![CDATA[Exit]]></Name>
-					<X>30</X><Y>480</Y>
+					<X>70</X><Y>480</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7991,7 +7913,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1507986888731</Id>
 					<Name><![CDATA[paymentQueue]]></Name>
-					<X>130</X><Y>470</Y>
+					<X>170</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8089,7 +8011,7 @@ agent.Bought = true;]]></Code>
 				<Path SourceId="1507990439378" TargetId="1507986888731">
 					<Id>1507987059418</Id>
 					<Name><![CDATA[path1]]></Name>
-					<X>400</X><Y>540</Y>
+					<X>440</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8123,7 +8045,7 @@ agent.Bought = true;]]></Code>
 				<Path SourceId="1507801866732" TargetId="1507631307296">
 					<Id>1507987117391</Id>
 					<Name><![CDATA[path3]]></Name>
-					<X>90</X><Y>500</Y>
+					<X>130</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8154,7 +8076,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1507801866732</Id>
 					<Name><![CDATA[cashArea1]]></Name>
-					<X>90</X><Y>470</Y>
+					<X>130</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8204,7 +8126,7 @@ agent.Bought = true;]]></Code>
 				<PointNode>
 					<Id>1507990439378</Id>
 					<Name><![CDATA[point1]]></Name>
-					<X>400</X><Y>540</Y>
+					<X>440</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8219,7 +8141,7 @@ agent.Bought = true;]]></Code>
 				<Path SourceId="1507990439378" TargetId="1507631307296">
 					<Id>1507990439382</Id>
 					<Name><![CDATA[path4]]></Name>
-					<X>400</X><Y>540</Y>
+					<X>440</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8247,59 +8169,10 @@ agent.Bought = true;]]></Code>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 				</Path>
-				<PointNode>
-					<Id>1508063619026</Id>
-					<Name><![CDATA[point]]></Name>
-					<X>440</X><Y>440</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<FakeNode>true</FakeNode>	
-					<Lock>false</Lock>
-					<Color>-14774017</Color>
-					<Radius>1</Radius>
-				</PointNode>
-				<Path SourceId="1508063619026" TargetId="1507990439378">
-					<Id>1508063619028</Id>
-					<Name><![CDATA[path5]]></Name>
-					<X>440</X><Y>440</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>2</LineWidth>
-					<PathType>dashedLine</PathType>
-					
-					<Width Class="UnitValue">
-						<Value Class="Double">
-							1
-						</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</Width>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>100</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>75</Y><Z>0</Z></Point>
-						<Point><X>-25</X><Y>100</Y><Z>0</Z></Point>
-						<Point><X>-40</X><Y>100</Y><Z>0</Z></Point>
-						<Point><X>-15</X><Y>100</Y><Z>0</Z></Point>
-						<Point><X>-65</X><Y>100</Y><Z>0</Z></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-				</Path>
-				<Path SourceId="1507807874889" TargetId="1508063653308">
+				<Path SourceId="1507807874889" TargetId="1508150111803">
 					<Id>1508063611792</Id>
 					<Name><![CDATA[path2]]></Name>
-					<X>90</X><Y>150</Y>
+					<X>130</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8319,172 +8192,18 @@ agent.Bought = true;]]></Code>
 					</Width>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>40</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>15</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>65</Y><Z>0</Z></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-				</Path>
-				<Path SourceId="1508063653308" TargetId="1508063653311">
-					<Id>1508063647370</Id>
-					<Name><![CDATA[path6]]></Name>
-					<X>90</X><Y>190</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>2</LineWidth>
-					<PathType>dashedLine</PathType>
-					
-					<Width Class="UnitValue">
-						<Value Class="Double">
-							1
-						</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</Width>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>350</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>325</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-				</Path>
-				<PointNode>
-					<Id>1508063653308</Id>
-					<Name><![CDATA[point4]]></Name>
-					<X>90</X><Y>190</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<FakeNode>true</FakeNode>	
-					<Lock>false</Lock>
-					<Color>-14774017</Color>
-					<Radius>1</Radius>
-				</PointNode>
-				<Path SourceId="1508063653311" TargetId="1508063619026">
-					<Id>1508063653313</Id>
-					<Name><![CDATA[path10]]></Name>
-					<X>440</X><Y>190</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>2</LineWidth>
-					<PathType>dashedLine</PathType>
-					
-					<Width Class="UnitValue">
-						<Value Class="Double">
-							1
-						</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</Width>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>250</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>225</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>275</Y><Z>0</Z></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-				</Path>
-				<Path SourceId="1508063653308" TargetId="1508082610848">
-					<Id>1508063653310</Id>
-					<Name><![CDATA[path9]]></Name>
-					<X>90</X><Y>190</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>2</LineWidth>
-					<PathType>dashedLine</PathType>
-					
-					<Width Class="UnitValue">
-						<Value Class="Double">
-							1
-						</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</Width>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>40</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>15</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>65</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>50</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 				</Path>
-				<PointNode>
-					<Id>1508063653311</Id>
-					<Name><![CDATA[point5]]></Name>
-					<X>440</X><Y>190</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<FakeNode>true</FakeNode>	
-					<Lock>false</Lock>
-					<Color>-14774017</Color>
-					<Radius>1</Radius>
-				</PointNode>
-  				<PalletRack TargetId="1508063647370">
-					<Id>1508063655731</Id>
-					<Name><![CDATA[shelves1]]></Name>
-					<X>110</X><Y>170</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<FillColor>-1644806</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<Width>330</Width>
-					<Height>10</Height>	
-					<RightHeight>10</RightHeight>
-					<AisleHeight>20</AisleHeight>
-					<RightAisleHeight>40</RightAisleHeight>
-					<Rotation>0</Rotation>
-					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
-					<NumberOfCells>30</NumberOfCells>
-					<NumberOfDeepPositions>1</NumberOfDeepPositions>
-					<NumberOfLevels>1</NumberOfLevels>
-					<LevelHeight>50</LevelHeight>
-					<CellWidth>20</CellWidth>
-					<Type>twoStorages</Type>
-					<Direction>noDirection</Direction>
-					<AisleBelow>true</AisleBelow>
-					<DrawLegs>true</DrawLegs>
-					<CellsBetweenLegs>2</CellsBetweenLegs>
-				</PalletRack>
 				<Path SourceId="1508064181798" TargetId="1508082704313">
 					<Id>1508064181800</Id>
 					<Name><![CDATA[path8]]></Name>
-					<X>270</X><Y>150</Y>
+					<X>310</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8515,7 +8234,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1508062131402</Id>
 					<Name><![CDATA[warehouse]]></Name>
-					<X>230</X><Y>70</Y>
+					<X>270</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8601,7 +8320,7 @@ agent.Bought = true;]]></Code>
 				<Path SourceId="1508062131402" TargetId="1508064181798">
 					<Id>1508064180845</Id>
 					<Name><![CDATA[path7]]></Name>
-					<X>270</X><Y>130</Y>
+					<X>310</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8632,7 +8351,7 @@ agent.Bought = true;]]></Code>
 				<PointNode>
 					<Id>1508064181798</Id>
 					<Name><![CDATA[point2]]></Name>
-					<X>270</X><Y>150</Y>
+					<X>310</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8644,161 +8363,10 @@ agent.Bought = true;]]></Code>
 					<Color>-14774017</Color>
 					<Radius>1</Radius>
 				</PointNode>
-  				<PalletRack TargetId="1508063653313">
-					<Id>1508082565341</Id>
-					<Name><![CDATA[shelves2]]></Name>
-					<X>110</X><Y>210</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<FillColor>-1644806</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<Width>330</Width>
-					<Height>10</Height>	
-					<RightHeight>10</RightHeight>
-					<AisleHeight>20</AisleHeight>
-					<RightAisleHeight>40</RightAisleHeight>
-					<Rotation>0</Rotation>
-					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
-					<NumberOfCells>30</NumberOfCells>
-					<NumberOfDeepPositions>1</NumberOfDeepPositions>
-					<NumberOfLevels>1</NumberOfLevels>
-					<LevelHeight>50</LevelHeight>
-					<CellWidth>11</CellWidth>
-					<Type>twoStorages</Type>
-					<Direction>noDirection</Direction>
-					<AisleBelow>true</AisleBelow>
-					<DrawLegs>true</DrawLegs>
-					<CellsBetweenLegs>2</CellsBetweenLegs>
-				</PalletRack>
-				<PointNode>
-					<Id>1508082610848</Id>
-					<Name><![CDATA[point3]]></Name>
-					<X>90</X><Y>230</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<FakeNode>true</FakeNode>	
-					<Lock>false</Lock>
-					<Color>-14774017</Color>
-					<Radius>1</Radius>
-				</PointNode>
-				<Path SourceId="1508082610848" TargetId="1508063619026">
-					<Id>1508082610850</Id>
-					<Name><![CDATA[path12]]></Name>
-					<X>90</X><Y>230</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>2</LineWidth>
-					<PathType>dashedLine</PathType>
-					
-					<Width Class="UnitValue">
-						<Value Class="Double">
-							1
-						</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</Width>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>65</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>40</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>90</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>210</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>185</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>210</Y><Z>0</Z></Point>
-						<Point><X>350</X><Y>210</Y><Z>0</Z></Point>
-						<Point><X>325</X><Y>210</Y><Z>0</Z></Point>
-						<Point><X>-20</X><Y>210</Y><Z>0</Z></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-				</Path>
-				<Path SourceId="1508082610848" TargetId="1508071961594">
-					<Id>1508082604333</Id>
-					<Name><![CDATA[path11]]></Name>
-					<X>90</X><Y>230</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>2</LineWidth>
-					<PathType>dashedLine</PathType>
-					
-					<Width Class="UnitValue">
-						<Value Class="Double">
-							1
-						</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</Width>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>349.5</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>324.5</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>350.1248047790051</X><Y>-24.99219116020307</Y><Z>0</Z></Point>
-						<Point><X>350</X><Y>-20</Y><Z>0</Z></Point>
-						<Point><X>349.375</X><Y>4.992</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-20</Y><Z>0</Z></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-				</Path>
-				<Path SourceId="1508082704313" TargetId="1508063653311">
-					<Id>1508082704315</Id>
-					<Name><![CDATA[path14]]></Name>
-					<X>380</X><Y>150</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-14774017</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>2</LineWidth>
-					<PathType>dashedLine</PathType>
-					
-					<Width Class="UnitValue">
-						<Value Class="Double">
-							1
-						</Value>
-						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-					</Width>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>60</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>35</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>60</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>60</X><Y>40</Y><Z>0</Z></Point>
-						<Point><X>60</X><Y>15</Y><Z>0</Z></Point>
-						<Point><X>60</X><Y>65</Y><Z>0</Z></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-				</Path>
 				<RectangleNode>
 					<Id>1508082392604</Id>
 					<Name><![CDATA[warehouse1]]></Name>
-					<X>340</X><Y>70</Y>
+					<X>380</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8884,7 +8452,7 @@ agent.Bought = true;]]></Code>
 				<Path SourceId="1508082392604" TargetId="1508082704313">
 					<Id>1508082703364</Id>
 					<Name><![CDATA[path13]]></Name>
-					<X>380</X><Y>130</Y>
+					<X>420</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8915,7 +8483,7 @@ agent.Bought = true;]]></Code>
 				<PointNode>
 					<Id>1508082704313</Id>
 					<Name><![CDATA[point6]]></Name>
-					<X>380</X><Y>150</Y>
+					<X>420</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8927,10 +8495,331 @@ agent.Bought = true;]]></Code>
 					<Color>-14774017</Color>
 					<Radius>1</Radius>
 				</PointNode>
+				<Path SourceId="1508082704313" TargetId="1508150409926">
+					<Id>1508063653313</Id>
+					<Name><![CDATA[path10]]></Name>
+					<X>420</X><Y>150</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>80</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>55</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>80</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>80</X><Y>50</Y><Z>0</Z></Point>
+						<Point><X>80</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>80</X><Y>75</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<Path SourceId="1508150409926" TargetId="1508150111803">
+					<Id>1508150107163</Id>
+					<Name><![CDATA[path5]]></Name>
+					<X>500</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-150</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>15</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-175</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-370</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-345</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-345</X><Y>0</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<PointNode>
+					<Id>1508150111803</Id>
+					<Name><![CDATA[point4]]></Name>
+					<X>130</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<FakeNode>true</FakeNode>	
+					<Lock>false</Lock>
+					<Color>-14774017</Color>
+					<Radius>1</Radius>
+				</PointNode>
+				<Path SourceId="1508150111803" TargetId="1508150338810">
+					<Id>1508150111805</Id>
+					<Name><![CDATA[path9]]></Name>
+					<X>130</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>85</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<Path SourceId="1508150409926" TargetId="1508150416627">
+					<Id>1508150111802</Id>
+					<Name><![CDATA[path6]]></Name>
+					<X>500</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+  				<PalletRack TargetId="1508063653313">
+					<Id>1508063655731</Id>
+					<Name><![CDATA[shelves1]]></Name>
+					<X>150</X><Y>170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor>-1644806</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<Width>330</Width>
+					<Height>10</Height>	
+					<RightHeight>10</RightHeight>
+					<AisleHeight>40</AisleHeight>
+					<RightAisleHeight>40</RightAisleHeight>
+					<Rotation>0</Rotation>
+					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
+					<NumberOfCells>30</NumberOfCells>
+					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfLevels>1</NumberOfLevels>
+					<LevelHeight>50</LevelHeight>
+					<CellWidth>20</CellWidth>
+					<Type>twoStorages</Type>
+					<Direction>noDirection</Direction>
+					<AisleBelow>true</AisleBelow>
+					<DrawLegs>true</DrawLegs>
+					<CellsBetweenLegs>2</CellsBetweenLegs>
+				</PalletRack>
+				<Path SourceId="1508150416627" TargetId="1508150538925">
+					<Id>1508150338809</Id>
+					<Name><![CDATA[path12]]></Name>
+					<X>500</X><Y>260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>85</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+  				<PalletRack TargetId="1508150111802">
+					<Id>1508082565341</Id>
+					<Name><![CDATA[shelves2]]></Name>
+					<X>150</X><Y>230</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor>-1644806</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<Width>330</Width>
+					<Height>10</Height>	
+					<RightHeight>10</RightHeight>
+					<AisleHeight>40</AisleHeight>
+					<RightAisleHeight>40</RightAisleHeight>
+					<Rotation>0</Rotation>
+					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
+					<NumberOfCells>30</NumberOfCells>
+					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfLevels>1</NumberOfLevels>
+					<LevelHeight>50</LevelHeight>
+					<CellWidth>11</CellWidth>
+					<Type>twoStorages</Type>
+					<Direction>noDirection</Direction>
+					<AisleBelow>true</AisleBelow>
+					<DrawLegs>true</DrawLegs>
+					<CellsBetweenLegs>2</CellsBetweenLegs>
+				</PalletRack>
+				<Path SourceId="1508150338810" TargetId="1508150544859">
+					<Id>1508150338812</Id>
+					<Name><![CDATA[path14]]></Name>
+					<X>130</X><Y>260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>10</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<PointNode>
+					<Id>1508150338810</Id>
+					<Name><![CDATA[point5]]></Name>
+					<X>130</X><Y>260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<FakeNode>true</FakeNode>	
+					<Lock>false</Lock>
+					<Color>-14774017</Color>
+					<Radius>1</Radius>
+				</PointNode>
+				<Path SourceId="1508150416627" TargetId="1508150338810">
+					<Id>1508150329904</Id>
+					<Name><![CDATA[path11]]></Name>
+					<X>500</X><Y>260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-140</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>15</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-165</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-370</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-345</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-160.71500000000003</X><Y>166.788</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
 				<RectangleNode>
-					<Id>1508071961594</Id>
-					<Name><![CDATA[racks]]></Name>
-					<X>110</X><Y>170</Y>
+					<Id>1507631857260</Id>
+					<Name><![CDATA[Panetteria]]></Name>
+					<X>520</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8945,10 +8834,343 @@ agent.Bought = true;]]></Code>
 					<LineStyle>DASHED</LineStyle>
 					<AttractorsLayout>random</AttractorsLayout>
 
-					<Width>330</Width>
-					<Height>40</Height>
+			<Shapes>
+				<Attractor>
+					<Id>1507994080687</Id>
+					<Name><![CDATA[attractor8]]></Name>
+					<X>10</X><Y>20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1507994085781</Id>
+					<Name><![CDATA[attractor9]]></Name>
+					<X>10</X><Y>40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+			</Shapes>
+
+
+					<Width>20</Width>
+					<Height>60</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
+				<RectangleNode>
+					<Id>1507632870176</Id>
+					<Name><![CDATA[Macelleria]]></Name>
+					<X>520</X><Y>230</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+			<Shapes>
+				<Attractor>
+					<Id>1507994088732</Id>
+					<Name><![CDATA[attractor10]]></Name>
+					<X>10</X><Y>20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1507994091982</Id>
+					<Name><![CDATA[attractor11]]></Name>
+					<X>10</X><Y>40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+			</Shapes>
+
+
+					<Width>20</Width>
+					<Height>60</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
+				<PointNode>
+					<Id>1508150409926</Id>
+					<Name><![CDATA[point7]]></Name>
+					<X>500</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<FakeNode>true</FakeNode>	
+					<Lock>false</Lock>
+					<Color>-14774017</Color>
+					<Radius>1</Radius>
+				</PointNode>
+				<Path SourceId="1508150409926" TargetId="1507631857260">
+					<Id>1508150409928</Id>
+					<Name><![CDATA[path17]]></Name>
+					<X>500</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>20</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-5</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<Path SourceId="1508150416627" TargetId="1507632870176">
+					<Id>1508150416629</Id>
+					<Name><![CDATA[path15]]></Name>
+					<X>500</X><Y>260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>20</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-5</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<PointNode>
+					<Id>1508150416627</Id>
+					<Name><![CDATA[point]]></Name>
+					<X>500</X><Y>260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<FakeNode>true</FakeNode>	
+					<Lock>false</Lock>
+					<Color>-14774017</Color>
+					<Radius>1</Radius>
+				</PointNode>
+				<Path SourceId="1508150544859" TargetId="1508150538925">
+					<Id>1508150522939</Id>
+					<Name><![CDATA[path16]]></Name>
+					<X>130</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-24.999</X><Y>-0.2699999999999996</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>370</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>345</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+  				<PalletRack TargetId="1508150338809">
+					<Id>1508150488572</Id>
+					<Name><![CDATA[palletRack]]></Name>
+					<X>150</X><Y>290</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor>-1644806</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<Width>330</Width>
+					<Height>10</Height>	
+					<RightHeight>10</RightHeight>
+					<AisleHeight>40</AisleHeight>
+					<RightAisleHeight>40</RightAisleHeight>
+					<Rotation>0</Rotation>
+					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
+					<NumberOfCells>30</NumberOfCells>
+					<NumberOfDeepPositions>1</NumberOfDeepPositions>
+					<NumberOfLevels>1</NumberOfLevels>
+					<LevelHeight>50</LevelHeight>
+					<CellWidth>20</CellWidth>
+					<Type>twoStorages</Type>
+					<Direction>noDirection</Direction>
+					<AisleBelow>true</AisleBelow>
+					<DrawLegs>true</DrawLegs>
+					<CellsBetweenLegs>2</CellsBetweenLegs>
+				</PalletRack>
+				<PointNode>
+					<Id>1508150538925</Id>
+					<Name><![CDATA[point8]]></Name>
+					<X>500</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<FakeNode>true</FakeNode>	
+					<Lock>false</Lock>
+					<Color>-14774017</Color>
+					<Radius>1</Radius>
+				</PointNode>
+				<Path SourceId="1508150538925">
+					<Id>1508150538927</Id>
+					<Name><![CDATA[path19]]></Name>
+					<X>500</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>120</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>95</Y><Z>0</Z></Point>
+						<Point><X>0.999</X><Y>95.02000000000001</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<PointNode>
+					<Id>1508150544859</Id>
+					<Name><![CDATA[point9]]></Name>
+					<X>130</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<FakeNode>true</FakeNode>	
+					<Lock>false</Lock>
+					<Color>-14774017</Color>
+					<Radius>1</Radius>
+				</PointNode>
+				<Path SourceId="1508150544859" TargetId="1507990439378">
+					<Id>1508150544861</Id>
+					<Name><![CDATA[path20]]></Name>
+					<X>130</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>120</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>95</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>120</Y><Z>0</Z></Point>
+						<Point><X>370</X><Y>120</Y><Z>0</Z></Point>
+						<Point><X>345</X><Y>120</Y><Z>0</Z></Point>
+						<Point><X>370</X><Y>145</Y><Z>0</Z></Point>
+						<Point><X>370</X><Y>220</Y><Z>0</Z></Point>
+						<Point><X>370</X><Y>195</Y><Z>0</Z></Point>
+						<Point><X>345</X><Y>220</Y><Z>0</Z></Point>
+						<Point><X>310</X><Y>220</Y><Z>0</Z></Point>
+						<Point><X>335</X><Y>220</Y><Z>0</Z></Point>
+						<Point><X>285</X><Y>220</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
 			</Shapes>
 
 					<Z>0</Z>
@@ -8956,7 +9178,7 @@ agent.Bought = true;]]></Code>
 				<Rectangle>
 					<Id>1507994104115</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>480</X><Y>170</Y>
+					<X>540</X><Y>170</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8979,7 +9201,7 @@ agent.Bought = true;]]></Code>
 				<Rectangle>
 					<Id>1507994128901</Id>
 					<Name><![CDATA[rectangle1]]></Name>
-					<X>480</X><Y>280</Y>
+					<X>540</X><Y>230</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9002,7 +9224,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1507994147617</Id>
 					<Name><![CDATA[bakerArea]]></Name>
-					<X>490</X><Y>170</Y>
+					<X>550</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9052,7 +9274,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1507994161944</Id>
 					<Name><![CDATA[batcherArea]]></Name>
-					<X>490</X><Y>280</Y>
+					<X>550</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9102,7 +9324,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1508062106964</Id>
 					<Name><![CDATA[node]]></Name>
-					<X>250</X><Y>40</Y>
+					<X>290</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9124,7 +9346,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1508082392616</Id>
 					<Name><![CDATA[node1]]></Name>
-					<X>360</X><Y>40</Y>
+					<X>400</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9146,7 +9368,7 @@ agent.Bought = true;]]></Code>
 				<RectangleNode>
 					<Id>1508147888599</Id>
 					<Name><![CDATA[rack2]]></Name>
-					<X>110</X><Y>210</Y>
+					<X>150</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9162,7 +9384,51 @@ agent.Bought = true;]]></Code>
 					<AttractorsLayout>random</AttractorsLayout>
 
 					<Width>330</Width>
-					<Height>40</Height>
+					<Height>60</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
+				<RectangleNode>
+					<Id>1508071961594</Id>
+					<Name><![CDATA[racks]]></Name>
+					<X>150</X><Y>170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+					<Width>330</Width>
+					<Height>60</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
+				<RectangleNode>
+					<Id>1508150587414</Id>
+					<Name><![CDATA[rack3]]></Name>
+					<X>150</X><Y>290</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+					<Width>330</Width>
+					<Height>60</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 			</Shapes>
@@ -9380,7 +9646,6 @@ for(String poss: possibilities){
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties Width="100" Height="30">
-						<EntryAction><![CDATA[System.out.println("Come faccio ad entrare in questo stato per poi tornare indietro?")]]></EntryAction>
 						<FillColor>-10496</FillColor>
 					</Properties>
 				</StatechartElement>
@@ -9490,8 +9755,6 @@ printObjectsToBuy();]]></Action>
 					</Points>
 					<IconOffset>20.0</IconOffset>
 					<Properties Source="1507635483380" Target="1507635483380" Trigger="message">
-						<Action><![CDATA[System.out.println("Ho comprato almeno una volta e sto uscendo");
-printObjectsToBuy();]]></Action>
 						<Timeout Class="CodeUnitValue">
 							<Code><![CDATA[1]]></Code>
 							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
