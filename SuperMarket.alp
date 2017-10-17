@@ -131,6 +131,24 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="CollectionVariable">
+					<Id>1508235911694</Id>
+					<Name><![CDATA[countProducts]]></Name>
+					<X>40</X><Y>60</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" AccessType="public" StaticVariable="false">
+						<CollectionClass><![CDATA[ArrayList]]></CollectionClass>
+						<ElementClass><![CDATA[Double]]></ElementClass>
+						<ValueElementClass><![CDATA[String]]></ValueElementClass>
+						<CollectionInitializer Class="CodeValue">
+							<Code><![CDATA[{1., 1., 1., 1., 1.}]]></Code>
+						</CollectionInitializer>
+					</Properties>
+
+				</Variable>
 			</Variables>
 			<Connectors>
 				<Connector>
@@ -3797,6 +3815,7 @@ System.out.println("Ho comprato carne");]]></Code>
 							<Name><![CDATA[onExitTrue]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+countProducts.set(0,countProducts.get(0)+agent.itemsToBuy.firstEntry().getValue());
 agent.itemsToBuy.remove("bread");]]></Code>
 							</Value>
 						</Parameter>
@@ -5780,6 +5799,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 							<Name><![CDATA[onExitTrue]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+countProducts.set(1,countProducts.get(1)+agent.itemsToBuy.firstEntry().getValue());
 agent.itemsToBuy.remove("meat");]]></Code>
 							</Value>
 						</Parameter>
@@ -9736,6 +9756,7 @@ agent.itemsToBuy.remove("generic2");]]></Code>
 							<Name><![CDATA[onExitFalse]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[agent.counterBuy = agent.counterBuy + agent.itemsToBuy.firstEntry().getValue();
+countProducts.set(2,countProducts.get(2)+agent.itemsToBuy.firstEntry().getValue());
 agent.itemsToBuy.remove("fish");]]></Code>
 							</Value>
 						</Parameter>
@@ -13769,6 +13790,70 @@ System.out.println("Ho comprato pesce");]]></Code>
 						<RelativeWidth>0.8</RelativeWidth>
 					</Bars>
     			</BarChart>
+    			<PieChart>
+					<Id>1508235884252</Id>
+					<Name><![CDATA[benchProducts]]></Name>
+					<X>250</X><Y>580</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1508313600000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>220</Width>
+					<Height>230</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>20</YOffset>
+						<Width>130</Width>
+						<Height>120</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor/>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>70</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<Persistent>true</Persistent>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[countProducts.get(0)/(countProducts.get(0)+countProducts.get(1)+countProducts.get(2))]]></Expression>
+					<Color>-3308225</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bread]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[countProducts.get(1)/(countProducts.get(0)+countProducts.get(1)+countProducts.get(2))]]></Expression>
+					<Color>-8388608</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[meat]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[countProducts.get(2)/(countProducts.get(0)+countProducts.get(1)+countProducts.get(2))]]></Expression>
+					<Color>-14774017</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[fish]]></Title>
+					</DataItem>
+    			</PieChart>
 			</Charts>
 
 		</ActiveObjectClass>
