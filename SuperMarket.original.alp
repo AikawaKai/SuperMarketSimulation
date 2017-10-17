@@ -14999,7 +14999,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<PieChart>
 					<Id>1508235884252</Id>
 					<Name><![CDATA[benchProducts]]></Name>
-					<X>150</X><Y>580</Y>
+					<X>170</X><Y>580</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15042,28 +15042,28 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<Persistent>true</Persistent>
 					<ShowLegend>true</ShowLegend>
 					<DataItem>
-					<Expression><![CDATA[countProducts.get(0)]]></Expression>
+					<Expression><![CDATA[countProducts.get(0)/(countProducts.get(0)+countProducts.get(1)+countProducts.get(2))]]></Expression>
 					<Color>-3308225</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[bread]]></Title>
 					</DataItem>
 					<DataItem>
-					<Expression><![CDATA[countProducts.get(1)]]></Expression>
+					<Expression><![CDATA[countProducts.get(1)/(countProducts.get(0)+countProducts.get(1)+countProducts.get(2))]]></Expression>
 					<Color>-8388608</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[meat]]></Title>
 					</DataItem>
 					<DataItem>
-					<Expression><![CDATA[countProducts.get(2)]]></Expression>
+					<Expression><![CDATA[countProducts.get(2)/(countProducts.get(0)+countProducts.get(1)+countProducts.get(2))]]></Expression>
 					<Color>-14774017</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[fish]]></Title>
 					</DataItem>
     			</PieChart>
-    			<TimeStackChart>
-					<Id>1508258741710</Id>
-					<Name><![CDATA[chart1]]></Name>
-					<X>320</X><Y>570</Y>
+    			<BarChart>
+					<Id>1508239273254</Id>
+					<Name><![CDATA[queue]]></Name>
+					<X>360</X><Y>570</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15072,7 +15072,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1508313600000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
-						<Code><![CDATA[0]]></Code>
+						<Code><![CDATA[1]]></Code>
 						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 					</OccurrenceTime>
 					<RecurrenceCode Class="CodeUnitValue">
@@ -15087,8 +15087,8 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>20</YOffset>
-						<Width>190</Width>
-						<Height>130</Height>
+						<Width>180</Width>
+						<Height>140</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
 						<GridColor>-12566464</GridColor>
@@ -15096,7 +15096,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>120</Size>
+						<Size>100</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -15105,56 +15105,50 @@ System.out.println("Ho comprato pesce");]]></Code>
 					</Labels>
 					<Persistent>true</Persistent>
 					<ShowLegend>true</ShowLegend>
-					<TimeWindowsMovementType>MOVEMENT_WITH_TIME</TimeWindowsMovementType>		
-					<TimeWindowUnits>MODEL_TIME_UNIT</TimeWindowUnits>
-					<TimeWindowExpression><![CDATA[100]]></TimeWindowExpression>
-					<DatasetExpression>
-					<Expression><![CDATA[my_dataset]]></Expression>
-					<Color>-8388608</Color>
-					<Expression2><![CDATA[MacelleriaService.queueSize()]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>  
-							<Title><![CDATA[batcherQueue]]></Title>
-					</DatasetExpression>
-					<DatasetExpression>
-					<Expression><![CDATA[my_dataset]]></Expression>
-					<Color>-14774017</Color>
-					<Expression2><![CDATA[PescheriaService.queueSize()]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>  
-							<Title><![CDATA[fishMongerQueue]]></Title>
-					</DatasetExpression>
-					<DatasetExpression>
-					<Expression><![CDATA[my_dataset]]></Expression>
-					<Color>-3137392</Color>
-					<Expression2><![CDATA[infoPointService.queueSize()]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>  
-							<Title><![CDATA[infoPointQueue]]></Title>
-					</DatasetExpression>
-					<DatasetExpression>
-					<Expression><![CDATA[my_dataset]]></Expression>
-					<Color>-8355840</Color>
-					<Expression2><![CDATA[automaticPaymentService.queueSize()]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>  
-							<Title><![CDATA[automaticCashierQueue]]></Title>
-					</DatasetExpression>
-					<DatasetExpression>
-					<Expression><![CDATA[my_dataset]]></Expression>
-					<Color>-16744448</Color>
-					<Expression2><![CDATA[paymentService.queueSize()]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>  
-							<Title><![CDATA[cashierQueue]]></Title>
-					</DatasetExpression>
-					<DatasetExpression>
-					<Expression><![CDATA[my_dataset]]></Expression>
+					<DataItem>
+					<Expression><![CDATA[PanetteriaService.queueSize()]]></Expression>
 					<Color>-3308225</Color>
-					<Expression2><![CDATA[PanetteriaService.queueSize()]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>  
-							<Title><![CDATA[bakerQueue]]></Title>
-					</DatasetExpression>
-					<SamplesToKeep>100</SamplesToKeep>
-					<VerScaleToExpression><![CDATA[1]]></VerScaleToExpression>
-					<VerScaleType>AUTO</VerScaleType>
-					<LabelFormat>MODEL_TIME_UNITS</LabelFormat>
-    			</TimeStackChart>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bakerQueue]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[MacelleriaService.queueSize()]]></Expression>
+					<Color>-8388608</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[batcherQueue]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[PescheriaService.queueSize()]]></Expression>
+					<Color>-14774017</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[fishMongerQueue]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[infoPointService.queueSize()]]></Expression>
+					<Color>-4565549</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[infoPointQueue]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[automaticPaymentService.queueSize()]]></Expression>
+					<Color>-8355840</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[automaticCashierQueue]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[paymentService.queueSize()]]></Expression>
+					<Color>-16744448</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cashierQueue]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>RIGHT</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
 			</Charts>
 
 		</ActiveObjectClass>
