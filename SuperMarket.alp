@@ -2908,6 +2908,163 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					<Exceptions>
 					</Exceptions>
 				</Schedule>
+				<Schedule>
+					<Id>1508343678402</Id>
+					<Name><![CDATA[fishmongerSchedule]]></Name>
+					<X>390</X><Y>10</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ValueType>integer</ValueType>
+					<UnitType><![CDATA[NONE]]></UnitType>
+					<DefaultValue>0</DefaultValue>
+					<RepresentationMode>intervals</RepresentationMode>
+					<RepresentationType>calendar</RepresentationType>
+					<FirstDayOfWeek>monday</FirstDayOfWeek>
+					<TimeUnitsInterval>hours</TimeUnitsInterval>
+					<RepeatTime>86400000</RepeatTime>
+					<RepeatTimeInterval>days</RepeatTimeInterval>
+					<IsSnapTo>false</IsSnapTo>
+					<SnapTo>1508343692883</SnapTo>
+					<SnapToTimeUnits>minutes</SnapToTimeUnits>
+					<AllDayExceptionMode>false</AllDayExceptionMode>
+					<LoadFromDatabase><![CDATA[false]]></LoadFromDatabase>
+					<IntervalsQuery>
+						<TableReference>
+						</TableReference>
+							<StartColumnReference>
+							</StartColumnReference>
+							<EndColumnReference>
+							</EndColumnReference>
+							<ValueColumnReference>
+							</ValueColumnReference>
+					</IntervalsQuery>
+					<Intervals>
+						<Interval>
+							<Start>0</Start>
+							<End>3600000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>3600000</Start>
+							<End>7200000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>7200000</Start>
+							<End>10800000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>10800000</Start>
+							<End>14400000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>14400000</Start>
+							<End>18000000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>18000000</Start>
+							<End>21600000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>21600000</Start>
+							<End>25200000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>25200000</Start>
+							<End>28800000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>28800000</Start>
+							<End>32400000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>32400000</Start>
+							<End>36000000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>36000000</Start>
+							<End>39600000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>39600000</Start>
+							<End>43200000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>43200000</Start>
+							<End>46800000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>46800000</Start>
+							<End>50400000</End>
+							<Value>2</Value>
+						</Interval>
+						<Interval>
+							<Start>50400000</Start>
+							<End>54000000</End>
+							<Value>2</Value>
+						</Interval>
+						<Interval>
+							<Start>54000000</Start>
+							<End>57600000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>57600000</Start>
+							<End>61200000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>61200000</Start>
+							<End>64800000</End>
+							<Value>2</Value>
+						</Interval>
+						<Interval>
+							<Start>64800000</Start>
+							<End>68400000</End>
+							<Value>2</Value>
+						</Interval>
+						<Interval>
+							<Start>68400000</Start>
+							<End>72000000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>72000000</Start>
+							<End>75600000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>75600000</Start>
+							<End>79200000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>79200000</Start>
+							<End>82800000</End>
+							<Value>1</Value>
+						</Interval>
+						<Interval>
+							<Start>82800000</Start>
+							<End>86400000</End>
+							<Value>1</Value>
+						</Interval>
+					</Intervals>
+					<Exceptions>
+					</Exceptions>
+				</Schedule>
 			</Schedules>
 			<AnalysisData>
     			<HistogramData>
@@ -10721,6 +10878,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacityDefinitionType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.CAPACITY_SCHEDULE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
@@ -10733,6 +10893,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacitySchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[fishmongerSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacityScheduleOnOff]]></Name>
