@@ -144,7 +144,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[50]]></Code>
+							<Code><![CDATA[20]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1508341612627</Id>
@@ -2123,7 +2123,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508333195456</Id>
 					<Name><![CDATA[customerSchedule]]></Name>
-					<X>160</X><Y>10</Y>
+					<X>140</X><Y>10</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2281,7 +2281,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508337078269</Id>
 					<Name><![CDATA[workerSchedule]]></Name>
-					<X>160</X><Y>30</Y>
+					<X>140</X><Y>30</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2439,7 +2439,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508339174498</Id>
 					<Name><![CDATA[foodSchedule]]></Name>
-					<X>160</X><Y>50</Y>
+					<X>140</X><Y>50</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2599,7 +2599,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
     			<HistogramData>
 					<Id>1508335760544</Id>
 					<Name><![CDATA[arrivalRate]]></Name>
-					<X>160</X><Y>70</Y>
+					<X>140</X><Y>70</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2630,7 +2630,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
     			<HistogramData>
 					<Id>1508342230337</Id>
 					<Name><![CDATA[arrivalFoodRate]]></Name>
-					<X>160</X><Y>90</Y>
+					<X>140</X><Y>90</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16961,7 +16961,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<ExtendedProperties>
 						<DefaultValueCode><![CDATA[0]]></DefaultValueCode>
 						<Orientation>HORIZONTAL</Orientation>
-						<MinValue><![CDATA[30]]></MinValue>
+						<MinValue><![CDATA[20]]></MinValue>
 						<MaxValue><![CDATA[100]]></MaxValue>
 						<LinkTo>true</LinkTo>
 						<Link>cartNumber</Link>
