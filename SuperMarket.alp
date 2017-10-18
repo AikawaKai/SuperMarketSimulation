@@ -2264,7 +2264,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<AutoUpdate>true</AutoUpdate>
+					<AutoUpdate>false</AutoUpdate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1508400000000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -16781,7 +16781,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 						<ColorHighPercent>-16728065</ColorHighPercent>
 						<ColorMean>-9728477</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Histogram Data Title]]></Title>							
+						<Title><![CDATA[Arrival Time Distribution]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
 			</Charts>
