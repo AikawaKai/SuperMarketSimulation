@@ -2095,6 +2095,116 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					</Points>
 				</Connector>
 			</Connectors>
+			<Schedules>
+				<Schedule>
+					<Id>1508333195456</Id>
+					<Name><![CDATA[customerSchedule]]></Name>
+					<X>590</X><Y>520</Y>
+					<Label><X>-15</X><Y>20</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ValueType>double_</ValueType>
+					<UnitType><![CDATA[RATE]]></UnitType>
+					<UnitOfValue Class="RateUnits"><![CDATA[PER_HOUR]]></UnitOfValue>
+					<DefaultValue>50.0</DefaultValue>
+					<RepresentationMode>intervals</RepresentationMode>
+					<RepresentationType>calendar</RepresentationType>
+					<FirstDayOfWeek>monday</FirstDayOfWeek>
+					<TimeUnitsInterval>hours</TimeUnitsInterval>
+					<RepeatTime>86400000</RepeatTime>
+					<RepeatTimeInterval>days</RepeatTimeInterval>
+					<IsSnapTo>true</IsSnapTo>
+					<SnapTo>1508333287283</SnapTo>
+					<SnapToTimeUnits>minutes</SnapToTimeUnits>
+					<AllDayExceptionMode>false</AllDayExceptionMode>
+					<LoadFromDatabase><![CDATA[false]]></LoadFromDatabase>
+					<IntervalsQuery>
+						<TableReference>
+						</TableReference>
+							<StartColumnReference>
+							</StartColumnReference>
+							<EndColumnReference>
+							</EndColumnReference>
+							<ValueColumnReference>
+							</ValueColumnReference>
+					</IntervalsQuery>
+					<Intervals>
+						<Interval>
+							<Start>28800000</Start>
+							<End>32400000</End>
+							<Value>20.0</Value>
+						</Interval>
+						<Interval>
+							<Start>32400000</Start>
+							<End>36000000</End>
+							<Value>30.0</Value>
+						</Interval>
+						<Interval>
+							<Start>36000000</Start>
+							<End>39600000</End>
+							<Value>40.0</Value>
+						</Interval>
+						<Interval>
+							<Start>39600000</Start>
+							<End>43200000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>43200000</Start>
+							<End>46800000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>46800000</Start>
+							<End>50400000</End>
+							<Value>40.0</Value>
+						</Interval>
+						<Interval>
+							<Start>50400000</Start>
+							<End>54000000</End>
+							<Value>30.0</Value>
+						</Interval>
+						<Interval>
+							<Start>54000000</Start>
+							<End>57600000</End>
+							<Value>20.0</Value>
+						</Interval>
+						<Interval>
+							<Start>57600000</Start>
+							<End>61200000</End>
+							<Value>30.0</Value>
+						</Interval>
+						<Interval>
+							<Start>61200000</Start>
+							<End>64800000</End>
+							<Value>40.0</Value>
+						</Interval>
+						<Interval>
+							<Start>64800000</Start>
+							<End>68400000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>68400000</Start>
+							<End>72000000</End>
+							<Value>30.0</Value>
+						</Interval>
+						<Interval>
+							<Start>72000000</Start>
+							<End>75600000</End>
+							<Value>20.0</Value>
+						</Interval>
+						<Interval>
+							<Start>75600000</Start>
+							<End>79200000</End>
+							<Value>10.0</Value>
+						</Interval>
+					</Intervals>
+					<Exceptions>
+					</Exceptions>
+				</Schedule>
+			</Schedules>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1507474259918</Id>
@@ -2141,7 +2251,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						<Parameter>
 							<Name><![CDATA[arrivalType]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[self.INTERARRIVAL_TIME]]></Code>
+								<Code><![CDATA[self.RATE_SCHEDULE]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2160,6 +2270,9 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rateSchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[customerSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modifyRate]]></Name>
