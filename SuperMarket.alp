@@ -2099,7 +2099,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508333195456</Id>
 					<Name><![CDATA[customerSchedule]]></Name>
-					<X>590</X><Y>520</Y>
+					<X>160</X><Y>10</Y>
 					<Label><X>-15</X><Y>20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2254,12 +2254,90 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					<Exceptions>
 					</Exceptions>
 				</Schedule>
+				<Schedule>
+					<Id>1508337078269</Id>
+					<Name><![CDATA[workerSchedule]]></Name>
+					<X>160</X><Y>50</Y>
+					<Label><X>-10</X><Y>20</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ValueType>integer</ValueType>
+					<UnitType><![CDATA[NONE]]></UnitType>
+					<UnitOfValue Class="RateUnits"><![CDATA[PER_SECOND]]></UnitOfValue>
+					<DefaultValue>0</DefaultValue>
+					<RepresentationMode>intervals</RepresentationMode>
+					<RepresentationType>calendar</RepresentationType>
+					<FirstDayOfWeek>monday</FirstDayOfWeek>
+					<TimeUnitsInterval>hours</TimeUnitsInterval>
+					<RepeatTime>86400000</RepeatTime>
+					<RepeatTimeInterval>days</RepeatTimeInterval>
+					<IsSnapTo>false</IsSnapTo>
+					<SnapTo>1508337137690</SnapTo>
+					<SnapToTimeUnits>minutes</SnapToTimeUnits>
+					<AllDayExceptionMode>false</AllDayExceptionMode>
+					<LoadFromDatabase><![CDATA[false]]></LoadFromDatabase>
+					<IntervalsQuery>
+						<TableReference>
+						</TableReference>
+							<StartColumnReference>
+							</StartColumnReference>
+							<EndColumnReference>
+							</EndColumnReference>
+							<ValueColumnReference>
+							</ValueColumnReference>
+					</IntervalsQuery>
+					<Intervals>
+						<Interval>
+							<Start>0</Start>
+							<End>3600000</End>
+							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>3600000</Start>
+							<End>7200000</End>
+							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>7200000</Start>
+							<End>10800000</End>
+							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>10800000</Start>
+							<End>14400000</End>
+							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>14400000</Start>
+							<End>18000000</End>
+							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>18000000</Start>
+							<End>21600000</End>
+							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>21600000</Start>
+							<End>25200000</End>
+							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>25200000</Start>
+							<End>28800000</End>
+							<Value>5</Value>
+						</Interval>
+					</Intervals>
+					<Exceptions>
+					</Exceptions>
+				</Schedule>
 			</Schedules>
 			<AnalysisData>
     			<HistogramData>
 					<Id>1508335760544</Id>
 					<Name><![CDATA[arrivalRate]]></Name>
-					<X>590</X><Y>570</Y>
+					<X>160</X><Y>90</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5080,7 +5158,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[2]]></Code>
+								<Code><![CDATA[3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5385,6 +5463,9 @@ agent.itemsToBuy.remove("bread");]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacityDefinitionType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.CAPACITY_SCHEDULE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
@@ -5397,6 +5478,9 @@ agent.itemsToBuy.remove("bread");]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacitySchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[workerSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacityScheduleOnOff]]></Name>
@@ -7871,6 +7955,9 @@ if(shelves2.getFreeCell(true)!=null || shelves2.getFreeCell(false)!=null)
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacityDefinitionType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.CAPACITY_SCHEDULE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
@@ -7883,6 +7970,9 @@ if(shelves2.getFreeCell(true)!=null || shelves2.getFreeCell(false)!=null)
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacitySchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[workerSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacityScheduleOnOff]]></Name>
@@ -8446,6 +8536,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacityDefinitionType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.CAPACITY_SCHEDULE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
@@ -8458,6 +8551,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacitySchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[workerSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacityScheduleOnOff]]></Name>
@@ -14356,11 +14452,11 @@ System.out.println("Ho comprato pesce");]]></Code>
 					</Width>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>85</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>35</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 				</Path>
@@ -14521,17 +14617,29 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>	
 				</Attractor>
+				<Attractor>
+					<Id>1508336824996</Id>
+					<Name><![CDATA[attractor69]]></Name>
+					<X>10</X><Y>60</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
 			</Shapes>
 
 
 					<Width>20</Width>
-					<Height>60</Height>
+					<Height>70</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 				<RectangleNode>
 					<Id>1507632870176</Id>
 					<Name><![CDATA[Macelleria]]></Name>
-					<X>520</X><Y>230</Y>
+					<X>520</X><Y>240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14913,7 +15021,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508152944289</Id>
 					<Name><![CDATA[Pescheria]]></Name>
-					<X>520</X><Y>290</Y>
+					<X>520</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14984,10 +15092,13 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>20</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-5</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>10</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-15</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>10</Y><Z>0</Z></Point>
+						<Point><X>20</X><Y>10</Y><Z>0</Z></Point>
+						<Point><X>-5</X><Y>10</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>10</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 				</Path>
@@ -15796,7 +15907,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
 					<Width>10</Width>
-					<Height>60</Height>
+					<Height>70</Height>
 					<Rotation>0.0</Rotation>
 					<FillColor>-3308225</FillColor>
 					<FillMaterial>null</FillMaterial>
@@ -15804,7 +15915,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Rectangle>
 					<Id>1507994128901</Id>
 					<Name><![CDATA[rectangle1]]></Name>
-					<X>540</X><Y>230</Y>
+					<X>540</X><Y>240</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15867,17 +15978,29 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<Z>0</Z>
 					<Rotation>180.0</Rotation>	
 				</Attractor>
+				<Attractor>
+					<Id>1508336827637</Id>
+					<Name><![CDATA[attractor70]]></Name>
+					<X>10</X><Y>60</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>180.0</Rotation>	
+				</Attractor>
 			</Shapes>
 
 
 					<Width>20</Width>
-					<Height>60</Height>
+					<Height>70</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 				<RectangleNode>
 					<Id>1507994161944</Id>
 					<Name><![CDATA[batcherArea]]></Name>
-					<X>550</X><Y>230</Y>
+					<X>550</X><Y>240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -16037,7 +16160,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Rectangle>
 					<Id>1508152888109</Id>
 					<Name><![CDATA[rectangle2]]></Name>
-					<X>540</X><Y>290</Y>
+					<X>540</X><Y>300</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16060,7 +16183,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508152909529</Id>
 					<Name><![CDATA[fishmongerArea]]></Name>
-					<X>550</X><Y>290</Y>
+					<X>550</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -16724,7 +16847,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<Histogram>
 					<Id>1508335799451</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>-10</X><Y>880</Y>
+					<X>-10</X><Y>790</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16748,7 +16871,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
-						<Width>180</Width>
+						<Width>160</Width>
 						<Height>120</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
