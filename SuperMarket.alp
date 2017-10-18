@@ -2133,22 +2133,22 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						<Interval>
 							<Start>28800000</Start>
 							<End>32400000</End>
-							<Value>20.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>32400000</Start>
 							<End>36000000</End>
-							<Value>30.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>36000000</Start>
 							<End>39600000</End>
-							<Value>40.0</Value>
+							<Value>30.0</Value>
 						</Interval>
 						<Interval>
 							<Start>39600000</Start>
 							<End>43200000</End>
-							<Value>50.0</Value>
+							<Value>40.0</Value>
 						</Interval>
 						<Interval>
 							<Start>43200000</Start>
@@ -2199,6 +2199,56 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 							<Start>75600000</Start>
 							<End>79200000</End>
 							<Value>10.0</Value>
+						</Interval>
+						<Interval>
+							<Start>79200000</Start>
+							<End>82800000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>82800000</Start>
+							<End>86400000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>0</Start>
+							<End>3600000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>3600000</Start>
+							<End>7200000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>7200000</Start>
+							<End>10800000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>10800000</Start>
+							<End>14400000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>14400000</Start>
+							<End>18000000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>18000000</Start>
+							<End>21600000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>21600000</Start>
+							<End>25200000</End>
+							<Value>1.0</Value>
+						</Interval>
+						<Interval>
+							<Start>25200000</Start>
+							<End>28800000</End>
+							<Value>1.0</Value>
 						</Interval>
 					</Intervals>
 					<Exceptions>
