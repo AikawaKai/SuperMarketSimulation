@@ -16724,7 +16724,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<Histogram>
 					<Id>1508335799451</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>-10</X><Y>880</Y>
+					<X>-10</X><Y>790</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16748,7 +16748,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
-						<Width>180</Width>
+						<Width>160</Width>
 						<Height>120</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
@@ -16781,7 +16781,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 						<ColorHighPercent>-16728065</ColorHighPercent>
 						<ColorMean>-9728477</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Histogram Data Title]]></Title>							
+						<Title><![CDATA[Arrival Time Distribution]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
 			</Charts>
