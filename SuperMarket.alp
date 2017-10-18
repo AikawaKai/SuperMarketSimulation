@@ -104,7 +104,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Variable Class="PlainVariable">
 					<Id>1508234953872</Id>
 					<Name><![CDATA[totBuy]]></Name>
-					<X>40</X><Y>20</Y>
+					<X>40</X><Y>10</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -119,7 +119,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Variable Class="PlainVariable">
 					<Id>1508235176108</Id>
 					<Name><![CDATA[totBuyAut]]></Name>
-					<X>40</X><Y>40</Y>
+					<X>40</X><Y>30</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -131,10 +131,34 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="Parameter">
+					<Id>1508341612629</Id>
+					<Name><![CDATA[cartNumber]]></Name>
+					<X>40</X><Y>80</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[50]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1508341612627</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
 				<Variable Class="CollectionVariable">
 					<Id>1508235911694</Id>
 					<Name><![CDATA[countProducts]]></Name>
-					<X>40</X><Y>60</Y>
+					<X>40</X><Y>50</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2100,7 +2124,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					<Id>1508333195456</Id>
 					<Name><![CDATA[customerSchedule]]></Name>
 					<X>160</X><Y>10</Y>
-					<Label><X>-15</X><Y>20</Y></Label>
+					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -2257,8 +2281,8 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508337078269</Id>
 					<Name><![CDATA[workerSchedule]]></Name>
-					<X>160</X><Y>50</Y>
-					<Label><X>-10</X><Y>20</Y></Label>
+					<X>160</X><Y>30</Y>
+					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -2296,37 +2320,275 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						<Interval>
 							<Start>3600000</Start>
 							<End>7200000</End>
-							<Value>5</Value>
+							<Value>4</Value>
 						</Interval>
 						<Interval>
 							<Start>7200000</Start>
 							<End>10800000</End>
-							<Value>5</Value>
+							<Value>3</Value>
 						</Interval>
 						<Interval>
 							<Start>10800000</Start>
 							<End>14400000</End>
-							<Value>5</Value>
+							<Value>2</Value>
 						</Interval>
 						<Interval>
 							<Start>14400000</Start>
 							<End>18000000</End>
-							<Value>5</Value>
+							<Value>1</Value>
 						</Interval>
 						<Interval>
 							<Start>18000000</Start>
 							<End>21600000</End>
-							<Value>5</Value>
+							<Value>0</Value>
 						</Interval>
 						<Interval>
 							<Start>21600000</Start>
 							<End>25200000</End>
-							<Value>5</Value>
+							<Value>0</Value>
 						</Interval>
 						<Interval>
 							<Start>25200000</Start>
 							<End>28800000</End>
+							<Value>0</Value>
+						</Interval>
+						<Interval>
+							<Start>28800000</Start>
+							<End>32400000</End>
+							<Value>0</Value>
+						</Interval>
+						<Interval>
+							<Start>32400000</Start>
+							<End>36000000</End>
+							<Value>3</Value>
+						</Interval>
+						<Interval>
+							<Start>36000000</Start>
+							<End>39600000</End>
+							<Value>3</Value>
+						</Interval>
+						<Interval>
+							<Start>39600000</Start>
+							<End>43200000</End>
+							<Value>3</Value>
+						</Interval>
+						<Interval>
+							<Start>43200000</Start>
+							<End>46800000</End>
+							<Value>4</Value>
+						</Interval>
+						<Interval>
+							<Start>46800000</Start>
+							<End>50400000</End>
 							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>50400000</Start>
+							<End>54000000</End>
+							<Value>4</Value>
+						</Interval>
+						<Interval>
+							<Start>54000000</Start>
+							<End>57600000</End>
+							<Value>3</Value>
+						</Interval>
+						<Interval>
+							<Start>57600000</Start>
+							<End>61200000</End>
+							<Value>4</Value>
+						</Interval>
+						<Interval>
+							<Start>61200000</Start>
+							<End>64800000</End>
+							<Value>5</Value>
+						</Interval>
+						<Interval>
+							<Start>64800000</Start>
+							<End>68400000</End>
+							<Value>4</Value>
+						</Interval>
+						<Interval>
+							<Start>68400000</Start>
+							<End>72000000</End>
+							<Value>4</Value>
+						</Interval>
+						<Interval>
+							<Start>72000000</Start>
+							<End>75600000</End>
+							<Value>3</Value>
+						</Interval>
+						<Interval>
+							<Start>75600000</Start>
+							<End>79200000</End>
+							<Value>3</Value>
+						</Interval>
+						<Interval>
+							<Start>79200000</Start>
+							<End>82800000</End>
+							<Value>2</Value>
+						</Interval>
+						<Interval>
+							<Start>82800000</Start>
+							<End>86400000</End>
+							<Value>1</Value>
+						</Interval>
+					</Intervals>
+					<Exceptions>
+					</Exceptions>
+				</Schedule>
+				<Schedule>
+					<Id>1508339174498</Id>
+					<Name><![CDATA[foodSchedule]]></Name>
+					<X>160</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ValueType>double_</ValueType>
+					<UnitType><![CDATA[RATE]]></UnitType>
+					<UnitOfValue Class="RateUnits"><![CDATA[PER_HOUR]]></UnitOfValue>
+					<DefaultValue>0.0</DefaultValue>
+					<RepresentationMode>intervals</RepresentationMode>
+					<RepresentationType>calendar</RepresentationType>
+					<FirstDayOfWeek>monday</FirstDayOfWeek>
+					<TimeUnitsInterval>hours</TimeUnitsInterval>
+					<RepeatTime>86400000</RepeatTime>
+					<RepeatTimeInterval>days</RepeatTimeInterval>
+					<IsSnapTo>false</IsSnapTo>
+					<SnapTo>1508337137690</SnapTo>
+					<SnapToTimeUnits>minutes</SnapToTimeUnits>
+					<AllDayExceptionMode>false</AllDayExceptionMode>
+					<LoadFromDatabase><![CDATA[false]]></LoadFromDatabase>
+					<IntervalsQuery>
+						<TableReference>
+						</TableReference>
+							<StartColumnReference>
+							</StartColumnReference>
+							<EndColumnReference>
+							</EndColumnReference>
+							<ValueColumnReference>
+							</ValueColumnReference>
+					</IntervalsQuery>
+					<Intervals>
+						<Interval>
+							<Start>0</Start>
+							<End>3600000</End>
+							<Value>400.0</Value>
+						</Interval>
+						<Interval>
+							<Start>3600000</Start>
+							<End>7200000</End>
+							<Value>200.0</Value>
+						</Interval>
+						<Interval>
+							<Start>7200000</Start>
+							<End>10800000</End>
+							<Value>100.0</Value>
+						</Interval>
+						<Interval>
+							<Start>10800000</Start>
+							<End>14400000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>14400000</Start>
+							<End>18000000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>18000000</Start>
+							<End>21600000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>21600000</Start>
+							<End>25200000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>25200000</Start>
+							<End>28800000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>28800000</Start>
+							<End>32400000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>32400000</Start>
+							<End>36000000</End>
+							<Value>40.0</Value>
+						</Interval>
+						<Interval>
+							<Start>36000000</Start>
+							<End>39600000</End>
+							<Value>30.0</Value>
+						</Interval>
+						<Interval>
+							<Start>39600000</Start>
+							<End>43200000</End>
+							<Value>20.0</Value>
+						</Interval>
+						<Interval>
+							<Start>43200000</Start>
+							<End>46800000</End>
+							<Value>20.0</Value>
+						</Interval>
+						<Interval>
+							<Start>46800000</Start>
+							<End>50400000</End>
+							<Value>100.0</Value>
+						</Interval>
+						<Interval>
+							<Start>50400000</Start>
+							<End>54000000</End>
+							<Value>200.0</Value>
+						</Interval>
+						<Interval>
+							<Start>54000000</Start>
+							<End>57600000</End>
+							<Value>300.0</Value>
+						</Interval>
+						<Interval>
+							<Start>57600000</Start>
+							<End>61200000</End>
+							<Value>100.0</Value>
+						</Interval>
+						<Interval>
+							<Start>61200000</Start>
+							<End>64800000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>64800000</Start>
+							<End>68400000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>68400000</Start>
+							<End>72000000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>72000000</Start>
+							<End>75600000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>75600000</Start>
+							<End>79200000</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>79200000</Start>
+							<End>82800000</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>82800000</Start>
+							<End>86400000</End>
+							<Value>0.0</Value>
 						</Interval>
 					</Intervals>
 					<Exceptions>
@@ -2337,12 +2599,43 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
     			<HistogramData>
 					<Id>1508335760544</Id>
 					<Name><![CDATA[arrivalRate]]></Name>
-					<X>160</X><Y>90</Y>
+					<X>160</X><Y>70</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1508400000000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<Value><![CDATA[]]></Value>
+					<NumberOfIntervals>24</NumberOfIntervals>
+					<MinMaxAutodetect>false</MinMaxAutodetect>
+					<RangeMinExpression><![CDATA[0]]></RangeMinExpression>
+					<RangeMaxExpression><![CDATA[24]]></RangeMaxExpression>
+					<InitialIntervalSize><![CDATA[0.1]]></InitialIntervalSize>
+					<CalculateCDF>true</CalculateCDF>
+					<CalculatePercentiles>false</CalculatePercentiles>
+					<LowPercent>10</LowPercent>
+					<HighPercent>10</HighPercent>
+					<Title><![CDATA[]]></Title>
+				</HistogramData>
+    			<HistogramData>
+					<Id>1508342230337</Id>
+					<Name><![CDATA[arrivalFoodRate]]></Name>
+					<X>160</X><Y>90</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
 					<OccurrenceAtTime>true</OccurrenceAtTime>
 					<OccurrenceDate>1508400000000</OccurrenceDate>
 					<OccurrenceTime Class="CodeUnitValue">
@@ -5779,6 +6072,9 @@ agent.itemsToBuy.remove("bread");]]></Code>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[arrivalType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.RATE_SCHEDULE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
@@ -5792,6 +6088,9 @@ agent.itemsToBuy.remove("bread");]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rateSchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[foodSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modifyRate]]></Name>
@@ -5801,6 +6100,9 @@ agent.itemsToBuy.remove("bread");]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[arrivalSchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[foodSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[setAgentParametersFromDB]]></Name>
@@ -5963,6 +6265,9 @@ agent.itemsToBuy.remove("bread");]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[arrivalFoodRate.add( getHourOfDay() );]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onDiscard]]></Name>
@@ -6998,6 +7303,9 @@ agent.Bought = true;]]></Code>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[arrivalType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.RATE_SCHEDULE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
@@ -7011,6 +7319,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rateSchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[foodSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modifyRate]]></Name>
@@ -7020,6 +7331,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[arrivalSchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[foodSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[setAgentParametersFromDB]]></Name>
@@ -8852,6 +9166,9 @@ agent.Bought = true;]]></Code>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[arrivalType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.RATE_SCHEDULE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
@@ -8869,6 +9186,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rateSchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[foodSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modifyRate]]></Name>
@@ -8878,6 +9198,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[arrivalSchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[foodSchedule]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[setAgentParametersFromDB]]></Name>
@@ -12397,7 +12720,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508260415427</Id>
 					<Name><![CDATA[cartPool]]></Name>
-					<X>1360</X><Y>180</Y>
+					<X>1100</X><Y>60</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12423,7 +12746,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[100]]></Code>
+								<Code><![CDATA[cartNumber]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -16619,6 +16942,32 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 			</Shapes>
+			<Controls>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1508341661488</Id>
+					<Name><![CDATA[slider]]></Name>
+					<X>30</X><Y>90</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<BasicProperties Width="100" Height="30" 
+				AsObject="true">
+                        <EmbeddedIcon>false</EmbeddedIcon>				
+						<FillColor/>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[0]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[30]]></MinValue>
+						<MaxValue><![CDATA[100]]></MaxValue>
+						<LinkTo>true</LinkTo>
+						<Link>cartNumber</Link>
+					</ExtendedProperties>
+				</Control>
+			</Controls>
 			<Charts>
     			<BarChart>
 					<Id>1508234592328</Id>
@@ -16769,14 +17118,14 @@ System.out.println("Ho comprato pesce");]]></Code>
 						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 					</RecurrenceCode>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
-					<Height>290</Height>
+					<Width>350</Width>
+					<Height>250</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>20</YOffset>
-						<Width>190</Width>
+						<Width>280</Width>
 						<Height>130</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
@@ -16785,7 +17134,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>120</Size>
+						<Size>80</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -16847,7 +17196,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<Histogram>
 					<Id>1508335799451</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>-10</X><Y>790</Y>
+					<X>-10</X><Y>830</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16904,7 +17253,70 @@ System.out.println("Ho comprato pesce");]]></Code>
 						<ColorHighPercent>-16728065</ColorHighPercent>
 						<ColorMean>-9728477</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Arrival Time Distribution]]></Title>							
+						<Title><![CDATA[Arrival Customer Distribution]]></Title>							
+					</HistogramDataExpression>
+    			</Histogram>
+    			<Histogram>
+					<Id>1508342188477</Id>
+					<Name><![CDATA[chart2]]></Name>
+					<X>260</X><Y>820</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1508400000000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>260</Width>
+					<Height>210</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>180</Width>
+						<Height>120</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<Persistent>true</Persistent>
+					<ShowLegend>true</ShowLegend>
+					<ShowPDF>true</ShowPDF>
+					<ShowCDF>false</ShowCDF>
+					<ShowMean>false</ShowMean>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+					<HistogramDataExpression>
+					<Expression><![CDATA[arrivalFoodRate]]></Expression>
+						<ColorPDF>-13447886</ColorPDF>
+						<ColorCDF>-13447886</ColorCDF>
+						<ColorLowPercent>-29696</ColorLowPercent>
+						<ColorHighPercent>-9404272</ColorHighPercent>
+						<ColorMean>-6632142</ColorMean>
+						<LineWidth>1</LineWidth>						
+						<Title><![CDATA[Arrival Food Rate]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
 			</Charts>
@@ -20087,6 +20499,9 @@ getPresentation().setPresentable( getEngine().getRoot() );]]></ActionCode>
 			</Controls>
 
 			<Parameters>			
+				<Parameter>
+					<ParameterName><![CDATA[cartNumber]]></ParameterName>
+				</Parameter>
 			</Parameters>			
 			<PresentationProperties 
 				EnableAdaptiveFrameManagement="true" 
