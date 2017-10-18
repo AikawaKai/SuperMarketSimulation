@@ -2131,130 +2131,163 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					</IntervalsQuery>
 					<Intervals>
 						<Interval>
-							<Start>28800000</Start>
-							<End>32400000</End>
-							<Value>10.0</Value>
-						</Interval>
-						<Interval>
-							<Start>32400000</Start>
-							<End>36000000</End>
-							<Value>20.0</Value>
-						</Interval>
-						<Interval>
-							<Start>36000000</Start>
-							<End>39600000</End>
-							<Value>30.0</Value>
-						</Interval>
-						<Interval>
-							<Start>39600000</Start>
-							<End>43200000</End>
-							<Value>40.0</Value>
-						</Interval>
-						<Interval>
-							<Start>43200000</Start>
-							<End>46800000</End>
-							<Value>50.0</Value>
-						</Interval>
-						<Interval>
-							<Start>46800000</Start>
-							<End>50400000</End>
-							<Value>40.0</Value>
-						</Interval>
-						<Interval>
-							<Start>50400000</Start>
-							<End>54000000</End>
-							<Value>30.0</Value>
-						</Interval>
-						<Interval>
-							<Start>54000000</Start>
-							<End>57600000</End>
-							<Value>20.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57600000</Start>
-							<End>61200000</End>
-							<Value>30.0</Value>
-						</Interval>
-						<Interval>
-							<Start>61200000</Start>
-							<End>64800000</End>
-							<Value>40.0</Value>
-						</Interval>
-						<Interval>
-							<Start>64800000</Start>
-							<End>68400000</End>
-							<Value>50.0</Value>
-						</Interval>
-						<Interval>
-							<Start>68400000</Start>
-							<End>72000000</End>
-							<Value>30.0</Value>
-						</Interval>
-						<Interval>
-							<Start>72000000</Start>
-							<End>75600000</End>
-							<Value>20.0</Value>
-						</Interval>
-						<Interval>
-							<Start>75600000</Start>
-							<End>79200000</End>
-							<Value>10.0</Value>
-						</Interval>
-						<Interval>
-							<Start>79200000</Start>
-							<End>82800000</End>
-							<Value>1.0</Value>
-						</Interval>
-						<Interval>
-							<Start>82800000</Start>
-							<End>86400000</End>
-							<Value>1.0</Value>
-						</Interval>
-						<Interval>
 							<Start>0</Start>
 							<End>3600000</End>
-							<Value>1.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>3600000</Start>
 							<End>7200000</End>
-							<Value>1.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>7200000</Start>
 							<End>10800000</End>
-							<Value>1.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>10800000</Start>
 							<End>14400000</End>
-							<Value>1.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>14400000</Start>
 							<End>18000000</End>
-							<Value>1.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>18000000</Start>
 							<End>21600000</End>
-							<Value>1.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>21600000</Start>
 							<End>25200000</End>
-							<Value>1.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>25200000</Start>
 							<End>28800000</End>
-							<Value>1.0</Value>
+							<Value>10.0</Value>
+						</Interval>
+						<Interval>
+							<Start>28800000</Start>
+							<End>28800000</End>
+							<Value>20.0</Value>
+						</Interval>
+						<Interval>
+							<Start>32400000</Start>
+							<End>32400000</End>
+							<Value>30.0</Value>
+						</Interval>
+						<Interval>
+							<Start>36000000</Start>
+							<End>36000000</End>
+							<Value>40.0</Value>
+						</Interval>
+						<Interval>
+							<Start>39600000</Start>
+							<End>39600000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>43200000</Start>
+							<End>43200000</End>
+							<Value>60.0</Value>
+						</Interval>
+						<Interval>
+							<Start>46800000</Start>
+							<End>46800000</End>
+							<Value>70.0</Value>
+						</Interval>
+						<Interval>
+							<Start>50400000</Start>
+							<End>50400000</End>
+							<Value>60.0</Value>
+						</Interval>
+						<Interval>
+							<Start>54000000</Start>
+							<End>54000000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>57600000</Start>
+							<End>57600000</End>
+							<Value>40.0</Value>
+						</Interval>
+						<Interval>
+							<Start>61200000</Start>
+							<End>61200000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>64800000</Start>
+							<End>64800000</End>
+							<Value>60.0</Value>
+						</Interval>
+						<Interval>
+							<Start>68400000</Start>
+							<End>68400000</End>
+							<Value>50.0</Value>
+						</Interval>
+						<Interval>
+							<Start>72000000</Start>
+							<End>72000000</End>
+							<Value>40.0</Value>
+						</Interval>
+						<Interval>
+							<Start>75600000</Start>
+							<End>75600000</End>
+							<Value>30.0</Value>
+						</Interval>
+						<Interval>
+							<Start>79200000</Start>
+							<End>82800000</End>
+							<Value>20.0</Value>
+						</Interval>
+						<Interval>
+							<Start>82800000</Start>
+							<End>86400000</End>
+							<Value>10.0</Value>
 						</Interval>
 					</Intervals>
 					<Exceptions>
 					</Exceptions>
 				</Schedule>
 			</Schedules>
+			<AnalysisData>
+    			<HistogramData>
+					<Id>1508335760544</Id>
+					<Name><![CDATA[arrivalRate]]></Name>
+					<X>590</X><Y>570</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1508400000000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<Value><![CDATA[]]></Value>
+					<NumberOfIntervals>24</NumberOfIntervals>
+					<MinMaxAutodetect>false</MinMaxAutodetect>
+					<RangeMinExpression><![CDATA[0]]></RangeMinExpression>
+					<RangeMaxExpression><![CDATA[24]]></RangeMaxExpression>
+					<InitialIntervalSize><![CDATA[0.1]]></InitialIntervalSize>
+					<CalculateCDF>true</CalculateCDF>
+					<CalculatePercentiles>false</CalculatePercentiles>
+					<LowPercent>10</LowPercent>
+					<HighPercent>10</HighPercent>
+					<Title><![CDATA[]]></Title>
+				</HistogramData>
+			</AnalysisData>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1507474259918</Id>
@@ -2503,6 +2536,9 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[arrivalRate.add( getHourOfDay() );]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onDiscard]]></Name>
@@ -16685,6 +16721,69 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<VerScaleType>AUTO</VerScaleType>
 					<LabelFormat>MODEL_TIME_UNITS</LabelFormat>
     			</TimeStackChart>
+    			<Histogram>
+					<Id>1508335799451</Id>
+					<Name><![CDATA[chart]]></Name>
+					<X>-10</X><Y>880</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1508400000000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>260</Width>
+					<Height>210</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>180</Width>
+						<Height>120</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<Persistent>true</Persistent>
+					<ShowLegend>true</ShowLegend>
+					<ShowPDF>true</ShowPDF>
+					<ShowCDF>false</ShowCDF>
+					<ShowMean>false</ShowMean>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+					<HistogramDataExpression>
+					<Expression><![CDATA[arrivalRate]]></Expression>
+						<ColorPDF>-29696</ColorPDF>
+						<ColorCDF>-3137392</ColorCDF>
+						<ColorLowPercent>-10496</ColorLowPercent>
+						<ColorHighPercent>-16728065</ColorHighPercent>
+						<ColorMean>-9728477</ColorMean>
+						<LineWidth>1</LineWidth>						
+						<Title><![CDATA[Histogram Data Title]]></Title>							
+					</HistogramDataExpression>
+    			</Histogram>
 			</Charts>
 
 		</ActiveObjectClass>
@@ -19758,7 +19857,7 @@ printObjectsToBuy();]]></Action>
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
 		<Width>1820</Width>
-		<Height>890</Height>
+		<Height>1120</Height>
 	</Frame>
 	<Database>
 		<Logging>false</Logging>
