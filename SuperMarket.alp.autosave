@@ -104,7 +104,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Variable Class="PlainVariable">
 					<Id>1508234953872</Id>
 					<Name><![CDATA[totBuy]]></Name>
-					<X>40</X><Y>10</Y>
+					<X>220</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -119,7 +119,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Variable Class="PlainVariable">
 					<Id>1508235176108</Id>
 					<Name><![CDATA[totBuyAut]]></Name>
-					<X>40</X><Y>30</Y>
+					<X>220</X><Y>180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -134,7 +134,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Variable Class="Parameter">
 					<Id>1508341612629</Id>
 					<Name><![CDATA[cartNumber]]></Name>
-					<X>40</X><Y>70</Y>
+					<X>220</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -158,7 +158,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Variable Class="CollectionVariable">
 					<Id>1508235911694</Id>
 					<Name><![CDATA[countProducts]]></Name>
-					<X>40</X><Y>50</Y>
+					<X>220</X><Y>200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -178,7 +178,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507632643554</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>910</X><Y>420</Y>
+					<X>1090</X><Y>570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -211,7 +211,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507632917223</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>960</X><Y>470</Y>
+					<X>1140</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -244,7 +244,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507632926067</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>1000</X><Y>470</Y>
+					<X>1180</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -282,7 +282,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507635442597</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>1000</X><Y>420</Y>
+					<X>1180</X><Y>570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -321,7 +321,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507636493309</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>800</X><Y>440</Y>
+					<X>980</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -356,7 +356,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507720323408</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>1250</X><Y>440</Y>
+					<X>1430</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -391,7 +391,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507802682145</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>1180</X><Y>440</Y>
+					<X>1360</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -424,7 +424,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507892892908</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>1290</X><Y>490</Y>
+					<X>1470</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -459,7 +459,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507975053997</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>740</X><Y>390</Y>
+					<X>920</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -492,7 +492,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1507975222697</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>780</X><Y>440</Y>
+					<X>960</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -526,7 +526,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508064224902</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>820</X><Y>150</Y>
+					<X>1000</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -559,7 +559,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508065207925</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>780</X><Y>490</Y>
+					<X>960</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -593,7 +593,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508065239566</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>800</X><Y>490</Y>
+					<X>980</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -628,7 +628,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508071931047</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>790</X><Y>500</Y>
+					<X>970</X><Y>650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -661,7 +661,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508073618049</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>890</X><Y>150</Y>
+					<X>1070</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -694,7 +694,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508074086799</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>650</X><Y>150</Y>
+					<X>810</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -721,13 +721,13 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>30</X><Y>0</Y></Point>
+						<Point><X>50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1508074086800</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>720</X><Y>150</Y>
+					<X>900</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -760,7 +760,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508080309668</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>910</X><Y>510</Y>
+					<X>1090</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -798,7 +798,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508080404979</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>970</X><Y>150</Y>
+					<X>1150</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -831,7 +831,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508082372981</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>820</X><Y>220</Y>
+					<X>1000</X><Y>370</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -864,7 +864,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508082372983</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>890</X><Y>220</Y>
+					<X>1070</X><Y>370</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -897,7 +897,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508082372985</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>650</X><Y>220</Y>
+					<X>810</X><Y>370</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -924,13 +924,13 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>30</X><Y>0</Y></Point>
+						<Point><X>50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1508082372987</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>720</X><Y>220</Y>
+					<X>900</X><Y>370</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -963,7 +963,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508082372989</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>970</X><Y>220</Y>
+					<X>1150</X><Y>370</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -996,7 +996,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508148022503</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>810</X><Y>520</Y>
+					<X>990</X><Y>670</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1031,7 +1031,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508148130080</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>910</X><Y>555</Y>
+					<X>1090</X><Y>705</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1069,7 +1069,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508151190346</Id>
 					<Name><![CDATA[connector31]]></Name>
-					<X>820</X><Y>80</Y>
+					<X>1000</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1102,7 +1102,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508151190348</Id>
 					<Name><![CDATA[connector32]]></Name>
-					<X>890</X><Y>80</Y>
+					<X>1070</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1135,7 +1135,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508151190350</Id>
 					<Name><![CDATA[connector33]]></Name>
-					<X>650</X><Y>80</Y>
+					<X>810</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1162,13 +1162,13 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>30</X><Y>0</Y></Point>
+						<Point><X>50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1508151190352</Id>
 					<Name><![CDATA[connector34]]></Name>
-					<X>720</X><Y>80</Y>
+					<X>900</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1201,7 +1201,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508151190354</Id>
 					<Name><![CDATA[connector35]]></Name>
-					<X>970</X><Y>80</Y>
+					<X>1150</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1234,7 +1234,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508151676892</Id>
 					<Name><![CDATA[connector36]]></Name>
-					<X>820</X><Y>555</Y>
+					<X>1000</X><Y>705</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1267,7 +1267,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508151776617</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>800</X><Y>555</Y>
+					<X>980</X><Y>705</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1300,7 +1300,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508151856288</Id>
 					<Name><![CDATA[connector37]]></Name>
-					<X>810</X><Y>565</Y>
+					<X>990</X><Y>715</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1334,7 +1334,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508151941257</Id>
 					<Name><![CDATA[connector38]]></Name>
-					<X>910</X><Y>605</Y>
+					<X>1090</X><Y>755</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1373,7 +1373,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508153123080</Id>
 					<Name><![CDATA[connector39]]></Name>
-					<X>830</X><Y>605</Y>
+					<X>1010</X><Y>755</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1406,7 +1406,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508153214052</Id>
 					<Name><![CDATA[connector40]]></Name>
-					<X>820</X><Y>615</Y>
+					<X>1000</X><Y>765</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1440,7 +1440,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508153241084</Id>
 					<Name><![CDATA[connector41]]></Name>
-					<X>960</X><Y>660</Y>
+					<X>1140</X><Y>810</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1473,7 +1473,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508153343038</Id>
 					<Name><![CDATA[connector42]]></Name>
-					<X>1000</X><Y>660</Y>
+					<X>1180</X><Y>810</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1511,7 +1511,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508233104001</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>1000</X><Y>350</Y>
+					<X>1180</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1545,7 +1545,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508233104002</Id>
 					<Name><![CDATA[connector43]]></Name>
-					<X>1110</X><Y>360</Y>
+					<X>1290</X><Y>510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1579,7 +1579,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508233195912</Id>
 					<Name><![CDATA[connector45]]></Name>
-					<X>1210</X><Y>520</Y>
+					<X>1390</X><Y>670</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1612,7 +1612,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508233331147</Id>
 					<Name><![CDATA[connector46]]></Name>
-					<X>1250</X><Y>520</Y>
+					<X>1430</X><Y>670</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1647,7 +1647,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508233863108</Id>
 					<Name><![CDATA[connector44]]></Name>
-					<X>1140</X><Y>520</Y>
+					<X>1320</X><Y>670</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1681,7 +1681,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508237539956</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>990</X><Y>340</Y>
+					<X>1170</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1714,7 +1714,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508237539957</Id>
 					<Name><![CDATA[connector47]]></Name>
-					<X>830</X><Y>330</Y>
+					<X>1010</X><Y>480</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1749,7 +1749,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508237856434</Id>
 					<Name><![CDATA[connector48]]></Name>
-					<X>870</X><Y>290</Y>
+					<X>1050</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1783,7 +1783,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508237884085</Id>
 					<Name><![CDATA[connector49]]></Name>
-					<X>930</X><Y>290</Y>
+					<X>1110</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1816,7 +1816,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508237965652</Id>
 					<Name><![CDATA[connector50]]></Name>
-					<X>970</X><Y>290</Y>
+					<X>1150</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1851,7 +1851,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508260883787</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>680</X><Y>390</Y>
+					<X>860</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1884,7 +1884,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508260883788</Id>
 					<Name><![CDATA[connector51]]></Name>
-					<X>620</X><Y>390</Y>
+					<X>800</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1917,7 +1917,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508261013740</Id>
 					<Name><![CDATA[connector52]]></Name>
-					<X>630</X><Y>450</Y>
+					<X>810</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1952,7 +1952,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508261071933</Id>
 					<Name><![CDATA[connector53]]></Name>
-					<X>670</X><Y>450</Y>
+					<X>850</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1986,7 +1986,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508261217697</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>1475</X><Y>490</Y>
+					<X>1655</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2019,7 +2019,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508261217698</Id>
 					<Name><![CDATA[connector54]]></Name>
-					<X>1380</X><Y>490</Y>
+					<X>1560</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2052,7 +2052,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508261468178</Id>
 					<Name><![CDATA[connector55]]></Name>
-					<X>1390</X><Y>500</Y>
+					<X>1570</X><Y>650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2086,7 +2086,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Connector>
 					<Id>1508261505260</Id>
 					<Name><![CDATA[connector56]]></Name>
-					<X>1450</X><Y>530</Y>
+					<X>1630</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2123,7 +2123,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508333195456</Id>
 					<Name><![CDATA[customerSchedule]]></Name>
-					<X>140</X><Y>10</Y>
+					<X>320</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2281,7 +2281,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508337078269</Id>
 					<Name><![CDATA[workerSchedule]]></Name>
-					<X>140</X><Y>30</Y>
+					<X>320</X><Y>180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2439,7 +2439,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508339174498</Id>
 					<Name><![CDATA[foodSchedule]]></Name>
-					<X>140</X><Y>50</Y>
+					<X>320</X><Y>200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2473,87 +2473,87 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						<Interval>
 							<Start>0</Start>
 							<End>3600000</End>
-							<Value>400.0</Value>
+							<Value>200.0</Value>
 						</Interval>
 						<Interval>
 							<Start>3600000</Start>
 							<End>7200000</End>
-							<Value>200.0</Value>
+							<Value>100.0</Value>
 						</Interval>
 						<Interval>
 							<Start>7200000</Start>
 							<End>10800000</End>
-							<Value>100.0</Value>
+							<Value>50.0</Value>
 						</Interval>
 						<Interval>
 							<Start>10800000</Start>
 							<End>14400000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>14400000</Start>
 							<End>18000000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>18000000</Start>
 							<End>21600000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>21600000</Start>
 							<End>25200000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>25200000</Start>
 							<End>28800000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>28800000</Start>
 							<End>32400000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>32400000</Start>
 							<End>36000000</End>
-							<Value>40.0</Value>
+							<Value>50.0</Value>
 						</Interval>
 						<Interval>
 							<Start>36000000</Start>
 							<End>39600000</End>
-							<Value>30.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>39600000</Start>
 							<End>43200000</End>
-							<Value>20.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>43200000</Start>
 							<End>46800000</End>
-							<Value>20.0</Value>
+							<Value>10.0</Value>
 						</Interval>
 						<Interval>
 							<Start>46800000</Start>
 							<End>50400000</End>
-							<Value>100.0</Value>
+							<Value>50.0</Value>
 						</Interval>
 						<Interval>
 							<Start>50400000</Start>
 							<End>54000000</End>
-							<Value>200.0</Value>
+							<Value>100.0</Value>
 						</Interval>
 						<Interval>
 							<Start>54000000</Start>
 							<End>57600000</End>
-							<Value>300.0</Value>
+							<Value>150.0</Value>
 						</Interval>
 						<Interval>
 							<Start>57600000</Start>
 							<End>61200000</End>
-							<Value>100.0</Value>
+							<Value>50.0</Value>
 						</Interval>
 						<Interval>
 							<Start>61200000</Start>
@@ -2563,17 +2563,17 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 						<Interval>
 							<Start>64800000</Start>
 							<End>68400000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>68400000</Start>
 							<End>72000000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>72000000</Start>
 							<End>75600000</End>
-							<Value>50.0</Value>
+							<Value>20.0</Value>
 						</Interval>
 						<Interval>
 							<Start>75600000</Start>
@@ -2597,7 +2597,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508343050762</Id>
 					<Name><![CDATA[batcherScheduler]]></Name>
-					<X>270</X><Y>10</Y>
+					<X>450</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2754,7 +2754,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508343520588</Id>
 					<Name><![CDATA[bakerSchedule]]></Name>
-					<X>270</X><Y>30</Y>
+					<X>450</X><Y>180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2911,7 +2911,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<Schedule>
 					<Id>1508343678402</Id>
 					<Name><![CDATA[fishmongerSchedule]]></Name>
-					<X>390</X><Y>10</Y>
+					<X>570</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3070,7 +3070,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
     			<HistogramData>
 					<Id>1508335760544</Id>
 					<Name><![CDATA[arrivalRate]]></Name>
-					<X>140</X><Y>70</Y>
+					<X>320</X><Y>220</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3101,7 +3101,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
     			<HistogramData>
 					<Id>1508342230337</Id>
 					<Name><![CDATA[arrivalFoodRate]]></Name>
-					<X>140</X><Y>90</Y>
+					<X>320</X><Y>240</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3134,7 +3134,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<AgentLink>
 					<Id>1507474259918</Id>
 					<Name><![CDATA[connections]]></Name>
-					<X>50</X><Y>-50</Y>
+					<X>230</X><Y>100</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3156,7 +3156,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<EmbeddedObject>
 					<Id>1507631241732</Id>
 					<Name><![CDATA[costumerSource]]></Name>
-					<X>570</X><Y>380</Y>
+					<X>750</X><Y>530</Y>
 					<Label><X>0</X><Y>35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3432,7 +3432,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<EmbeddedObject>
 					<Id>1507631329483</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>1475</X><Y>480</Y>
+					<X>1655</X><Y>630</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3502,7 +3502,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<EmbeddedObject>
 					<Id>1507631349233</Id>
 					<Name><![CDATA[moveToExit]]></Name>
-					<X>1290</X><Y>470</Y>
+					<X>1470</X><Y>620</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3659,7 +3659,7 @@ import jdk.management.resource.internal.TotalResourceContext;]]></Import>
 				<EmbeddedObject>
 					<Id>1507632382493</Id>
 					<Name><![CDATA[PanetteriaService]]></Name>
-					<X>960</X><Y>400</Y>
+					<X>1140</X><Y>550</Y>
 					<Label><X>-25</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3882,7 +3882,7 @@ System.out.println("Ho comprato pane");]]></Code>
 				<EmbeddedObject>
 					<Id>1507632640741</Id>
 					<Name><![CDATA[goToPanetteria]]></Name>
-					<X>870</X><Y>400</Y>
+					<X>1050</X><Y>550</Y>
 					<Label><X>-20</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4045,7 +4045,7 @@ System.out.println("Ho comprato pane");]]></Code>
 				<EmbeddedObject>
 					<Id>1507632896769</Id>
 					<Name><![CDATA[goToMacelleria]]></Name>
-					<X>870</X><Y>450</Y>
+					<X>1050</X><Y>600</Y>
 					<Label><X>-15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4208,7 +4208,7 @@ System.out.println("Ho comprato pane");]]></Code>
 				<EmbeddedObject>
 					<Id>1507632915816</Id>
 					<Name><![CDATA[MacelleriaService]]></Name>
-					<X>960</X><Y>450</Y>
+					<X>1140</X><Y>600</Y>
 					<Label><X>-30</X><Y>50</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4431,7 +4431,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507634212299</Id>
 					<Name><![CDATA[moveIn]]></Name>
-					<X>680</X><Y>370</Y>
+					<X>860</X><Y>520</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4595,7 +4595,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507720085878</Id>
 					<Name><![CDATA[paymentService]]></Name>
-					<X>1210</X><Y>420</Y>
+					<X>1390</X><Y>570</Y>
 					<Label><X>-25</X><Y>45</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4810,7 +4810,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507802681004</Id>
 					<Name><![CDATA[moveToCash]]></Name>
-					<X>1140</X><Y>420</Y>
+					<X>1320</X><Y>570</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4973,7 +4973,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507975052735</Id>
 					<Name><![CDATA[needsToBuy]]></Name>
-					<X>730</X><Y>380</Y>
+					<X>910</X><Y>530</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5064,7 +5064,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507975076708</Id>
 					<Name><![CDATA[needsToPay]]></Name>
-					<X>980</X><Y>330</Y>
+					<X>1160</X><Y>480</Y>
 					<Label><X>5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5164,7 +5164,7 @@ System.out.println("Ho comprato carne");]]></Code>
 				<EmbeddedObject>
 					<Id>1507975220731</Id>
 					<Name><![CDATA[whichOne]]></Name>
-					<X>770</X><Y>430</Y>
+					<X>950</X><Y>580</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5263,7 +5263,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1507992840481</Id>
 					<Name><![CDATA[cashierPoll]]></Name>
-					<X>1020</X><Y>120</Y>
+					<X>1200</X><Y>270</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5575,7 +5575,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1507993944936</Id>
 					<Name><![CDATA[batcherPool]]></Name>
-					<X>1100</X><Y>120</Y>
+					<X>1280</X><Y>270</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5893,7 +5893,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1507993961672</Id>
 					<Name><![CDATA[bakerPool]]></Name>
-					<X>1180</X><Y>120</Y>
+					<X>1360</X><Y>270</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6211,7 +6211,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1508061417895</Id>
 					<Name><![CDATA[wharehousemen]]></Name>
-					<X>1260</X><Y>120</Y>
+					<X>1440</X><Y>270</Y>
 					<Label><X>-35</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6530,7 +6530,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1508062030869</Id>
 					<Name><![CDATA[goodsSource]]></Name>
-					<X>620</X><Y>140</Y>
+					<X>780</X><Y>290</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6796,7 +6796,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1508062316401</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>970</X><Y>140</Y>
+					<X>1150</X><Y>290</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6866,7 +6866,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1508063472876</Id>
 					<Name><![CDATA[putFood]]></Name>
-					<X>750</X><Y>130</Y>
+					<X>930</X><Y>280</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7068,7 +7068,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1508064224058</Id>
 					<Name><![CDATA[delay]]></Name>
-					<X>820</X><Y>130</Y>
+					<X>1000</X><Y>280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7181,7 +7181,7 @@ agent.itemsToBuy.remove("bread");]]></Code>
 				<EmbeddedObject>
 					<Id>1508065191206</Id>
 					<Name><![CDATA[whichOne2]]></Name>
-					<X>770</X><Y>480</Y>
+					<X>950</X><Y>630</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7277,7 +7277,7 @@ agent.itemsToBuy.remove("meat");]]></Code>
 				<EmbeddedObject>
 					<Id>1508071922436</Id>
 					<Name><![CDATA[goToShelves]]></Name>
-					<X>870</X><Y>490</Y>
+					<X>1050</X><Y>640</Y>
 					<Label><X>-10</X><Y>44</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7447,7 +7447,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508073615923</Id>
 					<Name><![CDATA[getFood]]></Name>
-					<X>890</X><Y>130</Y>
+					<X>1070</X><Y>280</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7648,7 +7648,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508074085268</Id>
 					<Name><![CDATA[waitIfFull]]></Name>
-					<X>680</X><Y>130</Y>
+					<X>860</X><Y>280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7761,7 +7761,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372921</Id>
 					<Name><![CDATA[goodsSource1]]></Name>
-					<X>620</X><Y>210</Y>
+					<X>780</X><Y>360</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8024,7 +8024,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372936</Id>
 					<Name><![CDATA[sink2]]></Name>
-					<X>970</X><Y>210</Y>
+					<X>1150</X><Y>360</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8094,7 +8094,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372952</Id>
 					<Name><![CDATA[putFood1]]></Name>
-					<X>750</X><Y>200</Y>
+					<X>930</X><Y>350</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8296,7 +8296,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372956</Id>
 					<Name><![CDATA[delay1]]></Name>
-					<X>820</X><Y>200</Y>
+					<X>1000</X><Y>350</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8409,7 +8409,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372967</Id>
 					<Name><![CDATA[getFood1]]></Name>
-					<X>890</X><Y>200</Y>
+					<X>1070</X><Y>350</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8610,7 +8610,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508082372971</Id>
 					<Name><![CDATA[waitIfFull1]]></Name>
-					<X>680</X><Y>200</Y>
+					<X>860</X><Y>350</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8724,7 +8724,7 @@ if(shelves2.getFreeCell(true)!=null || shelves2.getFreeCell(false)!=null)
 				<EmbeddedObject>
 					<Id>1508082465777</Id>
 					<Name><![CDATA[wharehousemen1]]></Name>
-					<X>1350</X><Y>120</Y>
+					<X>1530</X><Y>270</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9043,7 +9043,7 @@ if(shelves2.getFreeCell(true)!=null || shelves2.getFreeCell(false)!=null)
 				<EmbeddedObject>
 					<Id>1508147927792</Id>
 					<Name><![CDATA[whichOne3]]></Name>
-					<X>780</X><Y>510</Y>
+					<X>960</X><Y>660</Y>
 					<Label><X>-10</X><Y>30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9139,7 +9139,7 @@ agent.itemsToBuy.remove("generic");]]></Code>
 				<EmbeddedObject>
 					<Id>1508148086154</Id>
 					<Name><![CDATA[goToShelves1]]></Name>
-					<X>870</X><Y>535</Y>
+					<X>1050</X><Y>685</Y>
 					<Label><X>-10</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9306,7 +9306,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508151037070</Id>
 					<Name><![CDATA[wharehousemen2]]></Name>
-					<X>1260</X><Y>60</Y>
+					<X>1440</X><Y>210</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9625,7 +9625,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508151190264</Id>
 					<Name><![CDATA[goodsSource2]]></Name>
-					<X>620</X><Y>70</Y>
+					<X>780</X><Y>220</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9892,7 +9892,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508151190294</Id>
 					<Name><![CDATA[sink3]]></Name>
-					<X>970</X><Y>70</Y>
+					<X>1150</X><Y>220</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9962,7 +9962,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508151190305</Id>
 					<Name><![CDATA[putFood2]]></Name>
-					<X>750</X><Y>60</Y>
+					<X>930</X><Y>210</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10086,15 +10086,15 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[customizeResourceChoice]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[resourceChoiceCondition]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[System.out.println("size3: "+shelves3.size());]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onResourcesArrived]]></Name>
@@ -10164,7 +10164,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508151190316</Id>
 					<Name><![CDATA[delay2]]></Name>
-					<X>820</X><Y>60</Y>
+					<X>1000</X><Y>210</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10277,7 +10277,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508151190326</Id>
 					<Name><![CDATA[getFood2]]></Name>
-					<X>890</X><Y>60</Y>
+					<X>1070</X><Y>210</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10478,7 +10478,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508151190337</Id>
 					<Name><![CDATA[waitIfFull2]]></Name>
-					<X>680</X><Y>60</Y>
+					<X>860</X><Y>210</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10503,6 +10503,10 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[0]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
@@ -10521,6 +10525,9 @@ agent.Bought = true;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pushProtocol]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
@@ -10531,8 +10538,8 @@ agent.Bought = true;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.shapeBox.setFillColor(darkGreen);
-if(shelves3.getFreeCell(true)!=null || shelves3.getFreeCell(false)!=null)
+								<Code><![CDATA[agent.shapeBox.setFillColor(green);
+if(shelves3.hasSpace())
 	waitIfFull2.stopDelay(waitIfFull2.get(0));]]></Code>
 							</Value>
 						</Parameter>
@@ -10592,7 +10599,7 @@ if(shelves3.getFreeCell(true)!=null || shelves3.getFreeCell(false)!=null)
 				<EmbeddedObject>
 					<Id>1508151625597</Id>
 					<Name><![CDATA[whichOne4]]></Name>
-					<X>790</X><Y>545</Y>
+					<X>970</X><Y>695</Y>
 					<Label><X>-10</X><Y>35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10688,7 +10695,7 @@ agent.itemsToBuy.remove("generic1");]]></Code>
 				<EmbeddedObject>
 					<Id>1508151815719</Id>
 					<Name><![CDATA[goToShelves2]]></Name>
-					<X>870</X><Y>585</Y>
+					<X>1050</X><Y>735</Y>
 					<Label><X>-14</X><Y>39</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10855,7 +10862,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508152710351</Id>
 					<Name><![CDATA[fishmongers]]></Name>
-					<X>1350</X><Y>60</Y>
+					<X>1530</X><Y>210</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11173,7 +11180,7 @@ agent.Bought = true;]]></Code>
 				<EmbeddedObject>
 					<Id>1508153072076</Id>
 					<Name><![CDATA[whichOne5]]></Name>
-					<X>800</X><Y>595</Y>
+					<X>980</X><Y>745</Y>
 					<Label><X>-15</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11274,7 +11281,7 @@ agent.itemsToBuy.remove("fish");]]></Code>
 				<EmbeddedObject>
 					<Id>1508153148316</Id>
 					<Name><![CDATA[goToPescheria]]></Name>
-					<X>870</X><Y>640</Y>
+					<X>1050</X><Y>790</Y>
 					<Label><X>-15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11434,7 +11441,7 @@ agent.itemsToBuy.remove("fish");]]></Code>
 				<EmbeddedObject>
 					<Id>1508153236476</Id>
 					<Name><![CDATA[PescheriaService]]></Name>
-					<X>960</X><Y>640</Y>
+					<X>1140</X><Y>790</Y>
 					<Label><X>0</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11657,7 +11664,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508232883888</Id>
 					<Name><![CDATA[automaticCashier]]></Name>
-					<X>1180</X><Y>60</Y>
+					<X>1360</X><Y>210</Y>
 					<Label><X>-50</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11969,7 +11976,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508233101633</Id>
 					<Name><![CDATA[chooseCashier]]></Name>
-					<X>1080</X><Y>350</Y>
+					<X>1260</X><Y>500</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12060,7 +12067,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508233181285</Id>
 					<Name><![CDATA[moveToAutomatic]]></Name>
-					<X>1140</X><Y>500</Y>
+					<X>1320</X><Y>650</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12217,7 +12224,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508233194449</Id>
 					<Name><![CDATA[automaticPaymentService]]></Name>
-					<X>1210</X><Y>500</Y>
+					<X>1390</X><Y>650</Y>
 					<Label><X>-45</X><Y>45</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12432,7 +12439,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508237537615</Id>
 					<Name><![CDATA[needsInfo]]></Name>
-					<X>820</X><Y>320</Y>
+					<X>1000</X><Y>470</Y>
 					<Label><X>-10</X><Y>30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12523,7 +12530,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508237755650</Id>
 					<Name><![CDATA[infoPointPool]]></Name>
-					<X>1020</X><Y>60</Y>
+					<X>1200</X><Y>210</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12835,7 +12842,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508237852868</Id>
 					<Name><![CDATA[moveToInfoPoint]]></Name>
-					<X>870</X><Y>270</Y>
+					<X>1050</X><Y>420</Y>
 					<Label><X>-45</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12992,7 +12999,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508237882730</Id>
 					<Name><![CDATA[infoPointService]]></Name>
-					<X>930</X><Y>270</Y>
+					<X>1110</X><Y>420</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13203,7 +13210,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508260415427</Id>
 					<Name><![CDATA[cartPool]]></Name>
-					<X>1100</X><Y>60</Y>
+					<X>1280</X><Y>210</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13516,7 +13523,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508260882309</Id>
 					<Name><![CDATA[ifNeedsCart]]></Name>
-					<X>610</X><Y>380</Y>
+					<X>790</X><Y>530</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13607,7 +13614,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508261012861</Id>
 					<Name><![CDATA[takeCart]]></Name>
-					<X>630</X><Y>430</Y>
+					<X>810</X><Y>580</Y>
 					<Label><X>-10</X><Y>45</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13829,7 +13836,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508261210707</Id>
 					<Name><![CDATA[releaseCart]]></Name>
-					<X>1410</X><Y>510</Y>
+					<X>1590</X><Y>660</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13947,7 +13954,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<EmbeddedObject>
 					<Id>1508261350439</Id>
 					<Name><![CDATA[ifHasCart]]></Name>
-					<X>1370</X><Y>480</Y>
+					<X>1550</X><Y>630</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14044,7 +14051,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Ground>
 					<Id>1507630112172</Id>
 					<Name><![CDATA[ground]]></Name>
-					<X>40</X><Y>80</Y>
+					<X>220</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14055,7 +14062,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1507631796508</Id>
 					<Name><![CDATA[wall]]></Name>
-					<X>90</X><Y>320</Y>
+					<X>270</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14080,7 +14087,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1507631823727</Id>
 					<Name><![CDATA[wall1]]></Name>
-					<X>90</X><Y>130</Y>
+					<X>270</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14105,7 +14112,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1507801426744</Id>
 					<Name><![CDATA[wall2]]></Name>
-					<X>570</X><Y>130</Y>
+					<X>750</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14136,7 +14143,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1507801467415</Id>
 					<Name><![CDATA[wall3]]></Name>
-					<X>90</X><Y>530</Y>
+					<X>270</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14161,7 +14168,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508061923758</Id>
 					<Name><![CDATA[wall4]]></Name>
-					<X>460</X><Y>130</Y>
+					<X>640</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14186,7 +14193,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508061951541</Id>
 					<Name><![CDATA[wall5]]></Name>
-					<X>270</X><Y>110</Y>
+					<X>450</X><Y>260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14214,7 +14221,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508061971852</Id>
 					<Name><![CDATA[wall6]]></Name>
-					<X>270</X><Y>70</Y>
+					<X>450</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14239,7 +14246,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508061995493</Id>
 					<Name><![CDATA[wall7]]></Name>
-					<X>330</X><Y>70</Y>
+					<X>510</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14264,7 +14271,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508062005212</Id>
 					<Name><![CDATA[wall8]]></Name>
-					<X>270</X><Y>70</Y>
+					<X>450</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14289,7 +14296,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508082392618</Id>
 					<Name><![CDATA[wall9]]></Name>
-					<X>380</X><Y>110</Y>
+					<X>560</X><Y>260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14317,7 +14324,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508082392620</Id>
 					<Name><![CDATA[wall10]]></Name>
-					<X>380</X><Y>70</Y>
+					<X>560</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14342,7 +14349,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508082392622</Id>
 					<Name><![CDATA[wall11]]></Name>
-					<X>440</X><Y>70</Y>
+					<X>620</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14367,7 +14374,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508082392624</Id>
 					<Name><![CDATA[wall12]]></Name>
-					<X>380</X><Y>70</Y>
+					<X>560</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14392,7 +14399,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508082437227</Id>
 					<Name><![CDATA[wall13]]></Name>
-					<X>350</X><Y>130</Y>
+					<X>530</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14420,7 +14427,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508082445478</Id>
 					<Name><![CDATA[wall14]]></Name>
-					<X>430</X><Y>130</Y>
+					<X>610</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14445,7 +14452,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508082454433</Id>
 					<Name><![CDATA[wall15]]></Name>
-					<X>315</X><Y>130</Y>
+					<X>495</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14470,7 +14477,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508150624148</Id>
 					<Name><![CDATA[wall16]]></Name>
-					<X>90</X><Y>335</Y>
+					<X>270</X><Y>485</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14495,10 +14502,10 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Wall>
 					<Id>1508150923908</Id>
 					<Name><![CDATA[wall17]]></Name>
-					<X>90</X><Y>300</Y>
+					<X>270</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -14510,23 +14517,17 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>-65</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>-40</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-65</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>-65</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>-65</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>-40</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>-25</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>-85</X><Y>50</Y><Z>0</Z></Point>
+						<Point><X>-40</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
 					<Id>1508233506106</Id>
 					<Name><![CDATA[wall18]]></Name>
-					<X>90</X><Y>435</Y>
+					<X>270</X><Y>585</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14548,6 +14549,59 @@ System.out.println("Ho comprato pesce");]]></Code>
 						<Point><X>0</X><Y>55</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
+				<Wall>
+					<Id>1508362104651</Id>
+					<Name><![CDATA[wall19]]></Name>
+					<X>205</X><Y>450</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Closed>false</Closed>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>15</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-10</Y><Z>0</Z></Point>
+						<Point><X>70</X><Y>0</Y><Z>0</Z></Point>
+					</Points>
+				</Wall>
+				<Wall>
+					<Id>1508362111866</Id>
+					<Name><![CDATA[wall20]]></Name>
+					<X>205</X><Y>480</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Closed>false</Closed>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-5</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>65</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>40</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>65</X><Y>20</Y><Z>0</Z></Point>
+					</Points>
+				</Wall>
 			</Shapes>
 
 					<Z>0</Z>
@@ -14556,7 +14610,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Ground>
 					<Id>1507719656298</Id>
 					<Name><![CDATA[ground1]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>180</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14570,13 +14624,13 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Figure3D>
 					<Id>1507719855064</Id>
 					<Name><![CDATA[cashDesk]]></Name>
-					<X>150</X><Y>520</Y>
+					<X>330</X><Y>670</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>150</X><Y>520</Y><Z>0</Z>
+					<X>330</X><Y>670</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/cash_desk.x3d]]></FileName>
 					<ColorTable>
@@ -14610,13 +14664,13 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Figure3D>
 					<Id>1507719879000</Id>
 					<Name><![CDATA[cashDesk1]]></Name>
-					<X>150</X><Y>490</Y>
+					<X>330</X><Y>640</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>150</X><Y>490</Y><Z>0</Z>
+					<X>330</X><Y>640</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<FileName><![CDATA[x3d/cash_desk.x3d]]></FileName>
 					<ColorTable>
@@ -14650,7 +14704,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507631267514</Id>
 					<Name><![CDATA[Enter]]></Name>
-					<X>70</X><Y>130</Y>
+					<X>250</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -14672,7 +14726,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Network>
 					<Id>1507807931066</Id>
 					<Name><![CDATA[network]]></Name>
-					<X>90</X><Y>140</Y>
+					<X>270</X><Y>290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14683,7 +14737,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1507807874889" TargetId="1508064181798">
 					<Id>1507808636493</Id>
 					<Name><![CDATA[path]]></Name>
-					<X>130</X><Y>150</Y>
+					<X>310</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14714,7 +14768,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507807874889</Id>
 					<Name><![CDATA[supermarketArea]]></Name>
-					<X>90</X><Y>130</Y>
+					<X>270</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14736,7 +14790,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1507807874889" TargetId="1508150111803">
 					<Id>1508063611792</Id>
 					<Name><![CDATA[path2]]></Name>
-					<X>130</X><Y>150</Y>
+					<X>310</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14767,7 +14821,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508064181798" TargetId="1508082704313">
 					<Id>1508064181800</Id>
 					<Name><![CDATA[path8]]></Name>
-					<X>310</X><Y>150</Y>
+					<X>490</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14798,7 +14852,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508062131402</Id>
 					<Name><![CDATA[warehouse]]></Name>
-					<X>270</X><Y>70</Y>
+					<X>450</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14884,7 +14938,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508062131402" TargetId="1508064181798">
 					<Id>1508064180845</Id>
 					<Name><![CDATA[path7]]></Name>
-					<X>310</X><Y>130</Y>
+					<X>490</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14915,7 +14969,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508064181798</Id>
 					<Name><![CDATA[point2]]></Name>
-					<X>310</X><Y>150</Y>
+					<X>490</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14930,7 +14984,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508082392604</Id>
 					<Name><![CDATA[warehouse1]]></Name>
-					<X>380</X><Y>70</Y>
+					<X>560</X><Y>220</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15016,7 +15070,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508082392604" TargetId="1508082704313">
 					<Id>1508082703364</Id>
 					<Name><![CDATA[path13]]></Name>
-					<X>420</X><Y>130</Y>
+					<X>600</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15047,7 +15101,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508082704313</Id>
 					<Name><![CDATA[point6]]></Name>
-					<X>420</X><Y>150</Y>
+					<X>600</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15062,7 +15116,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508082704313" TargetId="1508150409926">
 					<Id>1508063653313</Id>
 					<Name><![CDATA[path10]]></Name>
-					<X>420</X><Y>150</Y>
+					<X>600</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15096,7 +15150,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150409926" TargetId="1508150111803">
 					<Id>1508150107163</Id>
 					<Name><![CDATA[path5]]></Name>
-					<X>500</X><Y>200</Y>
+					<X>680</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15130,7 +15184,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508150111803</Id>
 					<Name><![CDATA[point4]]></Name>
-					<X>130</X><Y>200</Y>
+					<X>310</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15145,7 +15199,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150111803" TargetId="1508150338810">
 					<Id>1508150111805</Id>
 					<Name><![CDATA[path9]]></Name>
-					<X>130</X><Y>200</Y>
+					<X>310</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15176,7 +15230,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150409926" TargetId="1508150416627">
 					<Id>1508150111802</Id>
 					<Name><![CDATA[path6]]></Name>
-					<X>500</X><Y>200</Y>
+					<X>680</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15204,10 +15258,10 @@ System.out.println("Ho comprato pesce");]]></Code>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 				</Path>
-  				<PalletRack TargetId="1508063653313">
+  				<PalletRack TargetId="1508150538927">
 					<Id>1508063655731</Id>
 					<Name><![CDATA[shelves1]]></Name>
-					<X>150</X><Y>170</Y>
+					<X>330</X><Y>320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15226,7 +15280,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
 					<NumberOfCells>30</NumberOfCells>
 					<NumberOfDeepPositions>1</NumberOfDeepPositions>
-					<NumberOfLevels>1</NumberOfLevels>
+					<NumberOfLevels>2</NumberOfLevels>
 					<LevelHeight>50</LevelHeight>
 					<CellWidth>20</CellWidth>
 					<Type>twoStorages</Type>
@@ -15238,7 +15292,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150416627" TargetId="1508150538925">
 					<Id>1508150338809</Id>
 					<Name><![CDATA[path12]]></Name>
-					<X>500</X><Y>260</Y>
+					<X>680</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15266,10 +15320,10 @@ System.out.println("Ho comprato pesce");]]></Code>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 				</Path>
-  				<PalletRack TargetId="1508150111802">
+  				<PalletRack TargetId="1508150538927">
 					<Id>1508082565341</Id>
 					<Name><![CDATA[shelves2]]></Name>
-					<X>150</X><Y>230</Y>
+					<X>330</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15288,7 +15342,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
 					<NumberOfCells>30</NumberOfCells>
 					<NumberOfDeepPositions>1</NumberOfDeepPositions>
-					<NumberOfLevels>1</NumberOfLevels>
+					<NumberOfLevels>2</NumberOfLevels>
 					<LevelHeight>50</LevelHeight>
 					<CellWidth>11</CellWidth>
 					<Type>twoStorages</Type>
@@ -15300,7 +15354,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150338810" TargetId="1508150544859">
 					<Id>1508150338812</Id>
 					<Name><![CDATA[path14]]></Name>
-					<X>130</X><Y>260</Y>
+					<X>310</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15334,7 +15388,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508150338810</Id>
 					<Name><![CDATA[point5]]></Name>
-					<X>130</X><Y>260</Y>
+					<X>310</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15349,7 +15403,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150416627" TargetId="1508150338810">
 					<Id>1508150329904</Id>
 					<Name><![CDATA[path11]]></Name>
-					<X>500</X><Y>260</Y>
+					<X>680</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15383,7 +15437,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507631857260</Id>
 					<Name><![CDATA[Panetteria]]></Name>
-					<X>520</X><Y>170</Y>
+					<X>700</X><Y>320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15445,7 +15499,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507632870176</Id>
 					<Name><![CDATA[Macelleria]]></Name>
-					<X>520</X><Y>240</Y>
+					<X>700</X><Y>390</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15495,7 +15549,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508150409926</Id>
 					<Name><![CDATA[point7]]></Name>
-					<X>500</X><Y>200</Y>
+					<X>680</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15510,7 +15564,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150409926" TargetId="1507631857260">
 					<Id>1508150409928</Id>
 					<Name><![CDATA[path17]]></Name>
-					<X>500</X><Y>200</Y>
+					<X>680</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15541,7 +15595,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150416627" TargetId="1507632870176">
 					<Id>1508150416629</Id>
 					<Name><![CDATA[path15]]></Name>
-					<X>500</X><Y>260</Y>
+					<X>680</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15572,7 +15626,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508150416627</Id>
 					<Name><![CDATA[point]]></Name>
-					<X>500</X><Y>260</Y>
+					<X>680</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15587,7 +15641,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150544859" TargetId="1508150538925">
 					<Id>1508150522939</Id>
 					<Name><![CDATA[path16]]></Name>
-					<X>130</X><Y>320</Y>
+					<X>310</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15615,10 +15669,10 @@ System.out.println("Ho comprato pesce");]]></Code>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 				</Path>
-  				<PalletRack TargetId="1508150338809">
+  				<PalletRack TargetId="1508237679665">
 					<Id>1508150488572</Id>
 					<Name><![CDATA[shelves3]]></Name>
-					<X>150</X><Y>290</Y>
+					<X>330</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15637,7 +15691,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 					<CellsDefinitionType>NUMBER_OF_CELLS</CellsDefinitionType>
 					<NumberOfCells>30</NumberOfCells>
 					<NumberOfDeepPositions>1</NumberOfDeepPositions>
-					<NumberOfLevels>1</NumberOfLevels>
+					<NumberOfLevels>2</NumberOfLevels>
 					<LevelHeight>50</LevelHeight>
 					<CellWidth>20</CellWidth>
 					<Type>twoStorages</Type>
@@ -15649,7 +15703,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508150538925</Id>
 					<Name><![CDATA[point8]]></Name>
-					<X>500</X><Y>320</Y>
+					<X>680</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15664,7 +15718,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150538925">
 					<Id>1508150538927</Id>
 					<Name><![CDATA[path19]]></Name>
-					<X>500</X><Y>320</Y>
+					<X>680</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15695,7 +15749,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508150544859</Id>
 					<Name><![CDATA[point9]]></Name>
-					<X>130</X><Y>320</Y>
+					<X>310</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15710,7 +15764,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150544859" TargetId="1508232475247">
 					<Id>1508150544861</Id>
 					<Name><![CDATA[path20]]></Name>
-					<X>130</X><Y>320</Y>
+					<X>310</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15741,7 +15795,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508150979236</Id>
 					<Name><![CDATA[warehouse2]]></Name>
-					<X>25</X><Y>300</Y>
+					<X>205</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15772,7 +15826,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Attractor>
 					<Id>1508151107922</Id>
 					<Name><![CDATA[attractor27]]></Name>
-					<X>15</X><Y>30</Y>
+					<X>15</X><Y>35</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15784,7 +15838,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Attractor>
 					<Id>1508151113293</Id>
 					<Name><![CDATA[attractor28]]></Name>
-					<X>45</X><Y>30</Y>
+					<X>45</X><Y>35</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15808,7 +15862,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Attractor>
 					<Id>1508151130907</Id>
 					<Name><![CDATA[attractor30]]></Name>
-					<X>35</X><Y>20</Y>
+					<X>30</X><Y>23</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15827,7 +15881,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508152944289</Id>
 					<Name><![CDATA[Pescheria]]></Name>
-					<X>520</X><Y>300</Y>
+					<X>700</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15877,7 +15931,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508150538925" TargetId="1508152944289">
 					<Id>1508152991397</Id>
 					<Name><![CDATA[path22]]></Name>
-					<X>500</X><Y>320</Y>
+					<X>680</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15911,7 +15965,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1507990439378" TargetId="1507631307296">
 					<Id>1507990439382</Id>
 					<Name><![CDATA[path4]]></Name>
-					<X>440</X><Y>540</Y>
+					<X>620</X><Y>690</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15942,7 +15996,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507801866732</Id>
 					<Name><![CDATA[cashArea1]]></Name>
-					<X>130</X><Y>470</Y>
+					<X>310</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15992,7 +16046,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507986888731</Id>
 					<Name><![CDATA[paymentQueue]]></Name>
-					<X>170</X><Y>470</Y>
+					<X>350</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16090,7 +16144,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1507801866732" TargetId="1507631307296">
 					<Id>1507987117391</Id>
 					<Name><![CDATA[path3]]></Name>
-					<X>130</X><Y>500</Y>
+					<X>310</X><Y>650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16121,7 +16175,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508232381940</Id>
 					<Name><![CDATA[AutomaticCashierZone]]></Name>
-					<X>130</X><Y>390</Y>
+					<X>310</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16219,7 +16273,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508232475247</Id>
 					<Name><![CDATA[point3]]></Name>
-					<X>130</X><Y>330</Y>
+					<X>310</X><Y>480</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16234,7 +16288,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508232475250</Id>
 					<Name><![CDATA[point10]]></Name>
-					<X>250</X><Y>440</Y>
+					<X>430</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16249,7 +16303,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507631307296</Id>
 					<Name><![CDATA[Exit]]></Name>
-					<X>30</X><Y>390</Y>
+					<X>210</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16271,7 +16325,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1507990439378</Id>
 					<Name><![CDATA[point1]]></Name>
-					<X>440</X><Y>540</Y>
+					<X>620</X><Y>690</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16286,7 +16340,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508232381940" TargetId="1508232475250">
 					<Id>1508150976295</Id>
 					<Name><![CDATA[path21]]></Name>
-					<X>230</X><Y>440</Y>
+					<X>410</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16317,7 +16371,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508232475247" TargetId="1508150979236">
 					<Id>1508232475249</Id>
 					<Name><![CDATA[path23]]></Name>
-					<X>130</X><Y>330</Y>
+					<X>310</X><Y>480</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16348,7 +16402,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508232475247" TargetId="1508232475250">
 					<Id>1508232463678</Id>
 					<Name><![CDATA[path18]]></Name>
-					<X>130</X><Y>330</Y>
+					<X>310</X><Y>480</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16385,7 +16439,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508232475250" TargetId="1508237679663">
 					<Id>1508232475252</Id>
 					<Name><![CDATA[path24]]></Name>
-					<X>250</X><Y>440</Y>
+					<X>430</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16416,7 +16470,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1507990439378" TargetId="1508237691008">
 					<Id>1507987059418</Id>
 					<Name><![CDATA[path1]]></Name>
-					<X>440</X><Y>540</Y>
+					<X>620</X><Y>690</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16450,7 +16504,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508232381940" TargetId="1507631307296">
 					<Id>1508233522242</Id>
 					<Name><![CDATA[path25]]></Name>
-					<X>130</X><Y>430</Y>
+					<X>310</X><Y>580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16481,7 +16535,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508237679663" TargetId="1507990439378">
 					<Id>1508237679665</Id>
 					<Name><![CDATA[path27]]></Name>
-					<X>320</X><Y>440</Y>
+					<X>500</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16521,7 +16575,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508237679663</Id>
 					<Name><![CDATA[point11]]></Name>
-					<X>320</X><Y>440</Y>
+					<X>500</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16536,7 +16590,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508237600635</Id>
 					<Name><![CDATA[infoPoint]]></Name>
-					<X>280</X><Y>390</Y>
+					<X>460</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16586,7 +16640,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508237679663" TargetId="1508237600635">
 					<Id>1508237678400</Id>
 					<Name><![CDATA[path26]]></Name>
-					<X>320</X><Y>440</Y>
+					<X>500</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16617,7 +16671,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508237691008" TargetId="1507986888731">
 					<Id>1508237691010</Id>
 					<Name><![CDATA[path29]]></Name>
-					<X>320</X><Y>500</Y>
+					<X>500</X><Y>650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16648,7 +16702,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Path SourceId="1508237679663" TargetId="1508237691008">
 					<Id>1508237689929</Id>
 					<Name><![CDATA[path28]]></Name>
-					<X>320</X><Y>440</Y>
+					<X>500</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16679,7 +16733,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<PointNode>
 					<Id>1508237691008</Id>
 					<Name><![CDATA[point12]]></Name>
-					<X>320</X><Y>500</Y>
+					<X>500</X><Y>650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16698,7 +16752,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Rectangle>
 					<Id>1507994104115</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>540</X><Y>170</Y>
+					<X>720</X><Y>320</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16721,7 +16775,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Rectangle>
 					<Id>1507994128901</Id>
 					<Name><![CDATA[rectangle1]]></Name>
-					<X>540</X><Y>240</Y>
+					<X>720</X><Y>390</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16744,7 +16798,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507994147617</Id>
 					<Name><![CDATA[bakerArea]]></Name>
-					<X>550</X><Y>170</Y>
+					<X>730</X><Y>320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -16806,7 +16860,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1507994161944</Id>
 					<Name><![CDATA[batcherArea]]></Name>
-					<X>550</X><Y>240</Y>
+					<X>730</X><Y>390</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -16856,7 +16910,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508062106964</Id>
 					<Name><![CDATA[node]]></Name>
-					<X>290</X><Y>40</Y>
+					<X>470</X><Y>190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -16878,7 +16932,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508082392616</Id>
 					<Name><![CDATA[node1]]></Name>
-					<X>400</X><Y>40</Y>
+					<X>580</X><Y>190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -16900,7 +16954,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508147888599</Id>
 					<Name><![CDATA[rack2]]></Name>
-					<X>150</X><Y>230</Y>
+					<X>330</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16922,7 +16976,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508071961594</Id>
 					<Name><![CDATA[racks]]></Name>
-					<X>150</X><Y>170</Y>
+					<X>330</X><Y>320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16944,7 +16998,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508150587414</Id>
 					<Name><![CDATA[rack3]]></Name>
-					<X>150</X><Y>290</Y>
+					<X>330</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16966,7 +17020,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Rectangle>
 					<Id>1508152888109</Id>
 					<Name><![CDATA[rectangle2]]></Name>
-					<X>540</X><Y>300</Y>
+					<X>720</X><Y>450</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16989,7 +17043,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508152909529</Id>
 					<Name><![CDATA[fishmongerArea]]></Name>
-					<X>550</X><Y>300</Y>
+					<X>730</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -17039,7 +17093,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RoundedRectangle>
 					<Id>1508237619466</Id>
 					<Name><![CDATA[roundRectangle]]></Name>
-					<X>280</X><Y>380</Y>
+					<X>460</X><Y>530</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17063,7 +17117,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508237785289</Id>
 					<Name><![CDATA[helperZone]]></Name>
-					<X>280</X><Y>350</Y>
+					<X>460</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17113,7 +17167,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<RectangleNode>
 					<Id>1508260450070</Id>
 					<Name><![CDATA[cartArea]]></Name>
-					<X>30</X><Y>150</Y>
+					<X>210</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17427,7 +17481,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Text>
 					<Id>1508344193715</Id>
 					<Name><![CDATA[text]]></Name>
-					<X>30</X><Y>110</Y>
+					<X>210</X><Y>260</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17450,7 +17504,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Text>
 					<Id>1508344193716</Id>
 					<Name><![CDATA[text1]]></Name>
-					<X>130</X><Y>110</Y>
+					<X>310</X><Y>260</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17473,7 +17527,7 @@ System.out.println("Ho comprato pesce");]]></Code>
 				<Text>
 					<Id>1508344193717</Id>
 					<Name><![CDATA[text2]]></Name>
-					<X>80</X><Y>110</Y>
+					<X>260</X><Y>260</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17493,13 +17547,112 @@ System.out.println("Ho comprato pesce");]]></Code>
 					</Font>
 					<Alignment>CENTER</Alignment>
 				</Text>
+				<Network>
+					<Id>1508362217504</Id>
+					<Name><![CDATA[network1]]></Name>
+					<X>20</X><Y>474</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+
+			<Shapes>
+				<Path SourceId="1508362203698" TargetId="1508362134247">
+					<Id>1508362215460</Id>
+					<Name><![CDATA[path30]]></Name>
+					<X>20</X><Y>474</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<PathType>dashedLine</PathType>
+					
+					<Width Class="UnitValue">
+						<Value Class="Double">
+							1
+						</Value>
+						<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+					</Width>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>155</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>130</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-20</X><Y>0</Y><Z>0</Z></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+				</Path>
+				<PointNode>
+					<Id>1508362203698</Id>
+					<Name><![CDATA[exitNode]]></Name>
+					<X>20</X><Y>474</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<FakeNode>false</FakeNode>	
+					<Lock>false</Lock>
+					<Color>-14774017</Color>
+					<Radius>1</Radius>
+				</PointNode>
+				<RectangleNode>
+					<Id>1508362134247</Id>
+					<Name><![CDATA[receivingDock]]></Name>
+					<X>175</X><Y>459</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+			<Shapes>
+				<Attractor>
+					<Id>1508362156643</Id>
+					<Name><![CDATA[attractor71]]></Name>
+					<X>15</X><Y>13</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+			</Shapes>
+
+
+					<Width>30</Width>
+					<Height>25</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
+			</Shapes>
+
+					<Z>0</Z>
+				</Network>
 			</Shapes>
 			<Controls>
 				<Control Type="Slider">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1508341661488</Id>
 					<Name><![CDATA[CartNumberSlider]]></Name>
-					<X>30</X><Y>80</Y>
+					<X>210</X><Y>230</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17524,7 +17677,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<BarChart>
 					<Id>1508234592328</Id>
 					<Name><![CDATA[cashier]]></Name>
-					<X>-20</X><Y>570</Y>
+					<X>160</X><Y>720</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17589,7 +17742,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<PieChart>
 					<Id>1508235884252</Id>
 					<Name><![CDATA[benchProducts]]></Name>
-					<X>150</X><Y>580</Y>
+					<X>330</X><Y>730</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17671,7 +17824,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<TimeStackChart>
 					<Id>1508258741710</Id>
 					<Name><![CDATA[queueStatus]]></Name>
-					<X>320</X><Y>570</Y>
+					<X>500</X><Y>720</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17766,7 +17919,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<Histogram>
 					<Id>1508335799451</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>-10</X><Y>830</Y>
+					<X>170</X><Y>980</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17829,7 +17982,7 @@ System.out.println("Ho comprato pesce");]]></Code>
     			<Histogram>
 					<Id>1508342188477</Id>
 					<Name><![CDATA[chart2]]></Name>
-					<X>210</X><Y>830</Y>
+					<X>390</X><Y>980</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18528,198 +18681,6 @@ printObjectsToBuy();]]></Action>
 			</Shapes>
 
 				</Group>
-			</Shapes>
-
-		</ActiveObjectClass>
-		<!--   =========   Active Object Class   ========  -->
-		<ActiveObjectClass>
-			<Id>1507889706381</Id>
-			<Name><![CDATA[ObjectToBuy]]></Name>
-			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
-			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
-			<IconTopGroupPersistent>true</IconTopGroupPersistent>
-			<Generic>false</Generic>
-			<GenericParameter>
-				<Id>1507889706380</Id>
-				<Name><![CDATA[1507889706380]]></Name>
-				<GenericParameterValue Class="CodeValue">
-					<Code><![CDATA[T extends Agent]]></Code>
-				</GenericParameterValue>
-				<GenericParameterLabel><![CDATA[Generic parameter:]]></GenericParameterLabel>
-			</GenericParameter>
-			<FlowChartsUsage>RESOURCE_UNIT</FlowChartsUsage>
-			<SamplesToKeep>100</SamplesToKeep>
-			<LimitNumberOfArrayElements>false</LimitNumberOfArrayElements>
-			<ElementsLimitValue>100</ElementsLimitValue>
-			<MakeDefaultViewArea>true</MakeDefaultViewArea>
-			<SceneGridColor/>
-			<SceneBackgroundColor/>
-			<AgentProperties>
-	 			<SpaceType>CONTINUOUS</SpaceType>			
-				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
-				<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
-				<RotateAnimationVertically>false</RotateAnimationVertically>
-				<VelocityCode Class="CodeUnitValue">
-					<Code><![CDATA[10]]></Code>
-					<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-				</VelocityCode>
-			</AgentProperties>
-			<EnvironmentProperties>
-					<EnableSteps>false</EnableSteps>
-					<StepDurationCode Class="CodeUnitValue">
-						<Code><![CDATA[1.0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</StepDurationCode>
-					<SpaceType>CONTINUOUS</SpaceType>
-					<WidthCode><![CDATA[500]]></WidthCode>
-					<HeightCode><![CDATA[500]]></HeightCode>
-					<ZHeightCode><![CDATA[0]]></ZHeightCode>
-					<ColumnsCountCode><![CDATA[100]]></ColumnsCountCode>
-					<RowsCountCode><![CDATA[100]]></RowsCountCode>
-					<NeigborhoodType>MOORE</NeigborhoodType>
-					<LayoutType>USER_DEF</LayoutType>
-					<LayoutTypeApplyOnStartup>true</LayoutTypeApplyOnStartup>
-					<NetworkType>USER_DEF</NetworkType>
-					<NetworkTypeApplyOnStartup>true</NetworkTypeApplyOnStartup>
-					<ConnectionsPerAgentCode><![CDATA[2]]></ConnectionsPerAgentCode>
-					<ConnectionsRangeCode><![CDATA[50]]></ConnectionsRangeCode>
-					<NeighborLinkFractionCode><![CDATA[0.95]]></NeighborLinkFractionCode>
-					<MCode><![CDATA[10]]></MCode>
-			</EnvironmentProperties>
-			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
-					<OccurrenceAtTime>true</OccurrenceAtTime>
-					<OccurrenceDate>1507968000000</OccurrenceDate>
-					<OccurrenceTime Class="CodeUnitValue">
-						<Code><![CDATA[0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-					</OccurrenceTime>
-					<RecurrenceCode Class="CodeUnitValue">
-						<Code><![CDATA[1]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-					</RecurrenceCode>
-			</DatasetsCreationProperties>
-			<ScaleRuler>
-				<Id>1507889706378</Id>
-				<Name><![CDATA[scale]]></Name>
-				<X>0</X><Y>-150</Y>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>false</PresentationFlag>
-				<ShowLabel>false</ShowLabel>
-				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-				<Length>100</Length>
-				<Rotation>0</Rotation>
-				<ScaleType>BASED_ON_LENGTH</ScaleType>
-				<ModelLength>10</ModelLength>
-				<LengthUnits>METER</LengthUnits>
-				<Scale>10</Scale>
-				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
-			</ScaleRuler>
-			<ConnectionsId>1507889706377</ConnectionsId>
-			<Variables>
-				<Variable Class="Parameter">
-					<Id>1507889706404</Id>
-					<Name><![CDATA[quantity]]></Name>
-					<X>50</X><Y>50</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[int]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>0</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-				<Variable Class="Parameter">
-					<Id>1507891623014</Id>
-					<Name><![CDATA[type]]></Name>
-					<X>50</X><Y>80</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[String]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
-							<Code><![CDATA["genericFood"]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>1507891623012</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
-				</Variable>
-			</Variables>
-			<AgentLinks>
-				<AgentLink>
-					<Id>1507889706377</Id>
-					<Name><![CDATA[connections]]></Name>
-					<X>50</X><Y>-50</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<HandleReceiveInConnections>false</HandleReceiveInConnections>
-					<AgentLinkType>COLLECTION_OF_LINKS</AgentLinkType>
-					<AgentLinkBidirectional>true</AgentLinkBidirectional>
-					<MessageType><![CDATA[Object]]></MessageType>
-					<LineStyle>SOLID</LineStyle>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineZOrder>UNDER_AGENTS</LineZOrder>
-					<LineArrow>NONE</LineArrow>
-					<LineArrowPosition>END</LineArrowPosition>
-				</AgentLink>
-			</AgentLinks>
-
-
-			<Shapes>
-				<Figure3D>
-					<Id>1507889706403</Id>
-					<Name><![CDATA[sphere]]></Name>
-					<X>0</X><Y>0</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<X>0</X><Y>0</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<FileName><![CDATA[x3d/sphere.x3d]]></FileName>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[MA_material]]></Name>
-							<OriginalColor>-11447983</OriginalColor>
-							<Color>-16777216</Color>
-						</ColorMapping>
-						<ColorMapping>
-							<Name><![CDATA[MA_material_27]]></Name>
-							<OriginalColor>-16764597</OriginalColor>
-							<Color>-16777216</Color>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>0.5</Scale>
-					<Rotation>0.0</Rotation>
-					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-				</Figure3D>
 			</Shapes>
 
 		</ActiveObjectClass>
@@ -19544,18 +19505,6 @@ printObjectsToBuy();]]></Action>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
 			<PresentationTopGroupPersistent>true</PresentationTopGroupPersistent>
 			<IconTopGroupPersistent>true</IconTopGroupPersistent>
-			<ExtendsReference>
-				<PackageName><![CDATA[supermarket]]></PackageName>
-				<ClassName><![CDATA[ObjectToBuy]]></ClassName>
-			</ExtendsReference>
-			<Parameters>
-				<Parameter>
-					<Name><![CDATA[quantity]]></Name>
-				</Parameter>
-				<Parameter>
-					<Name><![CDATA[type]]></Name>
-				</Parameter>
-			</Parameters>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1508074843808</Id>
@@ -19634,6 +19583,56 @@ printObjectsToBuy();]]></Action>
 				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
 			</ScaleRuler>
 			<ConnectionsId>1508074843805</ConnectionsId>
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1508361613461</Id>
+					<Name><![CDATA[quantity]]></Name>
+					<X>30</X><Y>20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1508361613459</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1508361613466</Id>
+					<Name><![CDATA[type]]></Name>
+					<X>30</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[String]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA["genericFood"]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1508361613464</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1508074843805</Id>
@@ -20962,7 +20961,7 @@ printObjectsToBuy();]]></Action>
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
 		<Width>1820</Width>
-		<Height>1120</Height>
+		<Height>1240</Height>
 	</Frame>
 	<Database>
 		<Logging>false</Logging>
@@ -21122,6 +21121,12 @@ getPresentation().setPresentable( getEngine().getRoot() );]]></ActionCode>
 		<LibraryName><![CDATA[com.anylogic.libraries.processmodeling]]></LibraryName>
 		<VersionMajor>7</VersionMajor>
 		<VersionMinor>2</VersionMinor>
+		<VersionBuild>0</VersionBuild>
+    </RequiredLibraryReference>
+    <RequiredLibraryReference>
+		<LibraryName><![CDATA[job_shop_5]]></LibraryName>
+		<VersionMajor>0</VersionMajor>
+		<VersionMinor>0</VersionMinor>
 		<VersionBuild>0</VersionBuild>
     </RequiredLibraryReference>
 </Model>
