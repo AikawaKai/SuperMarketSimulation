@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.29)  20 OCT 2017 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.29)  20 OCT 2017 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1244,26 +1244,38 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
- [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
+
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+<./planimetria1.png, id=37, 562.1pt x 506.89375pt>
+File: ./planimetria1.png Graphic file (type png)
+ <use ./planimetria1.png>
+Package pdftex.def Info: ./planimetria1.png used on input line 147.
+(pdftex.def)             Requested size: 281.04932pt x 253.44626pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+
+[2 <./planimetria1.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (./lab_report_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `lab_report_1.out' has not changed.
-(rerunfilecheck)             Checksum: 46AD2F7877520AB580E1C285BC97121D;97.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+(rerunfilecheck)             Checksum: E8B5378AED30319C499317681F24A5F0;156.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 20554 strings out of 493085
- 397047 string characters out of 6136917
- 464229 words of memory out of 5000000
- 23809 multiletter control sequences out of 15000+600000
+ 20566 strings out of 493085
+ 397211 string characters out of 6136917
+ 464277 words of memory out of 5000000
+ 23816 multiletter control sequences out of 15000+600000
  11575 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,46p,10440b,725s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,46p,10440b,737s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1280,10 +1292,10 @@ public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt8.pfb>
-Output written on lab_report_1.pdf (1 page, 97674 bytes).
+Output written on lab_report_1.pdf (2 pages, 142246 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 30 words of extra memory for PDF output out of 10000 (max. 10000000)
 
