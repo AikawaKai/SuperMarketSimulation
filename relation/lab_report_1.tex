@@ -109,6 +109,7 @@ Corso: & Simulazione e Teoria delle code
 \end{tabular}
 \end{center}
 
+\tableofcontents
 % If you wish to include an abstract, uncomment the lines below
 % \begin{abstract}
 % Abstract text
@@ -120,13 +121,51 @@ Corso: & Simulazione e Teoria delle code
 
 \section{Scopo del progetto}
 
-L'obiettivo del progetto è stato quello di simulare, tramite il software Anylogic\footnote{\url{https://www.anylogic.com/}}, diverse dinamiche riguardanti un supermercato, come ad esempio il flusso della clientela, la schedulazione del personale e i diversi servizi che possono essere presenti nell'attività.
+L'obiettivo del progetto è stato quello di simulare, tramite il software Anylogic\footnote{\url{https://www.anylogic.com/}}, diverse dinamiche riguardanti un supermercato, come ad esempio il flusso della clientela, la schedulazione del personale e i diversi servizi che possono essere presenti nell'attività. 
 \newline
 \newline
 Il tutto è stato realizzato tramite la versione \emph{learning edition} del software, che presenta alcune limitazioni, come ad esempio il numero massimo di tipologie definibili per gli agenti e un numero massimo per la loro generazione durante l'esecuzione della simulazione\footnote{Durante la simulazione saranno generabili un massimo di 50000 agenti complessivi e in fase di costruzione del modello non è stato possibile definire più di 10 agenti.}.
 
-\section{I servizi}
-I servizi simulati nel supermercato sono:
+\newpage
+\section{Agent Based modeling}
+Data la natura complessa del problema, che possiede moltissime attività parallele e concorrenti da simulare, si è deciso di sfruttare il modello basato su agenti.
+\newline
+\newline
+Nello specifico sono stati definiti:
+\begin{itemize}
+\item \textsf{Customer}:  il cliente del supermercato.
+\item \textsf{Worker}:  i diversi addetti dei reparti di panetteria, pescheria e macelleria.
+\item \textsf{Warehouseman}: i magazzinieri che si occupano di rifornire gli scaffali.
+\item \textsf{Cashier}: i cassieri per il servizio di pagamento.
+\item \textsf{Cart}: i carrelli utilizzati dai clienti.
+\item \textsf{GenericFood}: la risorsa utilizzata dai magazzinieri per rifornire gli scaffali.
+\item \textsf{AutomaticCashierMachine}: la cassa automatica per il servizio di pagamento.
+\item \textsf{InfoPointHelper}: gli addetti dell'info point.
+\end{itemize}
+
+La maggior parte degli agenti è stata definita per poterne differenziare l'aspetto all'interno della simulazione, e solo \textsf{Customer} e \textsf{GenericFood} possiedono un'ulteriore caratterizzazione.
+\section{Gli agenti Customer e genericFood}
+L'agente \textsf{Customer} possiede diverse variabili e parametri. Nello specifico:
+\begin{itemize}
+\item Variabile \textsf{ItemsToBuy}: È un dizionario con coppie Prodotto(String)/Quantità(int), che contiene i prodotti che il cliente vuole comprare e relativa quantità.
+\item Variabile \textsf{Bought}: Un booleano che indica se il cliente ha comprato qualcosa, inizializzato a false.
+\item Variabile \textsf{CounterBuy}: un contatore(int) che indica quanti prodotti il cliente ha nel carrello in quel momento.
+\item Variabile \textsf{NeedsInfo}: Un booleano che indica se il cliente necessita di chiedere informazioni all'infopoint.
+\item I parametri \textsf{needsInfoRate}, \textsf{needsMeat}, \textsf{needsBread}, \textsf{needsFish}, \textsf{needsOther}: che rappresentano le diverse probabilità di acquisto (o di info) che un cliente generico possiede entrando nel supermercato\footnote{Ad esempio, nella simulazione è stata definita la probabilità che un cliente  voglia comprare del pane entrando nel supermercato a 0.7(cioè sette clienti su dieci).}.
+\end{itemize}
+
+\section{Il supermercato}
+Nella figura 1 è mostrata la planimetria del supermercato e le sue principali aree di interesse.
+\newline
+\begin{center}
+\begin{figure}[h]
+\center
+\label{planim}
+\includegraphics[scale=0.5]{./planimetria1.png}
+\caption{Le principali aree di interesse del supermercato.}
+\end{figure}
+\end{center}
+I servizi simulati per i clienti della struttura sono i seguenti:
 \begin{itemize}
 \item Servizio al banco per prodotti di panetteria.
 \item Servizio al banco per prodotti di macelleria.
@@ -135,20 +174,7 @@ I servizi simulati nel supermercato sono:
 \item Servizio di pagamento con cassiere.
 \item Servizio di pagamento con cassa automatica.
 \end{itemize} 
-
-\section{Planimetria supermercato}
-Nella figura \ref{planim} è mostrata la planimetria del supermercato e le principali aree di interesse del supermercato:
-\newline
-\begin{center}
-
-\begin{figure}[h]
-\center
-\label{planim}
-\includegraphics[scale=0.5]{./planimetria1.png}
-\caption{Le principali aree di interesse del supermercato.}
-\end{figure}
-
-\end{center}
+Sono state inoltre simulate delle attività di rifornimento degli scaffali per tre diverse tipologie di prodotti.
 
 
 

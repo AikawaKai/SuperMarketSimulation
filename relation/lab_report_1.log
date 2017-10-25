@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.29)  20 OCT 2017 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.29)  25 OCT 2017 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,69 +1233,88 @@ File: siunitx-abbreviations.cfg 2015/07/17 v2.6h siunitx: Abbreviated units
 \c__siunitx_mathsf_int=\count276
 \c__siunitx_mathtt_int=\count277
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--127
+(./lab_report_1.toc)
+\tf@toc=\write5
+\openout5 = `lab_report_1.toc'.
 
- []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./planimetria1.png, id=37, 562.1pt x 506.89375pt>
-File: ./planimetria1.png Graphic file (type png)
- <use ./planimetria1.png>
-Package pdftex.def Info: ./planimetria1.png used on input line 147.
-(pdftex.def)             Requested size: 281.04932pt x 253.44626pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
 
-[2 <./planimetria1.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 136.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
+
+Overfull \hbox (33.05525pt too wide) in paragraph at lines 150--151
+[]\OT1/cmr/m/n/10 Variabile \OT1/cmss/m/n/10 Item-sTo-Buy\OT1/cmr/m/n/10 : []E 
+un di-zio-na-rio con cop-pie Pro-dot-to(String)/Quantit^^Ra(int),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+ []
+
+[2] <./planimetria1.png, id=53, 562.1pt x 506.89375pt>
+File: ./planimetria1.png Graphic file (type png)
+
+<use ./planimetria1.png>
+Package pdftex.def Info: ./planimetria1.png used on input line 164.
+(pdftex.def)             Requested size: 281.04932pt x 253.44626pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+ [3 <./planimetria1.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./lab_report_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `lab_report_1.out' has not changed.
-(rerunfilecheck)             Checksum: E8B5378AED30319C499317681F24A5F0;156.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+(rerunfilecheck)             Checksum: D6211E4751280988D40853CF06A3175A;226.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 20566 strings out of 493085
- 397211 string characters out of 6136917
- 464277 words of memory out of 5000000
- 23816 multiletter control sequences out of 15000+600000
- 11575 words of font info for 44 fonts, out of 8000000 for 9000
+ 20577 strings out of 493085
+ 397325 string characters out of 6136917
+ 465268 words of memory out of 5000000
+ 23819 multiletter control sequences out of 15000+600000
+ 11883 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,46p,10440b,737s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mtt8.pfb>
-Output written on lab_report_1.pdf (2 pages, 142246 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on lab_report_1.pdf (3 pages, 173738 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
