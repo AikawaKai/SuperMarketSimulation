@@ -33,8 +33,10 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{color}
+\usepackage{accsupp}
 \usepackage{listings}
 \usepackage{setspace}
+\usepackage{graphicx} 
 \definecolor{Code}{rgb}{0,0,0}
 \definecolor{Decorators}{rgb}{0.5,0.5,0.5}
 \definecolor{Numbers}{rgb}{0.5,0,0}
@@ -48,6 +50,22 @@
 \definecolor{FunctionName}{rgb}{0,0,0}
 \definecolor{Operators}{rgb}{0,0,0}
 \definecolor{Background}{rgb}{0.98,0.98,0.98}
+\lstdefinestyle{java}{
+  belowcaptionskip=1\baselineskip,
+  breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                % sets automatic line breaking
+  xleftmargin=\parindent,
+  language=Java,
+  tabsize=4, 
+  tabsize=4,
+  numbers=left,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{blue},
+  commentstyle=\itshape\color{blue},
+  frame=single],
+  resetmargins=true,
+}
 \lstdefinelanguage{Python}{
 numbers=left,
 numberstyle=\footnotesize,
@@ -153,16 +171,37 @@ L'agente \textsf{Customer} possiede diverse variabili e parametri. Nello specifi
 \item Variabile \textsf{NeedsInfo}: Un booleano che indica se il cliente necessita di chiedere informazioni all'infopoint.
 \item I parametri \textsf{needsInfoRate}, \textsf{needsMeat}, \textsf{needsBread}, \textsf{needsFish}, \textsf{needsOther}: che rappresentano le diverse probabilità di acquisto (o di info) che un cliente generico possiede entrando nel supermercato\footnote{Ad esempio, nella simulazione è stata definita la probabilità che un cliente  voglia comprare del pane entrando nel supermercato a 0.7(cioè sette clienti su dieci).}.
 \end{itemize}
-
-\section{Il supermercato}
-Nella figura 1 è mostrata la planimetria del supermercato e le sue principali aree di interesse.
-\newline
+È inoltre caratterizzato da uno state chart (Figura 1), con tre diversi stati:
+\begin{itemize}
+\item \textsf{InitialState}: lo stato iniziale del cliente entrando nel supermercato.
+\item \textsf{WantsToBuy}: lo stato del cliente quando è in fase di acquisto dei prodotti.
+\item \textsf{WantsToGoAway}: lo stato del cliente quando decide di andare via.
+\end{itemize}
+\begin{center}
+\begin{figure}[h]
+\center
+\label{statechart}
+\includegraphics[scale=0.6]{./statechart.png}
+\caption{\footnotesize{Il diagramma di stato dell'agente Customer.}}
+\end{figure}
+\end{center}
+Quando il cliente entra nello stato InitialState, viene eseguito del codice(Figura 2) che permette di inizializzare la variabile ItemsToBuy di Customer, sfruttando i diversi parametri che definiscono le probabilità di acquisto del cliente per i diversi prodotti.
+\begin{center}
+\begin{figure}[h]
+\label{init}
+\lstinputlisting[style=java]{./init.java}
+\caption{\footnotesize{Inizialmente viene eseguito uno shuffle sulla lista di stringhe dei possibili oggetti da acquistare, per differenziare l'ordine di acquisto di ogni cliente, e poi viene simulata un'estrazione da una distribuzione di Bernoulli sfruttando una distribuzione uniforme e il parametro del prodotto di riferimento. Viene inoltre simulata l'estrazione da una distribuzione uniforme discreta per simulare la quantità del prodotto da acquistare.}}
+\end{figure}
+\end{center}
+\newpage
+\section{Il supermercato e i servizi}
+Nella figura 2 è mostrata la planimetria del supermercato e le sue principali aree di interesse.
 \begin{center}
 \begin{figure}[h]
 \center
 \label{planim}
 \includegraphics[scale=0.5]{./planimetria1.png}
-\caption{Le principali aree di interesse del supermercato.}
+\caption{\footnotesize{Le principali aree di interesse del supermercato.}}
 \end{figure}
 \end{center}
 I servizi simulati per i clienti della struttura sono i seguenti:
