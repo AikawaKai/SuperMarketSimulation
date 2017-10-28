@@ -163,7 +163,7 @@ Nello specifico sono stati definiti:
 
 La maggior parte degli agenti è stata definita per poterne differenziare l'aspetto all'interno della simulazione, e solo \textsf{Customer} e \textsf{GenericFood} possiedono un'ulteriore caratterizzazione.
 \section{Gli agenti Customer e genericFood}
-L'agente \textsf{Customer} possiede diverse variabili e parametri. Nello specifico:
+Il \textsf{Customer} possiede diverse variabili e parametri. Nello specifico:
 \begin{itemize}
 \item Variabile \textsf{ItemsToBuy}: È un dizionario con coppie Prodotto(String)/Quantità(int), che contiene i prodotti che il cliente vuole comprare e relativa quantità.
 \item Variabile \textsf{Bought}: Un booleano che indica se il cliente ha comprato qualcosa, inizializzato a false.
@@ -171,7 +171,7 @@ L'agente \textsf{Customer} possiede diverse variabili e parametri. Nello specifi
 \item Variabile \textsf{NeedsInfo}: Un booleano che indica se il cliente necessita di chiedere informazioni all'infopoint.
 \item I parametri \textsf{needsInfoRate}, \textsf{needsMeat}, \textsf{needsBread}, \textsf{needsFish}, \textsf{needsOther}: che rappresentano le diverse probabilità di acquisto (o di info) che un cliente generico possiede entrando nel supermercato\footnote{Ad esempio, nella simulazione è stata definita la probabilità che un cliente  voglia comprare del pane entrando nel supermercato a 0.7(cioè sette clienti su dieci).}.
 \end{itemize}
-È inoltre caratterizzato da uno state chart (Figura 1), con tre diversi stati:
+L'agente è inoltre caratterizzato da uno state chart (Figura 1), con tre diversi stati:
 \begin{itemize}
 \item \textsf{InitialState}: lo stato iniziale del cliente entrando nel supermercato.
 \item \textsf{WantsToBuy}: lo stato del cliente quando è in fase di acquisto dei prodotti.
