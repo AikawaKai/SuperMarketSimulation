@@ -139,17 +139,16 @@ Corso: & Simulazione e Teoria delle code
 
 \section{Scopo del progetto}
 
-L'obiettivo del progetto è stato quello di simulare, tramite il software Anylogic\footnote{\url{https://www.anylogic.com/}}, diverse dinamiche riguardanti un supermercato, come ad esempio il flusso della clientela, la schedulazione del personale e i diversi servizi che possono essere presenti nell'attività. 
+L'obiettivo del progetto è quello di simulare, tramite il software Anylogic\footnote{\url{https://www.anylogic.com/}}, diverse dinamiche riguardanti un supermercato, come ad esempio il flusso della clientela, la schedulazione del personale e i diversi servizi che possono essere presenti nell'attività. 
 \newline
 \newline
-Il tutto è stato realizzato tramite la versione \emph{learning edition} del software, che presenta alcune limitazioni, come ad esempio il numero massimo di tipologie definibili per gli agenti e un numero massimo per la loro generazione durante l'esecuzione della simulazione\footnote{Durante la simulazione saranno generabili un massimo di 50000 agenti complessivi e in fase di costruzione del modello non è stato possibile definire più di 10 agenti.}.
+Il tutto è realizzato tramite la versione \emph{learning edition} del software, che presenta alcune limitazioni, come ad esempio il numero massimo di tipologie definibili per gli agenti e un numero massimo per la loro generazione durante l'esecuzione della simulazione\footnote{Durante la simulazione saranno generabili un massimo di 50000 agenti complessivi e in fase di costruzione del modello non è stato possibile definire più di 10 agenti.}.
 
-\newpage
 \section{Agent Based modeling}
 Data la natura complessa del problema, che possiede moltissime attività parallele e concorrenti da simulare, si è deciso di sfruttare il modello basato su agenti.
 \newline
 \newline
-Nello specifico sono stati definiti:
+Nello specifico sono definiti i seguenti agenti:
 \begin{itemize}
 \item \textsf{Customer}:  il cliente del supermercato.
 \item \textsf{Worker}:  i diversi addetti dei reparti di panetteria, pescheria e macelleria.
@@ -161,41 +160,50 @@ Nello specifico sono stati definiti:
 \item \textsf{InfoPointHelper}: gli addetti dell'info point.
 \end{itemize}
 
-La maggior parte degli agenti è stata definita per poterne differenziare l'aspetto all'interno della simulazione, e solo \textsf{Customer} e \textsf{GenericFood} possiedono un'ulteriore caratterizzazione.
-\section{Gli agenti Customer e genericFood}
+La maggior parte degli agenti è definita per poterne differenziare l'aspetto all'interno della simulazione, e solo \textsf{Customer} e \textsf{GenericFood} possiedono un'ulteriore caratterizzazione.
+\subsection{Gli agenti Customer e genericFood}
 Il \textsf{Customer} possiede diverse variabili e parametri. Nello specifico:
 \begin{itemize}
 \item Variabile \textsf{ItemsToBuy}: È un dizionario con coppie Prodotto(String)/Quantità(int), che contiene i prodotti che il cliente vuole comprare e relativa quantità.
 \item Variabile \textsf{Bought}: Un booleano che indica se il cliente ha comprato qualcosa, inizializzato a false.
 \item Variabile \textsf{CounterBuy}: un contatore(int) che indica quanti prodotti il cliente ha nel carrello in quel momento.
 \item Variabile \textsf{NeedsInfo}: Un booleano che indica se il cliente necessita di chiedere informazioni all'infopoint.
-\item I parametri \textsf{needsInfoRate}, \textsf{needsMeat}, \textsf{needsBread}, \textsf{needsFish}, \textsf{needsOther}: che rappresentano le diverse probabilità di acquisto (o di info) che un cliente generico possiede entrando nel supermercato\footnote{Ad esempio, nella simulazione è stata definita la probabilità che un cliente  voglia comprare del pane entrando nel supermercato a 0.7(cioè sette clienti su dieci).}.
+\item I parametri \textsf{needsInfoRate}, \textsf{needsMeat}, \textsf{needsBread}, \textsf{needsFish}, \textsf{needsOther}: che rappresentano le diverse probabilità di acquisto (o di richiesta info) che un cliente generico possiede entrando nel supermercato\footnote{Ad esempio, nella simulazione è stata definita la probabilità che un cliente  voglia comprare del pane entrando nel supermercato a 0.7(cioè sette clienti su dieci).}.
 \end{itemize}
 L'agente è inoltre caratterizzato da uno state chart (Figura 1), con tre diversi stati:
 \begin{itemize}
 \item \textsf{InitialState}: lo stato iniziale del cliente entrando nel supermercato.
 \item \textsf{WantsToBuy}: lo stato del cliente quando è in fase di acquisto dei prodotti.
-\item \textsf{WantsToGoAway}: lo stato del cliente quando decide di andare via.
+\item \textsf{WantsToGoAway}: lo stato finale del cliente, quando decide di lasciare il supermercato.
 \end{itemize}
+\newpage
 \begin{center}
 \begin{figure}[h]
 \center
 \label{statechart}
-\includegraphics[scale=0.6]{./statechart.png}
+\includegraphics[scale=0.47]{./statechart.png}
 \caption{\footnotesize{Il diagramma di stato dell'agente Customer.}}
 \end{figure}
 \end{center}
-Quando il cliente entra nello stato InitialState, viene eseguito del codice(Figura 2) che permette di inizializzare la variabile ItemsToBuy di Customer, sfruttando i diversi parametri che definiscono le probabilità di acquisto del cliente per i diversi prodotti.
+Quando il cliente entra nello stato InitialState, viene eseguito del codice (Figura 2) che permette di inizializzare la variabile ItemsToBuy di Customer, sfruttando i diversi parametri descritti in precedenza che definiscono le probabilità di acquisto del cliente per i diversi prodotti.
+\newline
+\newline
+Una volta inizializzata la lista della spesa, se questa è vuota il Customer passerà allo stato WantsToGoAway, altrimenti entrerà nello stato loop WantsToBuy, finché non avrà collezionato tutti gli oggetti, per poi finire anch'esso nello stato finale WantsToGoAway.
 \begin{center}
 \begin{figure}[h]
 \label{init}
 \lstinputlisting[style=java]{./init.java}
-\caption{\footnotesize{Inizialmente viene eseguito uno shuffle sulla lista di stringhe dei possibili oggetti da acquistare, per differenziare l'ordine di acquisto di ogni cliente, e poi viene simulata un'estrazione da una distribuzione di Bernoulli sfruttando una distribuzione uniforme e il parametro del prodotto di riferimento. Viene inoltre simulata l'estrazione da una distribuzione uniforme discreta per la quantità del prodotto da acquistare.}}
+\caption{\footnotesize{Inizialmente viene eseguito uno shuffle sulla lista di stringhe dei possibili oggetti da acquistare, per differenziare l'ordine di acquisto di ogni cliente, e poi viene simulata un'estrazione da una distribuzione di Bernoulli sfruttando una distribuzione uniforme e il parametro del prodotto di riferimento. Viene inoltre simulata l'estrazione da una distribuzione uniforme discreta (da 1 a 4 oggetti) per la quantità del prodotto da acquistare. Il metodo \textsf{getParamaterFromString} è una ulteriore funzione custom, definita per il recupero dei valori dei parametri.}}
 \end{figure}
 \end{center}
-\newpage
+Per quanto riguarda l'agente \textsf{genericFood}, questo possiede due attributi per caratterizzarlo, ovvero:
+\begin{itemize}
+\item \textsf{Type}: Di tipo String. Specifica la tipologia di prodotto (Es. "meat").
+\item \textsf{Quantity}: Di tipo Int. Specifica la quantità di prodotto da acquistare.
+\end{itemize}
+
 \section{Il supermercato e i servizi}
-Nella figura 2 è mostrata la planimetria del supermercato e le sue principali aree di interesse.
+Il supermercato si estende su una superfice rettangolare, con l'area centrale dedicata agli scaffali per i prodotti generici, la parte destra ai servizi al banco, la parte inferiore ai servizi di cassa, e i magazzini disposti sia sul lato superiore (2) che sul lato sinistro (1). Nella figura 3 è mostrata la planimetria del supermercato e le sue principali aree di interesse.
 \begin{center}
 \begin{figure}[h]
 \center
@@ -204,7 +212,7 @@ Nella figura 2 è mostrata la planimetria del supermercato e le sue principali a
 \caption{\footnotesize{Le principali aree di interesse del supermercato.}}
 \end{figure}
 \end{center}
-I servizi simulati per i clienti della struttura sono i seguenti:
+Nello specifico i servizi implementati sono:
 \begin{itemize}
 \item Servizio al banco per prodotti di panetteria.
 \item Servizio al banco per prodotti di macelleria.
@@ -212,9 +220,21 @@ I servizi simulati per i clienti della struttura sono i seguenti:
 \item Servizio di infopoint.
 \item Servizio di pagamento con cassiere.
 \item Servizio di pagamento con cassa automatica.
-\end{itemize} 
-Sono state inoltre simulate delle attività di rifornimento degli scaffali per tre diverse tipologie di prodotti.
+\end{itemize}
+Ognuno di questi servizi possiede un numero variabile di risorse, che vengono schedulate in base all'orario del giorno (ad eccezione delle casse automatiche).
+\newline
+\newline
+Oltre ai servizi alla clientela sono state simulate anche delle attività di rifornimento degli scaffali per tre diverse tipologie di prodotti, che per comodità e a causa delle limitazioni della versione learning di anylogic, si differenziano unicamente per il colore (agente GenericFood).
 
+\section{Customer Flow}
 
+\begin{center}
+\begin{figure}[h]
+\center
+\label{custflow}
+\includegraphics[scale=0.5]{./cust_flow.jpg}
+\caption{\footnotesize{Lo schema di flusso del customer nel supermercato.}}
+\end{figure}
+\end{center}
 
 \end{document}
