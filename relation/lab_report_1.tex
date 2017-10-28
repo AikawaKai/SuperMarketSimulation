@@ -221,11 +221,15 @@ Ognuno dei servizi implementati possiede un numero variabile di risorse (rappres
 \item Servizio di pagamento con cassiere (agenti Cashier).
 \item Servizio di pagamento con cassa automatica (agenti AutomaticCashierMachine).
 \end{itemize}
-Oltre ai servizi alla clientela sono state simulate anche delle attività di rifornimento degli scaffali (agenti WarehouseWorker) per tre diverse tipologie di prodotti (agenti GenericFood), che per comodità, e a causa delle limitazioni della versione learning di anylogic, si differenziano unicamente per il colore (verde, viola, giallo).
-
-\section{Customer Flow}
-Grazie alla definizione di uno diagramma di flusso (Figura 4) si sono caratterizzati i comportamenti del cliente all'interno del supermercato, come ad esempio lo spostamento, l'ordine e l'utilizzo di determinate risorse all'interno della struttura.
-\begin{center}T
+Oltre ai servizi alla clientela sono simulate anche delle attività di rifornimento degli scaffali (agenti WarehouseWorker) per tre diverse tipologie di prodotti (agenti GenericFood), che per comodità, e a causa delle limitazioni della versione learning di anylogic, si differenziano unicamente per il colore (verde, viola, giallo).
+\section{Flow Diagrams}
+Per caratterizzare il comportanto dei clienti (agente Customer) e dei prodotti generici da scaffale (genericFood) all'interno del supermercato, sono definiti 4 diagrammi di flusso, di cui 3 dedicati alle tre diverse tipologie di prodotti.
+\subsection{Customer Flow}
+I tempi di arrivo (e generazione) dell'agente Customer nel supermercato sono definiti nel flow (Figura 4) all'interno di un blocco sorgente, chiamato \textsf{customerSource}, grazie ad uno scheduling temporale sulle 24 ore. Ogni ora del giorno è infatti caratterizzata da un \textit{rate}\footnote{Parametro di una distribuzione esponenziale, con media $\frac{1}{rate} $ } di arrivo specifico. Questo ha permesso di simulare il diverso flusso di clientela che caratterizza la giornata di un supermercato, modulando ad esempio su frequenze più basse gli arrivi notturni, per poi aumentarli durante il giorno (con dei picchi nelle ore di punta).
+\newline
+\newline
+Il percorso che il Customer seguirà all'interno del flow diagram (e quindi all'interno del supermercato) è definito dal suo stato interno corrente e quindi dal valore delle sue variabili (itemsToBuy, Bought, etc). 
+\begin{center}
 \begin{figure}[h]
 \center
 \label{custflow}
