@@ -212,19 +212,16 @@ Il supermercato si estende su una superfice rettangolare, con l'area centrale de
 \caption{\footnotesize{Le principali aree di interesse del supermercato.}}
 \end{figure}
 \end{center}
-Nello specifico i servizi implementati sono:
+Ognuno dei servizi implementati possiede un numero variabile di risorse (rappresentate dagli agenti), che vengono schedulate in base all'orario del giorno (ad eccezione delle casse automatiche). Nello specifico abbiamo:
 \begin{itemize}
-\item Servizio al banco per prodotti di panetteria.
-\item Servizio al banco per prodotti di macelleria.
-\item Servizio al banco per prodotti di pescheria.
-\item Servizio di infopoint.
-\item Servizio di pagamento con cassiere.
-\item Servizio di pagamento con cassa automatica.
+\item Servizio al banco per prodotti di panetteria (agenti Worker).
+\item Servizio al banco per prodotti di macelleria (agenti Worker).
+\item Servizio al banco per prodotti di pescheria (agenti Worker).
+\item Servizio di infopoint (agenti InfoPointHelper).
+\item Servizio di pagamento con cassiere (agenti Cashier).
+\item Servizio di pagamento con cassa automatica (agenti AutomaticCashierMachine).
 \end{itemize}
-Ognuno di questi servizi possiede un numero variabile di risorse, che vengono schedulate in base all'orario del giorno (ad eccezione delle casse automatiche).
-\newline
-\newline
-Oltre ai servizi alla clientela sono state simulate anche delle attività di rifornimento degli scaffali per tre diverse tipologie di prodotti, che per comodità e a causa delle limitazioni della versione learning di anylogic, si differenziano unicamente per il colore (agente GenericFood).
+Oltre ai servizi alla clientela sono state simulate anche delle attività di rifornimento degli scaffali (agenti WarehouseWorker) per tre diverse tipologie di prodotti (agenti GenericFood), che per comodità, e a causa delle limitazioni della versione learning di anylogic, si differenziano unicamente per il colore (verde, viola, giallo).
 
 \section{Customer Flow}
 
