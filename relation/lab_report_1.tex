@@ -225,10 +225,11 @@ Oltre ai servizi alla clientela sono simulate anche delle attività di rifornime
 \section{Flow Diagrams}
 Per caratterizzare il comportanto dei clienti (agente Customer) e dei prodotti generici da scaffale (genericFood) all'interno del supermercato, sono definiti 4 diagrammi di flusso, di cui 3 dedicati alle tre diverse tipologie di prodotti.
 \subsection{Customer Flow}
-I tempi di arrivo (e generazione) dell'agente Customer nel supermercato sono definiti nel flow (Figura 4) all'interno di un blocco sorgente, chiamato \textsf{customerSource}, grazie ad uno scheduling temporale sulle 24 ore. Ogni ora del giorno è infatti caratterizzata da un \textit{rate}\footnote{Parametro di una distribuzione esponenziale, con media $\frac{1}{rate} $ } di arrivo specifico. Questo ha permesso di simulare il diverso flusso di clientela che caratterizza la giornata di un supermercato, modulando ad esempio su frequenze più basse gli arrivi notturni, per poi aumentarli durante il giorno (con dei picchi nelle ore di punta).
+I tempi di arrivo (e generazione) dell'agente Customer nel supermercato sono definiti nel flow (Figura 4) all'interno di un blocco sorgente, chiamato \textsf{customerSource}, grazie ad uno scheduling temporale sulle 24 ore. Ogni ora del giorno ha infatti un \textit{rate}\footnote{Parametro di una distribuzione esponenziale, con media $\frac{1}{rate} $ } di arrivo specifico. Questo ha permesso di simulare il diverso flusso di clientela che caratterizza la giornata di un supermercato, modulando ad esempio su frequenze più basse gli arrivi notturni, per poi aumentarle durante il giorno (con dei picchi nelle ore di punta).
 \newline
 \newline
-Il percorso che il Customer seguirà all'interno del flow diagram (e quindi all'interno del supermercato) è definito dal suo stato interno corrente e quindi dal valore delle sue variabili (itemsToBuy, Bought, etc). 
+Il percorso che il Customer seguirà all'interno del flow diagram (e quindi all'interno del supermercato) è definito dal suo stato interno corrente e quindi dal valore delle sue variabili (itemsToBuy, Bought, etc). Il cliente potrà ad esempio decidere se prendere un carrello (se deve comprare più di 10 oggetti), recuperare un prodotto dagli scaffali o dai reparti da banco, pagare alla cassa automatica (se ha meno di 10 oggetti) o a quella con cassieri, se chiedere info all'InfoPoint o , se non deve acquistare nulla, uscire direttamente dal supermercato.
+
 \begin{center}
 \begin{figure}[h]
 \center
