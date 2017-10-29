@@ -250,8 +250,33 @@ Anche i tempi di arrivo degli agenti genericFood sono regolati da uno scheduling
 \caption{\footnotesize{Lo schema di flusso del genericFood nel supermercato.}}
 \end{figure}
 \end{center}
-Il movimento all'interno del supermercato degli agenti genericFood dipende fortemente dalle risorse e dagli agenti che vi interagiscono. Lo spostamento del prodotto sugli scaffali è infatti vincolato alla turnazione dei magazzinieri\footnote{\footnotesize{Gli agenti/risorse warehouseWorker spostano gli agenti genericFood tramite il nodo RackStore (chiamato \textsf{putFood} nel flow), ma solo se gli scaffali non sono pieni (nodo \textsf{waitIfFull}).}}. Quando poi un cliente vuole recuperare uno dei prodotti, lo "sblocca"\footnote{\footnotesize{Il singolo agente genericFood viene rilasciato dallo scaffale (nodo \textsf{getFood}) ed eliminato (nodo \textsf{Sink} nel flow)}} dopo la chiamata di una funzione di \textsf{stopDelay} (riferita al nodo \textsf{Delay} nel flow), per poi poterlo acquistare\footnote{\footnotesize{Non è stata gestita la quantità di prodotto richiesta dal singolo Customer, nè la situazione in cui lo scaffale non contiene il prodotto richiesto. Di fatto per il Customer il prodotto sarà considerato recuperato.}}.
+Il movimento all'interno del supermercato degli agenti genericFood dipende fortemente dalle risorse e dagli agenti che vi interagiscono. Lo spostamento del prodotto sugli scaffali è infatti vincolato alla turnazione dei magazzinieri\footnote{\footnotesize{Gli agenti/risorse warehouseWorker spostano gli agenti genericFood tramite il nodo RackStore (chiamato \textsf{putFood} nel flow), ma solo se gli scaffali non sono pieni (nodo \textsf{waitIfFull}).}}. Quando poi un cliente vuole recuperare uno dei prodotti, lo "sblocca"\footnote{\footnotesize{Il singolo agente genericFood viene rilasciato dallo scaffale (nodo \textsf{getFood}) ed eliminato (nodo \textsf{Sink} nel flow)}} dopo la chiamata di una funzione di \textsf{stopDelay} (riferita al nodo \textsf{Delay} nel flow), per poi poterlo acquistare\footnote{\footnotesize{Non è stata gestita la quantità di prodotto richiesta dal singolo Customer, nè la situazione in cui lo scaffale non contiene il prodotto richiesto. Di fatto per il Customer il prodotto sarà considerato recuperato a prescindere dalla quantità e dalla sua disponibilità.}}.
 
 \section{Statistiche e diagrammi}
-\section{Lavori futuri ed espansioni}
+Si sono realizzati diversi diagrammi (Figura 6) per ricavare informazioni dalla simulazione, nello specifico:
+\begin{itemize}
+\item Istogramma che mostra le proporzioni totali di utilizzo delle casse automatiche e casse con cassieri. Si basa su delle variabili globali (\textsf{totBuy} e \textsf{totBuyAut}) che tengono traccia dell'utilizzo delle casse.
+\item Grafico a torta che mostra le proporzioni totali dei prodotti acquistati nel supermercato (pane, carne, pesce, prodotti generici), che si basa sulla variabile globale \textsf{countProducts}.
+\item Grafico che mostra la lunghezza delle diverse code dei servizi presenti nel supermercato, al tempo corrente.
+\item Istogrammi per le frequenze di arrivo orario per l'agente Customer e per l'agente genericFood. Si basano sugli Histogram Data \textsf{ArrivalRate} e \textsf{ArrivalFoodRate}, che vengono aggiornati nei nodi sorgente, con la funzione \textsf{getHourOfDay}.
+\end{itemize}
+\begin{center}
+\begin{figure}[h]
+\center
+\label{diagrams}
+\includegraphics[scale=0.6]{./diagrams.jpeg}
+\caption{\footnotesize{Statistiche sull'esecuzione di una simulazione fino a 50.000 agenti.}}
+\end{figure}
+\end{center}
+
+\section{Lavori futuri}
+Esistono diversi scenari di espansione del progetto:
+\begin{itemize}
+\item L'aggiunta di un servizio rifornimento magazzini con l'arrivo di camion, schedulati anch'essi con un rate orario.
+\item L'aggiunta di diagrammi per i tempi di attesa dei servizi, per la loro ottimizzazione.
+\item La simulazione dell'impazienza del Customer per un'eventuale attesa troppo lunga.
+\item La gestione del quantitativo dei prodotti da scaffale e la produzione dei prodotti da banco. 
+\item La simulazione di un incendio/emergenza per la verifica delle vie di fuga. 
+\item L'introduzione di un parcheggio per la clientela (e sua gestione).
+\end{itemize}
 \end{document} 
