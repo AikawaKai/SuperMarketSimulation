@@ -7,3 +7,5 @@
 \contentsline {section}{\numberline {4}Flow Diagrams}{5}{section.4}
 \contentsline {subsection}{\numberline {4.1}Customer Flow}{5}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}GenericFood flow}{6}{subsection.4.2}
+\contentsline {section}{\numberline {5}Statistiche e diagrammi}{7}{section.5}
+\contentsline {section}{\numberline {6}Lavori futuri ed espansioni}{7}{section.6}

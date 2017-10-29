@@ -240,7 +240,7 @@ Il percorso che il Customer seguirà all'interno del flow diagram (e quindi all'
 \end{center}
 
 \subsection{GenericFood flow}
-Anche i tempi di arrivo degli agenti genericFood sono regolati da uno scheduling orario (come sempre specificato nel nodo sorgente), che tenta di simulare il rifornimento dei magazzini e degli scaffali. Essendoci tre tipologie per questo agente, sono definiti tre flow corrispondenti.
+Anche i tempi di arrivo degli agenti genericFood sono regolati da uno scheduling orario (come sempre specificato nel nodo sorgente), che tenta di simulare il rifornimento dei magazzini e degli scaffali. Essendoci tre tipologie per questo agente, sono definiti tre flow corrispondenti (Figura 5).
 
 \begin{center}
 \begin{figure}[h]
@@ -250,5 +250,8 @@ Anche i tempi di arrivo degli agenti genericFood sono regolati da uno scheduling
 \caption{\footnotesize{Lo schema di flusso del genericFood nel supermercato.}}
 \end{figure}
 \end{center}
-Il movimento all'interno del supermercato degli agenti genericFood dipende fortemente dalle risorse e dagli agenti che vi interagiscono. Lo spostamento sugli scaffali è infatti vincolato alla turnazione dei magazzinieri\footnote{\footnotesize{Gli agenti/risorse warehouseWorker spostano gli agenti genericFood tramite il nodo RackStore (chiamato putFood nel flow), ma solo se gli scaffali non sono pieni (nodo waitIfFull).}}, mentre 
-\end{document}
+Il movimento all'interno del supermercato degli agenti genericFood dipende fortemente dalle risorse e dagli agenti che vi interagiscono. Lo spostamento del prodotto sugli scaffali è infatti vincolato alla turnazione dei magazzinieri\footnote{\footnotesize{Gli agenti/risorse warehouseWorker spostano gli agenti genericFood tramite il nodo RackStore (chiamato \textsf{putFood} nel flow), ma solo se gli scaffali non sono pieni (nodo \textsf{waitIfFull}).}}. Quando poi un cliente vuole recuperare uno dei prodotti, lo "sblocca"\footnote{\footnotesize{Il singolo agente genericFood viene rilasciato dallo scaffale (nodo \textsf{getFood}) ed eliminato (nodo \textsf{Sink} nel flow)}} dopo la chiamata di una funzione di \textsf{stopDelay} (riferita al nodo \textsf{Delay} nel flow), per poi poterlo acquistare\footnote{\footnotesize{Non è stata gestita la quantità di prodotto richiesta dal singolo Customer, nè la situazione in cui lo scaffale non contiene il prodotto richiesto. Di fatto per il Customer il prodotto sarà considerato recuperato.}}.
+
+\section{Statistiche e diagrammi}
+\section{Lavori futuri ed espansioni}
+\end{document} 
