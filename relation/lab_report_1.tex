@@ -240,6 +240,15 @@ Il percorso che il Customer seguirà all'interno del flow diagram (e quindi all'
 \end{center}
 
 \subsection{GenericFood flow}
-Anche i tempi di arrivo degli agenti genericFood sono regolati da uno scheduling orario, che tenta di simulare il rifornimento dei magazzini e degli scaffali.
+Anche i tempi di arrivo degli agenti genericFood sono regolati da uno scheduling orario (come sempre specificato nel nodo sorgente), che tenta di simulare il rifornimento dei magazzini e degli scaffali. Essendoci tre tipologie per questo agente, sono definiti tre flow corrispondenti.
 
+\begin{center}
+\begin{figure}[h]
+\center
+\label{foodflow}
+\includegraphics[scale=0.5]{./food_flow.jpeg}
+\caption{\footnotesize{Lo schema di flusso del genericFood nel supermercato.}}
+\end{figure}
+\end{center}
+Il movimento all'interno del supermercato degli agenti genericFood dipende fortemente dalle risorse e dagli agenti che vi interagiscono. Lo spostamento sugli scaffali è infatti vincolato alla turnazione dei magazzinieri\footnote{\footnotesize{Gli agenti/risorse warehouseWorker spostano gli agenti genericFood tramite il nodo RackStore (chiamato putFood nel flow), ma solo se gli scaffali non sono pieni (nodo waitIfFull).}}, mentre 
 \end{document}
