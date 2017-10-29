@@ -229,6 +229,9 @@ I tempi di arrivo (e generazione) dell'agente Customer nel supermercato sono def
 \newline
 \newline
 Il percorso che il Customer seguirà all'interno del flow diagram (e quindi all'interno del supermercato) è definito dal suo stato interno corrente e quindi dal valore delle sue variabili (itemsToBuy, Bought, etc). Il cliente potrà ad esempio decidere se prendere un carrello (se deve comprare più di 10 oggetti), recuperare un prodotto dagli scaffali o dai reparti da banco, pagare alla cassa automatica (se ha meno di 10 oggetti) o a quella con cassieri, se chiedere info all'InfoPoint o , se non deve acquistare nulla, uscire direttamente dal supermercato.
+\newline
+\newline
+Se il cliente dovrà acquistare dei prodotti, finirà nel loop centrale, che decrementerà man mano la sua lista della spesa. Nel momento in cui il cliente farà riferimento ad un servizio (o al recupero di un prodotto da scaffale) manderà poi un messaggio a se stesso contenente la stringa "bought"\footnote{\footnotesize{Nello stesso momento verrà eseguita un'istruzione che setterà la variabile \textsf{Bought} del Customer a \textsf{true}, che permetterà di capire che il cliente deve recarsi alle casse per pagare.}}, che permetterà di uscire dallo stato wantsToBuy definito nello state chart di Customer.
 
 \begin{center}
 \begin{figure}[h]
@@ -239,7 +242,7 @@ Il percorso che il Customer seguirà all'interno del flow diagram (e quindi all'
 \end{figure}
 \end{center}
 
-\subsection{GenericFood flow}
+\subsection{GenericFood Flow}
 Anche i tempi di arrivo degli agenti genericFood sono regolati da uno scheduling orario (come sempre specificato nel nodo sorgente), che tenta di simulare il rifornimento dei magazzini e degli scaffali. Essendoci tre tipologie per questo agente, sono definiti tre flow corrispondenti (Figura 5).
 
 \begin{center}
